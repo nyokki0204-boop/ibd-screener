@@ -62,6 +62,35 @@ def calc_perf(close):
     except:
         return None
 
+def save_sector_history(df, today):
+    """セクター別の銘柄数を日付つきで記録する（変遷用のノート）"""
+    history_path = 'data/sector_history.csv'
+
+    # 今日のセクター別銘柄数を数える
+    if 'sector' in df.columns and len(df) > 0:
+        sector_counts = df.groupby('sector')['ticker'].count().to_dict()
+    else:
+        sector_counts = {}
+
+    # 今日の記録を1行作る
+    row = {'date': today, 'total': len(df)}
+    for sec, cnt in sector_counts.items():
+        row[sec] = cnt
+    new_row = pd.DataFrame([row])
+
+    # 既にノートがあれば、そこに書き足す（同じ日付は上書き）
+    if os.path.exists(history_path):
+        history = pd.read_csv(history_path)
+        history = history[history['date'] != today]
+        history = pd.concat([history, new_row], ignore_index=True)
+    else:
+        history = new_row
+
+    history = history.sort_values('date')
+    history = history.fillna(0)
+    history.to_csv(history_path, index=False, encoding='utf-8-sig')
+    print(f'セクター履歴を保存: {len(history)}日分')
+
 # ===== メイン処理 =====
 if __name__ == '__main__':
     tickers = get_tickers()
@@ -168,5 +197,8 @@ if __name__ == '__main__':
     today = datetime.date.today().strftime('%Y-%m-%d')
     with open('data/last_updated.txt', 'w') as f:
         f.write(today)
+
+    # セクター別の変遷を記録する
+    save_sector_history(out, today)
 
     print(f'完了！条件クリア: {len(results)}銘柄')
