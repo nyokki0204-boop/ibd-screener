@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 import os
+
+try:
+    import japanize_matplotlib
+except:
+    pass
 
 st.set_page_config(page_title="IBD Screener", page_icon="🚀", layout="wide")
 st.title("🚀 IBD式スクリーナー")
@@ -8,6 +14,7 @@ st.caption("師匠の条件 — デイトレ寄り（日足ベース）")
 
 DATA_PATH    = 'data/results.csv'
 UPDATED_PATH = 'data/last_updated.txt'
+HISTORY_PATH = 'data/sector_history.csv'
 
 # 結果がまだ無い場合
 if not os.path.exists(DATA_PATH):
@@ -78,7 +85,9 @@ else:
 show_cols = [c for c in show_cols if c in df.columns]
 
 # タブで切り替え
-tab1, tab2, tab3 = st.tabs(['🚀 全銘柄', '📂 セクター別', '📊 セクターサマリー'])
+tab1, tab2, tab3, tab4 = st.tabs(
+    ['🚀 全銘柄', '📂 セクター別', '📊 セクターサマリー', '📈 変遷グラフ']
+)
 
 with tab1:
     st.subheader(f'🚀 条件クリア: {len(df)}銘柄')
@@ -99,7 +108,6 @@ with tab2:
     if 'sector' not in df.columns:
         st.info('セクター情報がありません。次回スキャンから表示されます。')
     else:
-        # セクターを選ぶプルダウン
         sectors = sorted(df['sector'].dropna().unique().tolist())
         selected = st.selectbox('セクターを選択', ['すべて'] + sectors)
 
@@ -126,7 +134,6 @@ with tab3:
     if 'sector' not in df.columns:
         st.info('セクター情報がありません。次回スキャンから表示されます。')
     else:
-        # セクターごとに何銘柄あるか集計
         summary = (
             df.groupby('sector')
             .agg(
@@ -139,5 +146,86 @@ with tab3:
         )
         st.dataframe(summary, use_container_width=True)
         st.caption('今日どのセクターに勢いが集まっているかが分かります')
+
+with tab4:
+    st.subheader('📈 セクター別 変遷グラフ')
+
+    # 記録ノートがまだ無い、または1日分しかない場合
+    if not os.path.exists(HISTORY_PATH):
+        st.info('まだ変遷データがありません。スキャンを重ねると表示されます。')
+    else:
+        hist = pd.read_csv(HISTORY_PATH)
+        if len(hist) < 2:
+            st.info('変遷グラフは2日分以上の記録が必要です。次回スキャンから育っていきます。')
+        else:
+            hist['date'] = pd.to_datetime(hist['date'])
+            hist = hist.sort_values('date')
+
+            # 日付とtotal以外の列（＝セクターの列）を取り出す
+            sector_cols = [c for c in hist.columns if c not in ['date', 'total']]
+
+            fig, ax = plt.subplots(figsize=(12, 6), facecolor='#0d1117')
+            ax.set_facecolor('#0d1117')
+            ax.tick_params(colors='#aaaaaa', labelsize=9)
+            ax.grid(True, alpha=0.12, color='#444444')
+            for spine in ax.spines.values():
+                spine.set_color('#2a2a2a')
+
+            # 色のセット
+            palette = ['#00ff88','#ff6b6b','#4ecdc4','#ffd93d','#a29bfe',
+                       '#fd79a8','#74b9ff','#e17055','#55efc4','#fdcb6e','#b2bec3']
+
+            # セクターごとに折れ線を引く
+            for i, col in enumerate(sector_cols):
+                if hist[col].sum() > 0:
+                    ax.plot(hist['date'], hist[col],
+                            color=palette[i % len(palette)],
+                            linewidth=2.0, marker='o', markersize=4, label=col)
+
+            ax.set_title('セクター別 銘柄数の変遷', color='white',
+                         fontsize=12, fontweight='bold')
+            ax.set_ylabel('銘柄数', color='#aaaaaa')
+            ax.legend(facecolor='#1a1a1a', labelcolor='white',
+                      fontsize=8, loc='upper left', ncol=2)
+            plt.xticks(rotation=30)
+            plt.tight_layout()
+            st.pyplot(fig)
+
+            # 全体の合計数の変遷も表示
+            st.subheader('📊 合計銘柄数の変遷')
+            fig2, ax2 = plt.subplots(figsize=(12, 3), facecolor='#0d1117')
+            ax2.set_facecolor('#0d1117')
+            ax2.tick_params(colors='#aaaaaa', labelsize=9)
+            ax2.grid(True, alpha=0.12, color='#444444')
+            for spine in ax2.spines.values():
+                spine.set_color('#2a2a2a')
+            ax2.plot(hist['date'], hist['total'], color='#00ff88',
+                     linewidth=2.5, marker='o', markersize=5)
+            ax2.set_ylabel('合計銘柄数', color='#aaaaaa')
+            plt.xticks(rotation=30)
+            plt.tight_layout()
+            st.pyplot(fig2)
+
+            # 前回との比較（表）
+            st.subheader('📋 前回との比較')
+            latest = hist.iloc[-1]
+            prev   = hist.iloc[-2]
+            rows = []
+            for col in sector_cols:
+                now_val  = int(latest[col])
+                prev_val = int(prev[col])
+                diff = now_val - prev_val
+                if now_val == 0 and prev_val == 0:
+                    continue
+                if diff > 0:
+                    change = f'+{diff}'
+                elif diff < 0:
+                    change = f'{diff}'
+                else:
+                    change = '±0'
+                rows.append({'セクター': col, '今回': now_val,
+                             '前回': prev_val, '増減': change})
+            comp = pd.DataFrame(rows).sort_values('今回', ascending=False)
+            st.dataframe(comp.reset_index(drop=True), use_container_width=True)
 
 st.caption('データ: yfinance  |  対象: マネックス証券取扱銘柄')
