@@ -19,6 +19,8 @@ PERIOD        = '1y'     # 過去1年のデータを見る
 
 # 銘柄リストは russell-screener から借りてくる
 MONEX_URL = 'https://raw.githubusercontent.com/nyokki0204-boop/russell-screener/main/Monex_US_LIST.csv'
+# セクター対応表も russell-screener から借りてくる
+SECTOR_URL = 'https://raw.githubusercontent.com/nyokki0204-boop/russell-screener/main/data/sector_cache.csv'
 
 def get_tickers():
     """マネックスの銘柄リストを読み込む"""
@@ -40,6 +42,17 @@ def get_tickers():
         print(f'エラー: {e}')
         return []
 
+def get_sector_map():
+    """セクター対応表を読み込む（銘柄→セクター）"""
+    try:
+        df = pd.read_csv(SECTOR_URL)
+        df = df.set_index('ticker')
+        print(f'セクター対応表読み込み成功: {len(df)}銘柄')
+        return df
+    except Exception as e:
+        print(f'セクター対応表読み込み失敗: {e}')
+        return None
+
 def calc_perf(close):
     """1年騰落率を計算（IBD式RSの元になる数字）"""
     try:
@@ -55,6 +68,8 @@ if __name__ == '__main__':
     if len(tickers) == 0:
         print('銘柄が取得できませんでした')
         exit(1)
+
+    sector_map = get_sector_map()
 
     print(f'{len(tickers)}銘柄をスキャンします...')
 
@@ -118,8 +133,18 @@ if __name__ == '__main__':
             c7 = from_low  >= LOW52_MIN
 
             if all([c1, c2, c3, c4, c5, c6, c7]):
+                # セクター情報をくっつける
+                sector = 'その他'
+                industry = ''
+                if sector_map is not None and ticker in sector_map.index:
+                    sector = sector_map.loc[ticker, 'sector']
+                    if 'industry' in sector_map.columns:
+                        industry = sector_map.loc[ticker, 'industry']
+
                 results.append({
                     'ticker'     : ticker,
+                    'sector'     : sector,
+                    'industry'   : industry,
                     '前日比%'    : round(chg_pct, 1),
                     '株価'       : round(price, 2),
                     '平均出来高' : int(avg_vol),
@@ -136,8 +161,8 @@ if __name__ == '__main__':
     if len(results) > 0:
         out = pd.DataFrame(results).sort_values('RS', ascending=False)
     else:
-        out = pd.DataFrame(columns=['ticker','前日比%','株価','平均出来高',
-                                     '売買代金M$','RelVol','RS','52W安値比%'])
+        out = pd.DataFrame(columns=['ticker','sector','industry','前日比%','株価',
+                                     '平均出来高','売買代金M$','RelVol','RS','52W安値比%'])
     out.to_csv('data/results.csv', index=False, encoding='utf-8-sig')
 
     today = datetime.date.today().strftime('%Y-%m-%d')
