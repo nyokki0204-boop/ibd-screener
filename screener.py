@@ -65,31 +65,47 @@ def calc_perf(close):
 def save_sector_history(df, today):
     """セクター別の銘柄数を日付つきで記録する（変遷用のノート）"""
     history_path = 'data/sector_history.csv'
-
-    # 今日のセクター別銘柄数を数える
     if 'sector' in df.columns and len(df) > 0:
         sector_counts = df.groupby('sector')['ticker'].count().to_dict()
     else:
         sector_counts = {}
-
-    # 今日の記録を1行作る
     row = {'date': today, 'total': len(df)}
     for sec, cnt in sector_counts.items():
         row[sec] = cnt
     new_row = pd.DataFrame([row])
-
-    # 既にノートがあれば、そこに書き足す（同じ日付は上書き）
     if os.path.exists(history_path):
         history = pd.read_csv(history_path)
         history = history[history['date'] != today]
         history = pd.concat([history, new_row], ignore_index=True)
     else:
         history = new_row
-
     history = history.sort_values('date')
     history = history.fillna(0)
     history.to_csv(history_path, index=False, encoding='utf-8-sig')
     print(f'セクター履歴を保存: {len(history)}日分')
+
+def save_ticker_history(df, today):
+    """抽出された銘柄そのものを日付つきで記録する（日々のリスト）"""
+    history_path = 'data/ticker_history.csv'
+
+    # 今日抽出された銘柄に、日付をつけて記録用の表を作る
+    if len(df) > 0:
+        today_df = df.copy()
+        today_df.insert(0, 'date', today)   # 先頭に日付の列を足す
+    else:
+        # 今日は0件でも「0件だった」と分かるように空の記録を残す
+        today_df = pd.DataFrame([{'date': today, 'ticker': '(該当なし)'}])
+
+    # 既にノートがあれば、そこに書き足す（同じ日付は上書き）
+    if os.path.exists(history_path):
+        old = pd.read_csv(history_path)
+        old = old[old['date'] != today]
+        history = pd.concat([old, today_df], ignore_index=True)
+    else:
+        history = today_df
+
+    history.to_csv(history_path, index=False, encoding='utf-8-sig')
+    print(f'銘柄履歴を保存: のべ{len(history)}行')
 
 # ===== メイン処理 =====
 if __name__ == '__main__':
@@ -129,7 +145,7 @@ if __name__ == '__main__':
 
     # IBD式RSレーティングを計算（1〜99、上位ほど高い）
     perf_series = pd.Series(perfs)
-    rs_rating = perf_series.rank(pct=True) * 98 + 1  # 1〜99の範囲
+    rs_rating = perf_series.rank(pct=True) * 98 + 1
     rs_rating = rs_rating.round().astype(int)
 
     # 2回目：各銘柄が条件を満たすかチェック
@@ -147,12 +163,11 @@ if __name__ == '__main__':
             avg_vol   = float(volume.iloc[-50:].mean())
             today_vol = float(volume.iloc[-1])
             rel_vol   = today_vol / avg_vol if avg_vol > 0 else 0
-            dollar_vol = price * today_vol / 1_000_000   # 百万ドル単位
+            dollar_vol = price * today_vol / 1_000_000
             low52     = float(low.iloc[-252:].min()) if len(low) >= 252 else float(low.min())
             from_low  = (price - low52) / low52 * 100
             rs        = int(rs_rating.get(ticker, 0))
 
-            # 7条件をすべてチェック
             c1 = chg_pct   >= CHG_MIN
             c2 = PRICE_MIN <= price <= PRICE_MAX
             c3 = avg_vol   >= AVGVOL_MIN
@@ -162,7 +177,6 @@ if __name__ == '__main__':
             c7 = from_low  >= LOW52_MIN
 
             if all([c1, c2, c3, c4, c5, c6, c7]):
-                # セクター情報をくっつける
                 sector = 'その他'
                 industry = ''
                 if sector_map is not None and ticker in sector_map.index:
@@ -200,5 +214,7 @@ if __name__ == '__main__':
 
     # セクター別の変遷を記録する
     save_sector_history(out, today)
+    # 抽出された銘柄そのものを記録する
+    save_ticker_history(out, today)
 
     print(f'完了！条件クリア: {len(results)}銘柄')
