@@ -12,18 +12,17 @@ st.set_page_config(page_title="IBD Screener", page_icon="🚀", layout="wide")
 st.title("🚀 IBD式スクリーナー")
 st.caption("師匠の条件 — デイトレ寄り（日足ベース）")
 
-DATA_PATH    = 'data/results.csv'
-UPDATED_PATH = 'data/last_updated.txt'
-HISTORY_PATH = 'data/sector_history.csv'
+DATA_PATH     = 'data/results.csv'
+UPDATED_PATH  = 'data/last_updated.txt'
+HISTORY_PATH  = 'data/sector_history.csv'
+TICKER_HIST   = 'data/ticker_history.csv'
 
-# 結果がまだ無い場合
 if not os.path.exists(DATA_PATH):
     st.warning('まだスキャン結果がありません。')
     st.stop()
 
 df = pd.read_csv(DATA_PATH)
 
-# 最終更新日を表示
 if os.path.exists(UPDATED_PATH):
     with open(UPDATED_PATH) as f:
         last_updated = f.read().strip()
@@ -32,7 +31,6 @@ else:
 
 st.info(f'📅 最終スキャン日: {last_updated}')
 
-# 条件の説明
 with st.expander('📋 スクリーニング条件'):
     st.markdown('''
     - 前日比 ≥ +5%
@@ -44,7 +42,6 @@ with st.expander('📋 スクリーニング条件'):
     - 52週安値から ≥ +30%
     ''')
 
-# 件数を大きく表示
 c1, c2 = st.columns(2)
 c1.metric('条件クリア銘柄', f'{len(df)}銘柄')
 if 'sector' in df.columns:
@@ -54,7 +51,6 @@ if len(df) == 0:
     st.warning('今回は条件を満たす銘柄がありませんでした。')
     st.stop()
 
-# 色付けの関数（RSが高いほど緑を濃く）
 def color_rs(val):
     try:
         v = int(val)
@@ -65,7 +61,6 @@ def color_rs(val):
     except:
         return ''
 
-# 前日比の色付け（プラスは緑）
 def color_chg(val):
     try:
         v = float(val)
@@ -75,7 +70,6 @@ def color_chg(val):
     except:
         return ''
 
-# 表示する列（セクターがある場合とない場合で分ける）
 if 'sector' in df.columns:
     show_cols = ['ticker','sector','industry','前日比%','株価',
                  '平均出来高','売買代金M$','RelVol','RS','52W安値比%']
@@ -84,9 +78,9 @@ else:
                  '平均出来高','売買代金M$','RelVol','RS','52W安値比%']
 show_cols = [c for c in show_cols if c in df.columns]
 
-# タブで切り替え
-tab1, tab2, tab3, tab4 = st.tabs(
-    ['🚀 全銘柄', '📂 セクター別', '📊 セクターサマリー', '📈 変遷グラフ']
+# タブを5つにする（履歴を追加）
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ['🚀 全銘柄', '📂 セクター別', '📊 セクターサマリー', '📈 変遷グラフ', '🗓️ 銘柄履歴']
 )
 
 with tab1:
@@ -110,12 +104,10 @@ with tab2:
     else:
         sectors = sorted(df['sector'].dropna().unique().tolist())
         selected = st.selectbox('セクターを選択', ['すべて'] + sectors)
-
         if selected == 'すべて':
             df_sec = df
         else:
             df_sec = df[df['sector'] == selected]
-
         df_sec = df_sec.reset_index(drop=True)
         df_sec.index += 1
         st.write(f'{len(df_sec)}銘柄')
@@ -149,8 +141,6 @@ with tab3:
 
 with tab4:
     st.subheader('📈 セクター別 変遷グラフ')
-
-    # 記録ノートがまだ無い、または1日分しかない場合
     if not os.path.exists(HISTORY_PATH):
         st.info('まだ変遷データがありません。スキャンを重ねると表示されます。')
     else:
@@ -160,8 +150,6 @@ with tab4:
         else:
             hist['date'] = pd.to_datetime(hist['date'])
             hist = hist.sort_values('date')
-
-            # 日付とtotal以外の列（＝セクターの列）を取り出す
             sector_cols = [c for c in hist.columns if c not in ['date', 'total']]
 
             fig, ax = plt.subplots(figsize=(12, 6), facecolor='#0d1117')
@@ -170,18 +158,13 @@ with tab4:
             ax.grid(True, alpha=0.12, color='#444444')
             for spine in ax.spines.values():
                 spine.set_color('#2a2a2a')
-
-            # 色のセット
             palette = ['#00ff88','#ff6b6b','#4ecdc4','#ffd93d','#a29bfe',
                        '#fd79a8','#74b9ff','#e17055','#55efc4','#fdcb6e','#b2bec3']
-
-            # セクターごとに折れ線を引く
             for i, col in enumerate(sector_cols):
                 if hist[col].sum() > 0:
                     ax.plot(hist['date'], hist[col],
                             color=palette[i % len(palette)],
                             linewidth=2.0, marker='o', markersize=4, label=col)
-
             ax.set_title('セクター別 銘柄数の変遷', color='white',
                          fontsize=12, fontweight='bold')
             ax.set_ylabel('銘柄数', color='#aaaaaa')
@@ -191,7 +174,6 @@ with tab4:
             plt.tight_layout()
             st.pyplot(fig)
 
-            # 全体の合計数の変遷も表示
             st.subheader('📊 合計銘柄数の変遷')
             fig2, ax2 = plt.subplots(figsize=(12, 3), facecolor='#0d1117')
             ax2.set_facecolor('#0d1117')
@@ -206,26 +188,32 @@ with tab4:
             plt.tight_layout()
             st.pyplot(fig2)
 
-            # 前回との比較（表）
-            st.subheader('📋 前回との比較')
-            latest = hist.iloc[-1]
-            prev   = hist.iloc[-2]
-            rows = []
-            for col in sector_cols:
-                now_val  = int(latest[col])
-                prev_val = int(prev[col])
-                diff = now_val - prev_val
-                if now_val == 0 and prev_val == 0:
-                    continue
-                if diff > 0:
-                    change = f'+{diff}'
-                elif diff < 0:
-                    change = f'{diff}'
-                else:
-                    change = '±0'
-                rows.append({'セクター': col, '今回': now_val,
-                             '前回': prev_val, '増減': change})
-            comp = pd.DataFrame(rows).sort_values('今回', ascending=False)
-            st.dataframe(comp.reset_index(drop=True), use_container_width=True)
+with tab5:
+    st.subheader('🗓️ 銘柄履歴（日ごとに抽出された銘柄）')
+    if not os.path.exists(TICKER_HIST):
+        st.info('まだ履歴がありません。スキャンを重ねると、日ごとの銘柄がたまっていきます。')
+    else:
+        thist = pd.read_csv(TICKER_HIST)
+        # 日付の一覧を新しい順に並べる
+        dates = sorted(thist['date'].dropna().unique().tolist(), reverse=True)
+
+        if len(dates) == 0:
+            st.info('まだ履歴がありません。')
+        else:
+            pick = st.selectbox('日付を選ぶ', dates)
+            day_df = thist[thist['date'] == pick].reset_index(drop=True)
+            day_df.index += 1
+
+            st.write(f'{pick} の抽出銘柄：{len(day_df)}件')
+
+            # その日の表を見せる（存在する列だけ）
+            day_cols = [c for c in ['ticker','sector','industry','前日比%','株価',
+                                    '売買代金M$','RelVol','RS','52W安値比%']
+                        if c in day_df.columns]
+            st.dataframe(day_df[day_cols], use_container_width=True, height=400)
+
+            # TradingView用のコピー
+            if 'ticker' in day_df.columns:
+                st.code(','.join(day_df['ticker'].astype(str).tolist()))
 
 st.caption('データ: yfinance  |  対象: マネックス証券取扱銘柄')
