@@ -1,26 +1,44 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AXTI,Technology,Semiconductor Equipment & Materials,12.2,63.52,10254069,755.3,1.16,99,3333.5
-BFLY,Healthcare,Medical Devices,7.2,8.23,7782105,107.1,1.67,97,523.5
-ONDS,Technology,Communication Equipment,5.5,7.82,71316010,561.8,1.01,97,357.3
-CDNL,その他,,7.9,80.09,641434,77.9,1.52,96,264.4
-CIFR,Technology,Information Technology Services,8.4,21.73,25616664,610.7,1.1,96,377.6
-TENX,Healthcare,Biotechnology,5.2,16.26,967104,24.4,1.55,94,186.1
-IREN,Financial Services,Capital Markets,13.1,43.91,48889123,2327.2,1.08,93,198.3
-CENX,Basic Materials,Aluminum,6.7,46.68,2054527,99.4,1.04,93,159.3
-ANNX,Healthcare,Biotechnology,9.2,5.96,3181424,40.1,2.12,91,222.2
-PSNL,Healthcare,Diagnostics & Research,5.3,14.34,3182951,65.1,1.43,91,273.4
-WYFI,その他,,13.0,35.54,2121627,77.2,1.02,91,238.2
-MLYS,Healthcare,Biotechnology,5.2,29.12,1660366,50.0,1.03,91,131.3
-AAMI,Financial Services,Asset Management,8.3,79.15,500874,57.8,1.46,90,113.5
-CHRS,Healthcare,Biotechnology,7.6,1.56,1146672,2.4,1.33,90,112.8
-PTRN,その他,,7.6,28.43,1945390,83.9,1.52,87,218.7
-LMND,Financial Services,Insurance - Property & Casualty,10.0,78.7,1649613,213.7,1.65,87,120.4
-RGNX,Healthcare,Biotechnology,11.7,14.83,2099492,46.7,1.5,86,171.9
-BVS,Healthcare,Medical Devices,12.4,11.78,648047,17.9,2.35,85,102.8
-PEPG,Healthcare,Biotechnology,7.4,1.89,739003,1.5,1.08,84,87.1
-RIVN,Consumer Cyclical,Auto Manufacturers,8.1,20.14,32146217,783.1,1.21,81,74.1
-OMCL,Healthcare,Health Information Services,5.1,45.24,692161,33.7,1.08,80,68.5
-TBLA,Communication Services,Internet Content & Information,7.6,5.53,3409241,28.6,1.52,78,95.1
-TNYA,Healthcare,Biotechnology,10.0,0.87,3811679,6.1,1.85,77,62.7
-HROW,Healthcare,Drug Manufacturers - Specialty & Generic,5.1,44.93,882759,42.5,1.07,75,57.4
-PCAR,Industrials,Farm & Heavy Construction Machinery,5.4,125.91,3150215,486.0,1.23,70,39.6
+ALMS,Healthcare,Biotechnology,7.3,29.27,1304527,91.3,2.39,99,802.0
+ALXO,Healthcare,Biotechnology,7.8,2.36,1415142,4.3,1.28,98,435.1
+OVID,Healthcare,Biotechnology,5.7,2.76,2568752,9.1,1.29,98,666.7
+BAND,Technology,Software - Infrastructure,11.4,67.56,1439036,124.5,1.28,97,440.5
+ANAB,Healthcare,Biotechnology,8.0,67.32,649294,63.8,1.46,97,490.4
+IMMX,Healthcare,Biotechnology,15.0,12.02,1635790,50.9,2.59,97,519.6
+KYTX,Healthcare,Biotechnology,5.7,9.68,1018242,11.6,1.18,96,284.1
+TRVI,Healthcare,Biotechnology,8.6,19.5,1878656,107.8,2.94,96,236.8
+AMPG,Technology,Communication Equipment,5.6,6.25,5148418,69.2,2.15,95,281.1
+TENX,Healthcare,Biotechnology,6.9,17.38,994221,28.1,1.62,95,205.8
+PTGX,Healthcare,Biotechnology,7.1,140.85,707587,190.7,1.91,95,185.2
+CRNX,Healthcare,Biotechnology,98.7,83.53,2979750,6733.5,27.05,95,223.4
+PYXS,Healthcare,Biotechnology,24.8,3.07,917242,7.5,2.67,94,216.5
+SNDX,Healthcare,Biotechnology,5.3,23.24,1979229,52.4,1.14,94,166.8
+CCCC,Healthcare,Biotechnology,5.1,4.35,3181429,19.0,1.37,94,184.3
+TOI,Healthcare,Medical Care Facilities,6.6,5.8,1814427,12.8,1.22,93,150.0
+ANNX,Healthcare,Biotechnology,7.9,6.43,3255555,37.0,1.77,93,247.6
+KNSA,Healthcare,Drug Manufacturers - Specialty & Generic,7.2,67.29,833666,63.7,1.14,93,156.1
+ARQT,Healthcare,Biotechnology,6.1,27.67,1908936,65.6,1.24,90,107.3
+CHRS,Healthcare,Biotechnology,7.1,1.67,1149692,2.5,1.33,90,120.3
+ZYME,Healthcare,Biotechnology,5.5,26.72,696694,20.5,1.1,90,132.1
+KURA,Healthcare,Biotechnology,8.6,11.99,1850185,45.7,2.06,90,120.0
+BEAM,Healthcare,Biotechnology,7.4,37.92,2288500,149.3,1.72,88,143.1
+XERS,Healthcare,Drug Manufacturers - Specialty & Generic,6.8,8.94,1918441,31.1,1.81,88,91.8
+VERA,Healthcare,Biotechnology,7.1,42.96,1529829,217.8,3.31,88,125.3
+CLDX,Healthcare,Biotechnology,5.2,39.93,968927,67.2,1.74,88,102.5
+MGTX,Healthcare,Biotechnology,5.5,14.66,931897,28.5,2.09,87,121.5
+PEPG,Healthcare,Biotechnology,8.5,2.05,755654,4.4,2.82,86,103.0
+TARS,Healthcare,Biotechnology,5.2,70.55,836602,69.9,1.18,86,83.2
+TNYA,Healthcare,Biotechnology,6.4,0.92,3857988,5.6,1.57,77,72.9
+PTEN,Energy,Oil & Gas Drilling,6.9,9.15,8972256,102.5,1.25,77,84.1
+REI,Energy,Oil & Gas E&P,6.7,1.11,6159875,8.4,1.22,76,54.2
+ENGS,Industrials,Waste Management,6.8,2.83,554409,10.3,6.58,75,396.5
+VKTX,Healthcare,Biotechnology,8.8,42.13,2494321,181.5,1.73,75,83.5
+NET,Technology,Software - Infrastructure,8.6,268.83,4223520,1549.2,1.36,75,69.3
+EQNR,Energy,Oil & Gas Integrated,5.8,33.91,3827879,163.0,1.26,74,55.9
+IVVD,Healthcare,Biotechnology,12.9,0.94,4633412,12.1,2.76,69,95.0
+BATL,Energy,Oil & Gas E&P,25.4,1.78,11855497,42.4,2.01,67,78.0
+VRDN,Healthcare,Biotechnology,7.8,20.47,2755754,71.1,1.26,67,55.3
+CLRO,Technology,Communication Equipment,97.7,13.84,3550871,1140.7,23.21,66,410.7
+BCRX,Healthcare,Drug Manufacturers - Specialty & Generic,8.1,10.99,5256733,111.3,1.93,65,83.2
+DVN,Energy,Oil & Gas E&P,5.1,42.41,15327069,706.5,1.09,64,38.4
+AGIO,Healthcare,Biotechnology,17.7,44.01,1093535,121.7,2.53,61,97.9
