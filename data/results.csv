@@ -1,32 +1,12 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-DLLL,その他,,8.4,26.83,2771700,81.6,1.1,99,1137.8
-DMRA,Healthcare,Biotechnology,11.8,30.78,609874,26.0,1.39,99,1156.3
-AEHR,Technology,Semiconductor Equipment & Materials,12.3,76.21,2237787,199.4,1.17,98,489.4
-BAND,Technology,Software - Infrastructure,11.3,78.44,1505027,149.2,1.26,98,527.5
-BIOA,Healthcare,Drug Manufacturers - Specialty & Generic,5.3,24.89,527152,14.6,1.12,98,505.6
-OPEN,Real Estate,Real Estate Services,10.6,5.3,49341686,593.8,2.27,98,631.0
-BFLY,Healthcare,Medical Devices,9.3,8.02,7881192,70.0,1.11,97,507.6
-SRXH,Consumer Defensive,Packaged Foods,28.4,2.53,52585103,137.4,1.03,97,3102.5
-UCTT,Technology,Semiconductor Equipment & Materials,5.2,106.19,1377873,189.9,1.3,97,399.0
-LASR,Technology,Semiconductors,27.3,74.71,1332121,296.5,2.98,97,318.8
-CIFR,Technology,Information Technology Services,6.5,23.26,25574494,665.7,1.12,97,411.2
-GH,Healthcare,Diagnostics & Research,5.1,164.08,2861246,631.6,1.35,96,306.6
-NAUT,Healthcare,Biotechnology,6.7,1.9,698824,4.1,3.12,94,206.5
-WYFI,その他,,5.7,38.84,2288711,157.7,1.77,93,269.6
-FTAI,Industrials,Aerospace & Defense,5.5,228.02,1258357,342.0,1.19,91,110.6
-AG,Basic Materials,Silver,8.6,17.16,12640870,218.2,1.01,90,122.0
-BBIO,Healthcare,Biotechnology,15.1,90.17,3853441,1737.7,5.0,89,114.2
-PTRN,その他,,6.5,29.4,2043425,65.8,1.09,88,229.6
-PEPG,Healthcare,Biotechnology,15.6,2.3,787166,5.5,3.05,88,127.7
-ADPT,Healthcare,Diagnostics & Research,8.1,21.8,2786252,63.9,1.05,87,119.0
-WT,Financial Services,Asset Management,6.2,19.86,3124483,66.9,1.08,82,86.4
-WRAP,Technology,Scientific & Technical Instruments,48.4,2.36,1439378,138.8,40.85,82,126.9
-AVL,その他,,6.2,49.4,684572,37.4,1.11,81,71.3
-SHC,Healthcare,Diagnostics & Research,5.3,18.39,3455538,63.7,1.0,81,68.1
-ALGM,Technology,Semiconductors,11.5,57.38,3202205,252.1,1.37,80,156.0
-TECK,Basic Materials,Other Industrial Metals & Mining,5.5,59.23,3109581,199.3,1.08,80,92.2
-SUNE,Technology,Solar,21.3,2.56,8011097,55.6,2.71,80,276.5
-TYGO,Technology,Solar,5.9,1.98,1144527,4.3,1.9,79,66.4
-RIVN,Consumer Cyclical,Auto Manufacturers,8.8,18.12,36542842,1512.8,2.28,74,56.6
-EYPT,Healthcare,Biotechnology,5.9,14.84,1195045,23.3,1.31,73,57.9
-LRMR,Healthcare,Biotechnology,14.4,4.13,2355460,15.8,1.62,60,52.1
+RXT,Technology,Software - Infrastructure,22.2,5.34,29495587,220.0,1.4,97,1258.8
+XFOR,Healthcare,Biotechnology,11.4,4.41,660736,4.0,1.38,95,226.7
+SUNE,Technology,Solar,49.6,3.83,9519460,288.2,7.91,92,463.2
+ASC,Industrials,Marine Shipping,7.0,16.39,712383,13.2,1.13,83,73.3
+CDZI,Utilities,Utilities - Regulated Water,10.3,4.4,910608,19.5,4.87,78,52.2
+BBAR,Financial Services,Banks - Regional,9.1,21.16,722483,19.5,1.28,77,176.5
+REZI,Industrials,Industrial Distribution,9.3,33.94,1473152,96.7,1.93,76,48.0
+VOD,Communication Services,Telecom Services,12.5,14.72,4095045,250.3,4.15,75,43.7
+JXN,Financial Services,Insurance - Life,5.4,116.76,649770,149.3,1.97,74,46.1
+CAKE,Consumer Cyclical,Restaurants,5.5,82.76,1313022,189.8,1.75,68,94.0
+SKYX,Industrials,Electrical Equipment & Parts,8.5,1.27,1953186,2.8,1.12,65,34.2
