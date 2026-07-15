@@ -1,30 +1,27 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AXTI,Technology,Semiconductor Equipment & Materials,14.1,57.57,9917811,589.0,1.03,99,3011.9
-ERAS,Healthcare,Biotechnology,8.9,19.5,5399315,203.3,1.93,99,1366.2
-CELC,Healthcare,Biotechnology,7.0,111.05,1539206,229.0,1.34,99,730.9
-KOD,Healthcare,Biotechnology,5.3,43.26,775247,37.9,1.13,99,885.4
-AEHR,Technology,Semiconductor Equipment & Materials,5.9,72.01,2158102,232.7,1.5,98,414.0
-SYRE,Healthcare,Biotechnology,5.6,98.95,1413766,241.5,1.73,98,582.2
-TSEM,Technology,Semiconductors,11.2,255.49,2099475,1183.2,2.21,98,492.5
-TXG,Healthcare,Health Information Services,9.6,45.79,3214460,175.5,1.19,97,310.3
-FCEL,Industrials,Electrical Equipment & Parts,11.9,21.35,13145751,416.5,1.48,97,464.8
-ONDS,Technology,Communication Equipment,5.7,7.36,75274392,790.0,1.43,96,313.5
-CDNL,その他,,7.5,69.72,672185,52.3,1.11,95,217.2
-SNDX,Healthcare,Biotechnology,5.4,24.13,2036811,49.4,1.0,94,167.2
-EWY,その他,,5.3,176.98,21131072,5203.5,1.39,94,157.2
-TRVI,Healthcare,Biotechnology,8.4,17.91,1959541,45.2,1.29,94,173.4
-PBF,Energy,Oil & Gas Refining & Marketing,6.0,60.89,2809466,210.4,1.23,93,196.6
-TSHA,Healthcare,Biotechnology,5.9,5.7,3125130,22.4,1.26,92,143.6
-ATAI,Healthcare,Biotechnology,14.1,5.67,7219270,67.0,1.64,91,119.8
-FBIO,Healthcare,Biotechnology,13.0,3.73,500479,4.6,2.48,89,110.7
-GALT,Healthcare,Biotechnology,16.1,5.34,714111,11.3,2.97,88,163.1
-COPX,その他,,5.9,78.72,3921849,391.5,1.27,87,92.8
-DHT,Energy,Oil & Gas Midstream,5.0,18.18,3406591,63.1,1.02,86,82.0
-OKTA,Technology,Software - Infrastructure,10.8,154.62,3936803,698.5,1.15,85,146.8
-CAMT,Technology,Semiconductor Equipment & Materials,9.6,149.9,525590,103.0,1.31,84,97.9
-NXT,Technology,Solar,5.0,104.66,3068015,333.2,1.04,84,98.9
-VCTR,Financial Services,Asset Management,6.2,97.7,512141,75.9,1.52,81,74.9
-NXDR,Communication Services,Internet Content & Information,5.0,2.5,3077969,9.9,1.29,74,88.0
-NXTC,Healthcare,Biotechnology,201.8,6.58,2305116,723.5,47.7,73,324.5
-SEZL,Financial Services,Credit Services,13.8,182.39,696127,135.4,1.07,72,268.5
-TENB,Technology,Software - Infrastructure,8.8,42.65,3650653,205.6,1.32,68,171.1
+ERAS,Healthcare,Biotechnology,9.0,21.26,5380981,182.7,1.6,99,1498.5
+ALMS,Healthcare,Biotechnology,5.6,28.81,1387646,43.1,1.08,99,787.8
+STTK,Healthcare,Biotechnology,7.6,6.77,1275478,21.0,2.44,99,850.8
+AEHR,Technology,Semiconductor Equipment & Materials,21.9,87.79,2409729,1132.1,5.35,98,526.6
+MBX,Healthcare,Biotechnology,7.2,60.67,915203,65.4,1.18,98,530.1
+POWL,Industrials,Electrical Equipment & Parts,5.4,247.01,763742,215.9,1.14,97,259.0
+GGLL,その他,,6.3,121.82,1427698,192.7,1.11,97,253.1
+TRT,Technology,Semiconductor Equipment & Materials,7.2,11.0,1001454,18.8,1.71,97,329.7
+MANE,その他,,12.3,123.7,625750,165.1,2.13,96,286.6
+ANNX,Healthcare,Biotechnology,17.1,6.5,3652276,56.8,2.39,95,220.2
+MRVI,Healthcare,Biotechnology,8.1,7.04,3224677,33.8,1.49,95,253.8
+PSNL,Healthcare,Diagnostics & Research,5.1,15.79,3550282,78.8,1.41,94,311.2
+TSHA,Healthcare,Biotechnology,8.6,6.19,3200956,32.2,1.62,93,164.5
+IOVA,Healthcare,Biotechnology,20.6,4.74,15247729,205.8,2.85,91,169.3
+AAPU,その他,,8.0,44.46,1892284,116.5,1.38,91,131.1
+ADPT,Healthcare,Diagnostics & Research,6.8,22.9,2886621,91.1,1.38,91,130.0
+LION,その他,,5.0,13.96,3747129,107.6,2.06,91,147.1
+MD,Healthcare,Medical Care Facilities,7.3,25.88,873252,35.3,1.56,90,118.6
+SHLS,Technology,Solar,6.9,11.5,5903783,87.3,1.29,90,159.6
+COMP,Real Estate,Real Estate Services,8.3,12.65,14754646,211.1,1.13,89,98.6
+IVZ,Financial Services,Asset Management,5.5,30.3,5056310,153.7,1.0,88,90.2
+AEO,Consumer Cyclical,Apparel Retail,7.8,17.41,5371877,96.5,1.03,87,85.4
+BNY,Financial Services,Banks - Diversified,5.1,162.35,3910177,1303.0,2.05,86,77.1
+AMCX,Communication Services,Entertainment,7.8,10.59,543390,6.2,1.08,86,95.7
+FLYW,Technology,Software - Infrastructure,6.8,18.78,2519515,48.8,1.03,85,85.8
+NBIL,その他,,5.6,27.54,1722420,84.6,1.78,64,332.3
