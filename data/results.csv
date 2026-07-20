@@ -1,24 +1,13 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-SLS,Healthcare,Biotechnology,12.3,13.19,10592367,148.1,1.06,99,848.9
-STTK,Healthcare,Biotechnology,6.5,7.53,1353349,22.3,2.19,99,957.6
-ALTO,Basic Materials,Specialty Chemicals,13.0,5.84,2623239,21.6,1.41,98,534.8
-FBRX,Healthcare,Biotechnology,8.6,48.86,520885,29.1,1.14,98,436.9
-ORKA,Healthcare,Biotechnology,11.6,92.7,1504356,260.0,1.86,98,622.0
-ZNTL,Healthcare,Biotechnology,11.8,5.11,1176383,18.2,3.02,97,321.6
-ANAB,Healthcare,Biotechnology,7.1,58.0,659319,42.2,1.1,97,408.6
-MANE,その他,,5.2,111.32,635929,100.6,1.42,96,247.9
-TRVI,Healthcare,Biotechnology,9.9,19.07,2135566,158.5,3.89,95,191.1
-GPRE,Basic Materials,Chemicals,11.7,19.23,1550482,97.8,3.28,94,171.6
-GPCR,Healthcare,Biotechnology,5.3,48.48,785005,44.4,1.17,94,206.8
-IOVA,Healthcare,Biotechnology,7.3,5.0,15460708,115.6,1.5,93,184.1
-NAUT,Healthcare,Biotechnology,6.1,1.74,764967,1.5,1.13,93,180.6
-XNCR,Healthcare,Biotechnology,16.9,17.47,849186,29.4,1.98,90,152.5
-GORO,Basic Materials,Other Precious Metals & Mining,7.3,1.0,3395634,42.7,12.6,88,132.0
-SQM,Basic Materials,Specialty Chemicals,5.2,69.81,1144840,113.5,1.42,88,97.9
-OBE,Energy,Oil & Gas E&P,8.7,9.64,762708,10.0,1.36,87,77.5
-TALO,Energy,Oil & Gas E&P,5.7,14.92,1969354,29.4,1.0,87,94.5
-CADL,Healthcare,Biotechnology,7.4,10.18,2075052,24.0,1.14,80,134.0
-LEDS,Technology,Semiconductors,22.9,3.01,1132395,15.2,4.46,79,198.0
-SONO,Technology,Consumer Electronics,5.9,15.11,1983070,56.5,1.89,77,49.5
-WNC,Industrials,Farm & Heavy Construction Machinery,7.2,13.44,1065684,14.6,1.02,77,103.9
-BATL,Energy,Oil & Gas E&P,10.8,1.74,16547928,40.1,1.39,68,74.0
+NUAI,Technology,Software - Infrastructure,26.4,5.15,8467702,84.9,1.95,99,1504.4
+HUT,Financial Services,Capital Markets,10.4,100.93,4467235,732.2,1.62,98,440.3
+CIFR,Technology,Information Technology Services,17.0,20.54,24707639,833.2,1.64,97,351.4
+ONDS,Technology,Communication Equipment,5.3,6.87,84031978,1278.9,2.22,96,286.0
+NUVB,Healthcare,Biotechnology,7.9,6.26,6480269,69.8,1.72,95,187.2
+APLD,Technology,Information Technology Services,8.0,27.85,20687448,611.1,1.06,94,184.5
+SLNH,Financial Services,Capital Markets,20.4,1.36,21579108,32.7,1.11,93,223.8
+IREN,Financial Services,Capital Markets,19.6,40.2,49415994,3612.9,1.82,92,173.1
+XNCR,Healthcare,Biotechnology,7.7,18.81,889802,53.6,3.2,91,171.8
+RIOT,Financial Services,Capital Markets,9.0,19.9,16115361,377.0,1.18,77,87.9
+SGHC,Consumer Cyclical,Gambling,5.8,15.58,3631270,83.6,1.48,74,85.7
+IKT,Healthcare,Biotechnology,5.7,2.23,873648,2.4,1.23,60,67.7
