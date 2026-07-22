@@ -1,53 +1,15 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-CLYM,Healthcare,Biotechnology,7.2,13.1,1277057,19.8,1.19,99,863.2
-BE,Industrials,Electrical Equipment & Parts,14.8,226.26,12806111,3367.6,1.16,99,827.9
-RLMD,Healthcare,Biotechnology,6.0,5.3,1822582,14.1,1.46,99,863.6
-NUAI,Technology,Software - Infrastructure,14.8,5.91,8631813,93.4,1.83,99,1741.1
-DOCN,Technology,Software - Infrastructure,14.6,136.45,3407344,599.1,1.29,98,433.8
-UCTT,Technology,Semiconductor Equipment & Materials,14.6,105.15,1354611,156.8,1.1,98,394.1
-AEHR,Technology,Semiconductor Equipment & Materials,27.9,98.91,2560569,511.7,2.02,98,520.5
-FBRX,Healthcare,Biotechnology,6.8,50.73,546848,47.0,1.69,98,457.5
-LPTH,Technology,Electronic Components,22.2,12.66,3837504,56.7,1.17,97,335.1
-ONDS,Technology,Communication Equipment,11.5,7.66,88784261,2156.3,3.17,97,330.3
-WULF,Financial Services,Capital Markets,5.4,19.87,31352321,623.4,1.0,97,328.2
-NBIS,Communication Services,Internet Content & Information,18.8,216.92,18524855,5473.7,1.36,97,342.7
-IMMX,Healthcare,Biotechnology,8.7,9.57,1851443,23.7,1.34,96,393.3
-CIFR,Technology,Information Technology Services,11.4,22.89,25129396,1067.1,1.86,96,403.1
-ANAB,Healthcare,Biotechnology,6.9,53.76,667242,66.6,1.86,96,371.4
-APLD,Technology,Information Technology Services,7.9,30.05,20673511,697.1,1.12,95,206.9
-NKTR,Healthcare,Biotechnology,5.9,68.67,1077824,88.8,1.2,95,226.7
-URGN,Healthcare,Biotechnology,6.5,43.78,778944,49.5,1.45,94,185.2
-TRVI,Healthcare,Biotechnology,8.4,18.18,2163934,40.2,1.02,94,177.6
-AMLX,Healthcare,Drug Manufacturers - Specialty & Generic,6.0,18.5,1496007,49.5,1.79,93,147.3
-HL,Basic Materials,Other Precious Metals & Mining,7.0,15.29,28472446,1137.6,2.61,93,172.4
-HBM,Basic Materials,Copper,10.4,23.0,5625076,186.8,1.44,93,157.7
-AXSM,Healthcare,Biotechnology,6.9,236.95,899548,222.2,1.04,93,146.6
-SVRA,Healthcare,Biotechnology,6.4,5.84,1748200,16.7,1.64,93,156.1
-ZBIO,Healthcare,Biotechnology,5.4,32.36,825345,52.4,1.96,92,139.7
-XNCR,Healthcare,Biotechnology,8.7,20.45,906076,35.7,1.93,92,195.5
-SSRM,Basic Materials,Gold,8.6,27.21,3131176,91.5,1.07,91,129.2
-RYAM,Basic Materials,Chemicals,5.3,8.61,975683,9.0,1.07,90,157.0
-SCCO,Basic Materials,Copper,7.4,188.01,1347175,295.1,1.17,90,125.1
-KPTI,Healthcare,Biotechnology,5.3,7.86,530782,7.4,1.77,90,115.5
-FTAI,Industrials,Aerospace & Defense,5.3,210.25,1117339,297.5,1.27,89,92.8
-FBIO,Healthcare,Biotechnology,6.0,3.53,529810,2.0,1.05,88,99.4
-TPC,Industrials,Engineering & Construction,7.7,86.78,576378,176.5,3.53,88,99.9
-OBE,Energy,Oil & Gas E&P,6.4,10.01,726650,9.8,1.35,87,84.0
-IOVA,Healthcare,Biotechnology,9.2,5.48,15034233,109.5,1.33,87,211.4
-ASM,Basic Materials,Other Precious Metals & Mining,8.6,6.05,4084742,24.7,1.0,86,95.2
-TK,Energy,Oil & Gas Midstream,5.3,11.33,626127,9.8,1.39,85,72.0
-CDE,Basic Materials,Gold,8.1,15.3,32185668,541.2,1.1,83,78.7
-BRKR,Healthcare,Medical Devices,7.6,60.43,2564104,164.8,1.06,82,112.9
-WFRD,Energy,Oil & Gas Equipment & Services,6.5,83.32,1338961,225.9,2.03,81,59.5
-RIOT,Financial Services,Capital Markets,8.0,21.49,15944538,373.8,1.09,80,102.9
-EGO,Basic Materials,Gold,9.8,30.46,2634111,96.5,1.2,79,51.8
-GREE,Financial Services,Capital Markets,36.6,2.91,600450,40.4,23.13,79,191.0
-MLI,Industrials,Metal Fabrication,5.6,62.3,1483296,118.8,1.29,79,52.9
-EXK,Basic Materials,Silver,9.3,8.2,6686051,63.8,1.16,78,67.0
-NAMS,Healthcare,Biotechnology,9.0,32.34,1341836,54.9,1.26,76,53.0
-FCX,Basic Materials,Copper,6.4,62.56,14313263,989.7,1.11,75,79.9
-NBIL,その他,,37.5,30.72,1866252,107.7,1.88,75,382.3
-NUGT,その他,,9.5,111.59,655200,84.8,1.16,75,56.5
-CRGY,Energy,Oil & Gas E&P,5.4,11.04,6533226,81.9,1.13,72,46.6
-SOLS,その他,,6.4,60.08,2904104,260.6,1.49,65,48.9
-CLSK,Financial Services,Capital Markets,6.7,15.38,23571332,437.1,1.21,61,92.3
+ARWR,Healthcare,Biotechnology,19.0,88.7,2300475,619.9,3.04,98,490.9
+LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,7.6,87.04,2165329,289.7,1.54,98,427.2
+PYXS,Healthcare,Biotechnology,13.5,2.53,955070,7.6,3.13,92,160.8
+FTAI,Industrials,Aerospace & Defense,5.8,222.49,1152254,587.8,2.29,91,104.0
+RANI,Healthcare,Biotechnology,29.8,0.9,1036421,5.6,6.05,90,111.0
+EQNR,Energy,Oil & Gas Integrated,6.3,39.96,3791665,207.8,1.37,85,83.8
+RIOT,Financial Services,Capital Markets,8.8,23.38,16149088,650.4,1.72,85,120.8
+NUGT,その他,,7.1,119.46,662305,83.6,1.06,82,67.6
+AVBP,Healthcare,Biotechnology,7.7,30.44,589167,20.6,1.15,76,89.1
+BLFS,Healthcare,Medical Instruments & Supplies,6.7,31.15,1056861,302.9,9.2,76,74.4
+WAB,Industrials,Railroads,10.0,290.0,930902,946.0,3.5,75,58.0
+XIFR,Utilities,Utilities - Renewable,5.1,12.88,972484,15.8,1.26,74,48.5
+KOS,Energy,Oil & Gas E&P,9.5,2.65,14818128,45.2,1.15,67,215.5
+SKYX,Industrials,Electrical Equipment & Parts,8.2,1.32,1727876,3.0,1.34,63,39.5
