@@ -1,15 +1,23 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-ARWR,Healthcare,Biotechnology,19.0,88.7,2300475,619.9,3.04,98,490.9
-LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,7.6,87.04,2165329,289.7,1.54,98,427.2
-PYXS,Healthcare,Biotechnology,13.5,2.53,955070,7.6,3.13,92,160.8
-FTAI,Industrials,Aerospace & Defense,5.8,222.49,1152254,587.8,2.29,91,104.0
-RANI,Healthcare,Biotechnology,29.8,0.9,1036421,5.6,6.05,90,111.0
-EQNR,Energy,Oil & Gas Integrated,6.3,39.96,3791665,207.8,1.37,85,83.8
-RIOT,Financial Services,Capital Markets,8.8,23.38,16149088,650.4,1.72,85,120.8
-NUGT,その他,,7.1,119.46,662305,83.6,1.06,82,67.6
-AVBP,Healthcare,Biotechnology,7.7,30.44,589167,20.6,1.15,76,89.1
-BLFS,Healthcare,Medical Instruments & Supplies,6.7,31.15,1056861,302.9,9.2,76,74.4
-WAB,Industrials,Railroads,10.0,290.0,930902,946.0,3.5,75,58.0
-XIFR,Utilities,Utilities - Renewable,5.1,12.88,972484,15.8,1.26,74,48.5
-KOS,Energy,Oil & Gas E&P,9.5,2.65,14818128,45.2,1.15,67,215.5
-SKYX,Industrials,Electrical Equipment & Parts,8.2,1.32,1727876,3.0,1.34,63,39.5
+FBRX,Healthcare,Biotechnology,5.4,59.7,556924,44.9,1.35,98,556.0
+HUT,Financial Services,Capital Markets,7.1,117.67,4325660,722.5,1.42,98,529.9
+MXL,Technology,Semiconductors,5.1,91.24,4300893,637.5,1.62,98,614.5
+VICR,Technology,Electronic Components,6.5,231.38,900729,230.4,1.11,98,454.1
+CIFR,Technology,Information Technology Services,5.6,25.82,25210096,815.2,1.25,97,467.5
+FTRE,Healthcare,Biotechnology,5.5,19.5,1316085,33.3,1.3,96,270.4
+SSL,Basic Materials,Specialty Chemicals,6.4,12.05,1528916,19.3,1.05,93,152.6
+KN,Technology,Electronic Components,6.0,38.81,1076082,88.1,2.11,92,110.4
+MRCY,Industrials,Aerospace & Defense,7.5,106.34,718314,84.7,1.11,91,112.1
+OII,Energy,Oil & Gas Equipment & Services,6.7,48.02,1051617,124.7,2.47,91,131.0
+PYXS,Healthcare,Biotechnology,5.9,2.68,972738,4.3,1.65,91,176.3
+PALI,Healthcare,Biotechnology,6.3,2.02,3557124,11.9,1.66,89,281.1
+OBE,Energy,Oil & Gas E&P,5.1,10.73,761320,22.5,2.75,88,97.2
+NVCR,Healthcare,Medical Devices,28.4,19.99,1694046,178.7,5.28,84,103.6
+IMAX,Communication Services,Entertainment,11.9,43.96,1212434,281.5,5.28,83,81.7
+ADVB,Healthcare,Diagnostics & Research,37.0,16.78,2000677,198.3,5.91,83,364.8
+CSX,Industrials,Railroads,5.8,52.81,13038705,1539.0,2.24,82,67.7
+TGTX,Healthcare,Biotechnology,5.4,55.5,2333701,164.3,1.27,82,119.5
+RTX,Industrials,Aerospace & Defense,7.3,209.16,5301955,2090.0,1.88,75,40.5
+DGX,Healthcare,Diagnostics & Research,8.6,227.9,930644,856.5,4.04,74,39.9
+BATL,Energy,Oil & Gas E&P,11.6,1.73,17606661,49.3,1.62,69,73.0
+IKT,Healthcare,Biotechnology,7.4,2.33,886085,3.1,1.52,67,75.2
