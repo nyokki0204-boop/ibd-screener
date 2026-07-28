@@ -1,18 +1,26 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-FBRX,Healthcare,Biotechnology,39.6,76.5,902832,1308.8,18.95,99,740.7
-PACS,Healthcare,Medical Care Facilities,5.0,47.08,929827,45.1,1.03,98,527.7
-OMER,Healthcare,Biotechnology,15.8,11.34,1992400,37.8,1.67,96,229.7
-TENX,Healthcare,Biotechnology,11.4,16.19,1119405,29.1,1.6,95,180.1
-AMLX,Healthcare,Drug Manufacturers - Specialty & Generic,10.8,19.49,1496133,49.8,1.71,94,160.6
-BKD,Healthcare,Medical Care Facilities,6.7,15.47,4730976,122.6,1.67,92,121.0
-RNG,Technology,Software - Application,11.2,53.7,1842703,263.3,2.66,91,128.4
-ZBIO,Healthcare,Biotechnology,8.0,32.82,861114,37.1,1.31,91,143.1
-ENTX,Healthcare,Biotechnology,91.2,3.92,2886173,322.7,28.52,90,330.8
-BVS,Healthcare,Medical Devices,5.5,12.45,700817,10.2,1.17,90,114.3
-KYTX,Healthcare,Biotechnology,6.9,7.92,1104835,9.4,1.07,89,182.9
-DFNS,Industrials,Aerospace & Defense,201.1,13.1,24367678,975.5,3.06,86,31090.5
-CCCC,Healthcare,Biotechnology,5.6,3.59,3193530,15.3,1.34,85,112.4
-COMP,Real Estate,Real Estate Services,6.6,11.8,13900552,167.4,1.02,84,85.2
-FNKO,Consumer Cyclical,Leisure,5.7,6.12,650748,6.8,1.7,78,175.7
-W,Consumer Cyclical,Internet Retail,12.3,94.53,3631919,348.8,1.02,76,70.0
-BKR,Energy,Oil & Gas Equipment & Services,5.8,60.59,8764349,818.5,1.54,71,46.1
+FTRE,Healthcare,Biotechnology,7.8,20.7,1369690,67.0,2.36,97,293.2
+DFNS,Industrials,Aerospace & Defense,83.2,24.0,25015831,671.0,1.12,97,57042.9
+KNSA,Healthcare,Drug Manufacturers - Specialty & Generic,25.0,79.44,787237,225.5,3.61,95,171.7
+LIND,Consumer Cyclical,Travel Services,5.9,29.74,887180,29.9,1.13,95,161.6
+RNG,Technology,Software - Application,6.0,56.93,1872352,144.7,1.36,93,142.1
+OSCR,Healthcare,Healthcare Plans,10.8,31.4,6440039,203.8,1.01,93,193.7
+BVS,Healthcare,Medical Devices,6.1,13.21,709542,12.0,1.28,91,127.4
+NUE,Basic Materials,Steel,7.2,265.62,1585928,683.0,1.62,90,104.2
+LILA,Communication Services,Telecom Services,6.6,8.31,868902,8.2,1.14,89,85.5
+INCY,Healthcare,Biotechnology,9.3,129.93,1901037,758.6,3.07,86,83.0
+THC,Healthcare,Medical Care Facilities,7.9,262.63,1393249,398.3,1.09,86,69.4
+VFC,Consumer Cyclical,Apparel Manufacturing,6.6,18.25,7826365,194.1,1.36,81,67.8
+SONO,Technology,Consumer Electronics,7.3,16.8,1957770,40.3,1.23,80,66.2
+BLFS,Healthcare,Medical Instruments & Supplies,7.4,31.98,1215799,86.4,2.22,78,79.1
+AMBP,Consumer Cyclical,Packaging & Containers,7.6,5.21,2409674,44.1,3.51,76,66.2
+RERE,Consumer Cyclical,Internet Retail,5.1,4.33,1153892,8.7,1.75,74,44.3
+CRL,Healthcare,Diagnostics & Research,7.2,240.43,899878,243.0,1.12,72,66.7
+HAS,Consumer Cyclical,Leisure,6.3,96.34,2335672,364.4,1.62,69,42.0
+JBLU,Industrials,Airlines,10.5,6.0,30080360,513.1,2.84,68,55.0
+IQV,Healthcare,Diagnostics & Research,13.9,242.94,1610108,1135.8,2.9,65,57.2
+ATRC,Healthcare,Medical Instruments & Supplies,6.4,39.75,919148,41.5,1.14,65,56.7
+AXTA,Basic Materials,Specialty Chemicals,5.0,35.44,2372711,89.5,1.06,64,42.1
+TDOC,Healthcare,Health Information Services,5.1,9.36,4297451,45.5,1.13,64,112.7
+OPK,Healthcare,Diagnostics & Research,33.1,1.65,3625139,56.7,9.49,62,68.4
+PAY,Technology,Software - Infrastructure,8.4,34.14,1111555,38.4,1.01,62,69.8
