@@ -1,26 +1,23 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-FTRE,Healthcare,Biotechnology,7.8,20.7,1369690,67.0,2.36,97,293.2
-DFNS,Industrials,Aerospace & Defense,83.2,24.0,25015831,671.0,1.12,97,57042.9
-KNSA,Healthcare,Drug Manufacturers - Specialty & Generic,25.0,79.44,787237,225.5,3.61,95,171.7
-LIND,Consumer Cyclical,Travel Services,5.9,29.74,887180,29.9,1.13,95,161.6
-RNG,Technology,Software - Application,6.0,56.93,1872352,144.7,1.36,93,142.1
-OSCR,Healthcare,Healthcare Plans,10.8,31.4,6440039,203.8,1.01,93,193.7
-BVS,Healthcare,Medical Devices,6.1,13.21,709542,12.0,1.28,91,127.4
-NUE,Basic Materials,Steel,7.2,265.62,1585928,683.0,1.62,90,104.2
-LILA,Communication Services,Telecom Services,6.6,8.31,868902,8.2,1.14,89,85.5
-INCY,Healthcare,Biotechnology,9.3,129.93,1901037,758.6,3.07,86,83.0
-THC,Healthcare,Medical Care Facilities,7.9,262.63,1393249,398.3,1.09,86,69.4
-VFC,Consumer Cyclical,Apparel Manufacturing,6.6,18.25,7826365,194.1,1.36,81,67.8
-SONO,Technology,Consumer Electronics,7.3,16.8,1957770,40.3,1.23,80,66.2
-BLFS,Healthcare,Medical Instruments & Supplies,7.4,31.98,1215799,86.4,2.22,78,79.1
-AMBP,Consumer Cyclical,Packaging & Containers,7.6,5.21,2409674,44.1,3.51,76,66.2
-RERE,Consumer Cyclical,Internet Retail,5.1,4.33,1153892,8.7,1.75,74,44.3
-CRL,Healthcare,Diagnostics & Research,7.2,240.43,899878,243.0,1.12,72,66.7
-HAS,Consumer Cyclical,Leisure,6.3,96.34,2335672,364.4,1.62,69,42.0
-JBLU,Industrials,Airlines,10.5,6.0,30080360,513.1,2.84,68,55.0
-IQV,Healthcare,Diagnostics & Research,13.9,242.94,1610108,1135.8,2.9,65,57.2
-ATRC,Healthcare,Medical Instruments & Supplies,6.4,39.75,919148,41.5,1.14,65,56.7
-AXTA,Basic Materials,Specialty Chemicals,5.0,35.44,2372711,89.5,1.06,64,42.1
-TDOC,Healthcare,Health Information Services,5.1,9.36,4297451,45.5,1.13,64,112.7
-OPK,Healthcare,Diagnostics & Research,33.1,1.65,3625139,56.7,9.49,62,68.4
-PAY,Technology,Software - Infrastructure,8.4,34.14,1111555,38.4,1.01,62,69.8
+NEO,Healthcare,Diagnostics & Research,14.0,15.27,2888507,128.6,2.92,97,223.5
+QURE,Healthcare,Biotechnology,9.3,40.07,2088576,152.0,1.82,96,359.0
+CGAU,Basic Materials,Gold,6.0,17.03,1512611,43.3,1.68,95,155.3
+TEVA,Healthcare,Drug Manufacturers - Specialty & Generic,9.6,34.71,5779053,585.1,2.92,92,131.6
+CVE,Energy,Oil & Gas Integrated,5.1,29.07,8094436,262.3,1.11,91,103.1
+YOU,Technology,Software - Application,8.5,58.39,1365325,125.3,1.57,91,109.3
+WTI,Energy,Oil & Gas E&P,11.0,3.53,4838217,19.6,1.15,91,136.6
+DDOG,Technology,Software - Application,5.3,264.2,5067875,1736.2,1.3,88,169.6
+GKOS,Healthcare,Medical Devices,6.8,161.66,1052668,502.0,2.95,87,121.0
+EQNR,Energy,Oil & Gas Integrated,7.0,40.95,3966853,173.8,1.07,86,88.3
+CLDX,Healthcare,Biotechnology,5.4,37.51,1049187,59.0,1.5,86,90.2
+CHEF,Consumer Defensive,Food Distribution,5.4,105.63,550267,160.0,2.75,84,98.6
+CAKE,Consumer Cyclical,Restaurants,13.6,101.14,1414505,543.8,3.8,83,137.1
+NP,その他,,10.1,35.11,874892,56.1,1.83,77,137.6
+NVST,Healthcare,Medical Instruments & Supplies,5.2,28.37,2945869,157.1,1.88,77,51.1
+ASH,Basic Materials,Specialty Chemicals,7.1,72.84,1011608,206.2,2.8,76,60.8
+ALLO,Healthcare,Biotechnology,9.0,1.81,8534375,22.6,1.46,76,84.7
+GRMN,Technology,Scientific & Technical Instruments,16.2,294.83,908771,926.3,3.46,73,59.9
+EDU,Consumer Defensive,Education & Training Services,15.3,58.58,604409,84.3,2.38,72,42.4
+PAY,Technology,Software - Infrastructure,7.5,36.7,1125911,43.0,1.04,71,82.5
+STAA,Healthcare,Medical Instruments & Supplies,5.3,23.87,813446,19.8,1.02,71,53.1
+CRGY,Energy,Oil & Gas E&P,6.0,11.05,6301224,70.0,1.01,63,46.7
