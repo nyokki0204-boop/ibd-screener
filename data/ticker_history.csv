@@ -843,56 +843,111 @@
 2026-08-05,SKY,Consumer Cyclical,Residential Construction,10.7,91.16,763091,119.2,1.71,67,43.1
 2026-08-05,WPM,Basic Materials,Gold,6.4,122.82,1990622,402.6,1.65,62,35.5
 2026-08-05,GFI,Basic Materials,Gold,9.3,37.29,3789176,200.1,1.42,61,31.2
-2026-08-07,AXTI,Technology,Semiconductor Equipment & Materials,9.6,75.17,10164383,815.7,1.07,99,3603.0
-2026-08-07,CLYM,Healthcare,Biotechnology,12.3,14.0,1358549,20.0,1.05,99,809.1
-2026-08-07,TSEM,Technology,Semiconductors,6.4,224.7,2011551,490.8,1.09,98,393.7
-2026-08-07,PYXS,Healthcare,Biotechnology,19.8,3.75,1031713,4.7,1.21,97,286.6
-2026-08-07,SIMO,Technology,Semiconductors,8.4,267.43,981655,316.8,1.21,97,279.2
-2026-08-07,APPS,Technology,Software - Application,8.4,14.27,7035177,115.6,1.15,96,420.8
-2026-08-07,ATI,Industrials,Metal Fabrication,8.9,223.43,1730922,693.6,1.79,96,217.3
-2026-08-07,AMLX,Healthcare,Drug Manufacturers - Specialty & Generic,10.7,24.19,1767546,81.2,1.9,96,223.4
-2026-08-07,PTGX,Healthcare,Biotechnology,6.5,146.18,746237,120.3,1.1,95,189.6
-2026-08-07,ZTG,その他,,47.8,10.05,634227,23.2,3.64,95,822.0
-2026-08-07,TIGO,Communication Services,Telecom Services,13.6,104.31,1901247,340.0,1.71,95,192.5
-2026-08-07,GCT,Technology,Software - Infrastructure,13.3,52.4,714426,134.3,3.59,93,141.6
-2026-08-07,IOVA,Healthcare,Biotechnology,43.1,6.21,16074060,450.4,4.51,93,252.8
-2026-08-07,HP,Energy,Oil & Gas Drilling,11.4,37.07,1188299,85.0,1.93,93,148.0
-2026-08-07,REPL,Healthcare,Biotechnology,8.7,12.86,6079212,87.3,1.12,93,757.3
-2026-08-07,TROX,Basic Materials,Chemicals,18.8,6.95,2716707,33.0,1.75,92,149.8
-2026-08-07,DIOD,Technology,Semiconductors,15.3,98.72,617073,77.7,1.28,91,133.5
-2026-08-07,CLRO,Technology,Communication Equipment,166.3,9.8,5335409,632.1,12.09,91,261.6
-2026-08-07,PAYS,Technology,Software - Infrastructure,29.3,12.4,633397,41.1,5.23,91,302.6
-2026-08-07,CLOV,Healthcare,Healthcare Plans,12.6,4.66,7159748,54.1,1.62,91,194.9
-2026-08-07,AEVA,Technology,Software - Infrastructure,28.8,25.26,2196169,211.5,3.81,90,186.1
-2026-08-07,PEPG,Healthcare,Biotechnology,21.7,2.41,894249,10.6,4.92,90,138.6
-2026-08-07,APA,Energy,Oil & Gas E&P,5.4,36.53,5522411,289.6,1.44,89,100.7
-2026-08-07,VAC,Consumer Cyclical,Resorts & Casinos,22.6,124.75,500096,208.9,3.35,87,190.0
-2026-08-07,ALB,Basic Materials,Specialty Chemicals,5.5,125.42,2387198,451.9,1.51,87,82.1
-2026-08-07,AREC,Basic Materials,Coking Coal,6.1,2.27,3032571,6.9,1.01,86,92.4
-2026-08-07,TPC,Industrials,Engineering & Construction,13.3,95.77,790451,121.0,1.6,86,78.4
-2026-08-07,LIFE,その他,,7.5,29.81,729507,78.4,3.61,86,215.4
-2026-08-07,HLX,Energy,Oil & Gas Equipment & Services,5.3,9.81,1513178,15.1,1.02,84,75.8
-2026-08-07,SRRK,Healthcare,Biotechnology,10.0,52.64,1396480,84.0,1.14,84,94.5
-2026-08-07,SHC,Healthcare,Diagnostics & Research,5.2,18.91,2834313,110.7,2.07,84,70.1
-2026-08-07,VCTR,Financial Services,Asset Management,6.8,106.79,524578,113.9,2.03,83,91.1
-2026-08-07,FTDR,Consumer Cyclical,Personal Services,17.7,89.92,609860,79.9,1.46,81,85.5
-2026-08-07,ABCL,Healthcare,Biotechnology,10.3,6.53,6643125,53.0,1.22,79,137.9
-2026-08-07,DCTH,Healthcare,Medical Devices,22.5,15.47,532353,46.2,5.61,78,90.5
-2026-08-07,UROY,Energy,Uranium,11.2,3.96,3042174,16.8,1.39,77,57.8
-2026-08-07,HNST,Consumer Defensive,Household & Personal Products,40.8,5.42,1720596,108.1,11.59,75,161.8
-2026-08-07,NOVT,Technology,Scientific & Technical Instruments,6.7,163.32,546523,208.0,2.33,75,66.2
-2026-08-07,MATV,Basic Materials,Specialty Chemicals,22.0,11.68,520876,12.6,2.07,75,65.2
-2026-08-07,TDW,Energy,Oil & Gas Equipment & Services,5.4,81.57,762701,68.8,1.11,75,74.9
-2026-08-07,AUPH,Healthcare,Biotechnology,6.2,16.13,1562449,35.6,1.41,73,56.0
-2026-08-07,FA,Industrials,Specialty Business Services,17.3,24.12,1918649,114.0,2.46,71,173.5
-2026-08-07,TARS,Healthcare,Biotechnology,6.6,65.33,1018409,107.7,1.62,70,46.2
-2026-08-07,OPRT,Financial Services,Credit Services,32.8,8.05,598159,19.7,4.1,70,99.8
-2026-08-07,VRDN,Healthcare,Biotechnology,6.8,22.51,2033583,95.9,2.1,70,70.8
-2026-08-07,RELY,Technology,Software - Infrastructure,7.7,25.93,3737355,211.5,2.18,70,114.7
-2026-08-07,CRON,Healthcare,Drug Manufacturers - Specialty & Generic,12.9,3.07,1107118,17.4,5.12,69,43.5
-2026-08-07,USFD,Consumer Defensive,Food Distribution,6.4,106.97,2791583,417.2,1.4,68,53.1
-2026-08-07,AVNT,Basic Materials,Specialty Chemicals,12.5,42.65,891158,81.9,2.15,67,59.0
-2026-08-07,ITT,Industrials,Specialty Industrial Machinery,5.1,214.41,997047,518.2,2.42,66,31.8
-2026-08-07,SBGI,Communication Services,Broadcasting,6.1,14.76,533707,21.7,2.75,64,32.9
-2026-08-07,ALEC,Healthcare,Biotechnology,22.8,1.83,825791,10.4,6.9,62,67.9
-2026-08-07,ZIP,Communication Services,Internet Content & Information,10.1,4.68,702880,5.3,1.6,60,183.6
+2026-08-07,AXTI,Technology,Semiconductor Equipment & Materials,17.8,88.58,10379442,1687.7,1.84,99,4221.0
+2026-08-07,HYMC,Basic Materials,Gold,11.5,26.54,2044667,58.4,1.08,99,694.6
+2026-08-07,TE,Industrials,Electrical Equipment & Parts,5.4,5.85,39665634,313.3,1.35,98,387.5
+2026-08-07,AAOI,Technology,Communication Equipment,9.2,135.63,12126062,3241.3,1.97,98,633.1
+2026-08-07,TSEM,Technology,Semiconductors,12.4,252.49,2025448,541.4,1.06,98,454.8
+2026-08-07,TXG,Healthcare,Health Information Services,14.1,52.03,3241393,269.9,1.6,98,366.2
+2026-08-07,CGAU,Basic Materials,Gold,7.2,21.24,1605799,47.6,1.4,96,218.4
+2026-08-07,XFOR,Healthcare,Biotechnology,11.3,4.64,781878,7.4,2.03,96,243.7
+2026-08-07,FATE,Healthcare,Biotechnology,12.4,2.8,3755700,11.2,1.07,96,207.7
+2026-08-07,AUGO,その他,,13.0,74.13,1110226,96.0,1.17,95,204.1
+2026-08-07,PEPG,Healthcare,Biotechnology,18.3,2.85,946626,9.2,3.39,94,182.2
+2026-08-07,ERO,Basic Materials,Copper,10.3,34.31,1165051,92.7,2.32,93,156.6
+2026-08-07,IAG,Basic Materials,Gold,14.3,18.32,5589554,215.3,2.1,93,157.7
+2026-08-07,NRGV,Utilities,Utilities - Renewable,17.9,3.49,5635764,64.6,3.29,93,190.8
+2026-08-07,FNKO,Consumer Cyclical,Leisure,11.4,5.88,831626,19.1,3.91,93,164.9
+2026-08-07,TWLO,Technology,Software - Infrastructure,24.9,241.28,2379548,1959.1,3.41,93,162.7
+2026-08-07,LAR,Basic Materials,Other Industrial Metals & Mining,5.3,6.94,1811311,15.4,1.22,93,156.1
+2026-08-07,IFRX,Healthcare,Biotechnology,7.0,1.84,1154953,2.1,1.01,92,136.2
+2026-08-07,CENX,Basic Materials,Aluminum,11.5,51.23,2238167,187.6,1.64,92,145.0
+2026-08-07,FIGS,Consumer Cyclical,Apparel Manufacturing,26.9,14.26,3235276,160.5,3.48,92,135.1
+2026-08-07,GRAL,Healthcare,Diagnostics & Research,9.6,69.48,719050,113.9,2.28,91,132.0
+2026-08-07,HL,Basic Materials,Other Precious Metals & Mining,6.2,16.85,33993864,611.6,1.07,91,134.6
+2026-08-07,SSRM,Basic Materials,Gold,10.5,31.78,3317198,131.3,1.25,90,116.6
+2026-08-07,AEVA,Technology,Software - Infrastructure,5.4,26.62,2150941,71.4,1.25,90,201.5
+2026-08-07,FROG,Technology,Software - Application,7.8,89.52,2910536,391.0,1.5,90,162.9
+2026-08-07,DIOD,Technology,Semiconductors,6.5,105.17,608882,66.0,1.03,90,148.7
+2026-08-07,AMN,Healthcare,Medical Care Facilities,16.9,36.0,940580,46.8,1.38,90,142.1
+2026-08-07,TNDM,Healthcare,Medical Devices,19.1,22.38,2294073,119.4,2.33,89,123.8
+2026-08-07,MUX,Basic Materials,Other Precious Metals & Mining,5.1,19.19,1144817,22.5,1.02,88,95.4
+2026-08-07,B,Basic Materials,Gold,5.6,43.68,10463909,625.2,1.37,88,101.9
+2026-08-07,SA,Basic Materials,Gold,7.3,31.13,767922,31.0,1.3,88,97.3
+2026-08-07,KGS,Energy,Oil & Gas Equipment & Services,5.3,59.9,1851023,164.8,1.49,88,101.2
+2026-08-07,YJ,Consumer Cyclical,Internet Retail,176.4,3.4,1025506,171.9,49.31,88,206.3
+2026-08-07,LIFE,その他,,6.0,31.61,751102,48.6,2.04,87,234.5
+2026-08-07,ALOY,Basic Materials,Other Industrial Metals & Mining,14.8,12.27,3107272,47.0,1.23,87,117.6
+2026-08-07,MITK,Technology,Software - Application,10.0,18.49,940463,38.0,2.19,87,116.8
+2026-08-07,USAS,Basic Materials,Other Industrial Metals & Mining,7.3,5.01,4139655,27.5,1.33,87,130.3
+2026-08-07,OSCR,Healthcare,Healthcare Plans,5.1,27.9,6282676,291.9,1.67,86,161.0
+2026-08-07,NUGT,その他,,14.0,160.84,695573,179.5,1.6,86,88.7
+2026-08-07,EQX,Basic Materials,Gold,7.8,11.58,14944729,361.7,2.09,86,84.5
+2026-08-07,AU,Basic Materials,Gold,9.9,96.22,3256803,326.2,1.04,86,95.1
+2026-08-07,CEVA,Technology,Semiconductors,8.7,38.67,850957,53.6,1.63,86,127.2
+2026-08-07,ASM,Basic Materials,Other Precious Metals & Mining,7.8,6.88,3689110,37.1,1.46,86,89.5
+2026-08-07,EXK,Basic Materials,Silver,8.0,9.54,6668745,68.6,1.08,85,88.2
+2026-08-07,SSP,Communication Services,Broadcasting,12.5,3.32,748121,6.4,2.56,85,118.6
+2026-08-07,EGO,Basic Materials,Gold,5.5,37.92,2725149,111.0,1.07,84,76.7
+2026-08-07,AREC,Basic Materials,Coking Coal,20.7,2.74,3077184,14.8,1.76,84,132.2
+2026-08-07,LUMN,Communication Services,Telecom Services,5.8,6.24,13770896,118.8,1.38,83,69.1
+2026-08-07,NEM,Basic Materials,Gold,7.2,112.98,8315743,1046.4,1.11,83,70.1
+2026-08-07,AA,Basic Materials,Aluminum,5.7,50.17,5842119,296.9,1.01,83,74.5
+2026-08-07,GFS,Technology,Semiconductors,7.1,53.93,4058176,296.5,1.35,83,71.4
+2026-08-07,GDXJ,その他,,7.5,117.62,5936387,1186.4,1.7,83,71.9
+2026-08-07,PAAS,Basic Materials,Gold,6.6,51.22,4408894,270.2,1.2,82,68.4
+2026-08-07,HALO,Healthcare,Biotechnology,20.2,103.12,1932543,776.5,3.9,82,68.4
+2026-08-07,SIL,その他,,6.3,88.5,1281215,198.3,1.75,82,72.5
+2026-08-07,PUBM,Technology,Software - Application,31.9,17.78,606892,58.4,5.41,82,189.1
+2026-08-07,CRSR,Technology,Computer Hardware,35.2,14.35,2871770,136.4,3.31,81,220.3
+2026-08-07,CON,Healthcare,Medical Care Facilities,11.5,34.06,990843,69.4,2.06,81,85.2
+2026-08-07,HNGE,その他,,11.6,89.33,2069716,194.0,1.05,80,197.0
+2026-08-07,OABI,Healthcare,Biotechnology,37.5,3.08,560775,7.6,4.38,80,136.9
+2026-08-07,FSM,Basic Materials,Gold,8.7,10.39,5311084,71.1,1.29,80,64.1
+2026-08-07,EGY,Energy,Oil & Gas E&P,7.6,5.55,1313182,11.3,1.54,80,68.8
+2026-08-07,AQB,Consumer Defensive,Farm Products,9.3,1.17,553353,16.5,25.56,80,67.1
+2026-08-07,GDX,その他,,7.1,89.89,22912038,3919.4,1.9,80,60.7
+2026-08-07,CRML,Basic Materials,Other Industrial Metals & Mining,10.7,7.25,6081970,66.7,1.51,80,83.1
+2026-08-07,EXFY,Technology,Software - Application,35.9,2.69,1608031,15.6,3.61,80,289.3
+2026-08-07,TILE,Consumer Cyclical,"Furnishings, Fixtures & Appliances",9.1,38.29,534418,44.8,2.19,79,57.1
+2026-08-07,RDW,Industrials,Aerospace & Defense,14.9,13.59,30803808,446.0,1.07,78,179.1
+2026-08-07,ASH,Basic Materials,Specialty Chemicals,5.5,76.45,981241,134.5,1.79,78,68.8
+2026-08-07,CDE,Basic Materials,Gold,11.1,17.39,37662642,866.0,1.32,77,59.4
+2026-08-07,MTZ,Industrials,Engineering & Construction,5.3,272.46,1381032,396.4,1.05,77,62.5
+2026-08-07,WOLF,その他,,19.1,32.87,5588827,205.0,1.12,77,308.3
+2026-08-07,ZD,Communication Services,Advertising Agencies,5.7,53.87,649905,78.1,2.23,76,140.0
+2026-08-07,UUUU,Energy,Uranium,9.6,14.14,9146275,169.0,1.31,76,73.3
+2026-08-07,ABNB,Consumer Cyclical,Travel Services,17.4,178.07,3982580,2760.7,3.89,76,60.7
+2026-08-07,DC,Basic Materials,Gold,8.7,6.0,1596154,9.8,1.03,76,60.4
+2026-08-07,KGC,Basic Materials,Gold,7.9,27.64,8586353,344.4,1.45,75,50.4
+2026-08-07,AVNT,Basic Materials,Specialty Chemicals,7.1,45.69,906563,63.5,1.53,74,70.4
+2026-08-07,VISN,Technology,Communication Equipment,8.3,10.94,6333638,176.2,2.54,74,53.0
+2026-08-07,BTG,Basic Materials,Gold,23.0,5.03,23329723,347.9,2.96,73,46.7
+2026-08-07,NRXP,Healthcare,Biotechnology,15.9,3.58,1196634,20.1,4.7,73,121.0
+2026-08-07,MATV,Basic Materials,Specialty Chemicals,10.4,12.89,539028,16.3,2.34,73,82.3
+2026-08-07,MCHP,Technology,Semiconductors,13.9,84.69,12309203,1600.8,1.54,72,78.0
+2026-08-07,FIVN,Technology,Software - Infrastructure,19.8,33.99,3141396,265.1,2.48,71,155.8
+2026-08-07,HLF,Consumer Defensive,Packaged Foods,7.3,12.35,1660979,28.1,1.37,71,63.4
+2026-08-07,QNST,Communication Services,Advertising Agencies,38.5,21.08,778418,101.6,6.19,71,104.9
+2026-08-07,GTN,Communication Services,Broadcasting,25.5,5.37,1338660,21.9,3.04,71,63.9
+2026-08-07,RGLD,Basic Materials,Gold,5.4,229.92,739397,193.6,1.14,70,41.3
+2026-08-07,EYPT,Healthcare,Biotechnology,8.3,13.89,1503995,22.7,1.08,69,43.9
+2026-08-07,FLR,Industrials,Engineering & Construction,16.9,57.0,2578829,420.8,2.86,69,44.9
+2026-08-07,RDNT,Healthcare,Diagnostics & Research,6.2,72.39,878830,106.4,1.67,68,42.4
+2026-08-07,AEM,Basic Materials,Gold,6.5,178.82,2908296,816.0,1.57,67,38.8
+2026-08-07,GEVO,Basic Materials,Specialty Chemicals,9.0,1.57,3565864,7.9,1.41,67,36.5
+2026-08-07,GFI,Basic Materials,Gold,9.3,40.82,3908341,243.1,1.52,67,43.7
+2026-08-07,WPM,Basic Materials,Gold,7.1,134.2,2056711,417.3,1.51,67,48.0
+2026-08-07,CARG,Consumer Cyclical,Auto & Truck Dealerships,7.2,38.99,1316825,85.0,1.66,67,47.7
+2026-08-07,NG,Basic Materials,Gold,10.0,7.59,4753293,47.3,1.31,67,49.4
+2026-08-07,AIRJ,Industrials,Building Products & Equipment,5.9,5.92,1839407,15.0,1.38,66,166.7
+2026-08-07,LYFT,Technology,Software - Application,7.1,17.46,12886190,376.9,1.68,65,40.1
+2026-08-07,U,Technology,Software - Application,5.4,43.0,9216454,796.4,2.01,64,156.3
+2026-08-07,PRAA,Financial Services,Credit Services,9.0,19.79,646042,21.5,1.68,63,93.1
+2026-08-07,ZIP,Communication Services,Internet Content & Information,9.8,5.14,726856,9.1,2.43,63,211.5
+2026-08-07,CMP,Basic Materials,Other Industrial Metals & Mining,6.6,27.35,514106,21.2,1.51,62,66.8
+2026-08-07,AGI,Basic Materials,Gold,6.6,33.15,5015680,246.0,1.48,62,31.2
+2026-08-07,KRMN,Industrials,Aerospace & Defense,5.6,58.23,3902933,294.4,1.3,62,33.3
+2026-08-07,HMY,Basic Materials,Gold,9.1,19.7,3673443,108.0,1.49,62,59.6
+2026-08-07,SBSW,Basic Materials,Other Precious Metals & Mining,7.6,10.64,5418266,70.8,1.23,60,54.2
+2026-08-07,OMDA,その他,,21.1,23.67,1308780,114.4,3.69,60,130.3
