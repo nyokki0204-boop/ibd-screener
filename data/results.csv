@@ -1,29 +1,37 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-ANRO,Healthcare,Biotechnology,10.7,32.3,558912,29.9,1.65,99,969.5
-OMER,Healthcare,Biotechnology,26.5,17.35,2118446,231.7,6.3,98,340.4
-ATRO,Industrials,Aerospace & Defense,5.4,92.61,763140,140.4,1.99,97,256.6
-FGI,Consumer Cyclical,"Furnishings, Fixtures & Appliances",147.8,11.72,2080476,1189.8,48.8,96,273.2
-QMCO,Technology,Computer Hardware,12.5,24.68,1674021,107.8,2.61,96,489.0
-ACHV,Healthcare,Biotechnology,8.4,7.25,1902243,20.0,1.45,95,194.7
-HYLN,Consumer Cyclical,Auto Parts,5.7,4.11,4466311,27.2,1.48,93,179.6
-FOSL,Consumer Cyclical,Footwear & Accessories,5.9,5.58,974976,13.2,2.42,93,228.2
-ABCL,Healthcare,Biotechnology,5.9,10.97,7926815,208.6,2.4,93,299.6
-FROG,Technology,Software - Application,10.6,95.15,2881708,296.3,1.08,92,179.4
-ENS,Industrials,Electrical Equipment & Parts,5.7,197.38,544694,268.8,2.5,90,104.8
-P,Technology,Computer Hardware,5.3,117.35,2957160,418.8,1.21,90,115.8
-CADL,Healthcare,Biotechnology,10.5,11.8,1655345,24.8,1.27,89,171.3
-TBBB,Consumer Defensive,Discount Stores,16.3,49.2,632375,151.9,4.88,88,106.6
-ZIM,Industrials,Marine Shipping,6.1,26.82,1211237,105.2,3.24,83,124.9
-PATH,Technology,Software - Infrastructure,9.3,16.68,67915946,1743.8,1.54,81,81.3
-AVAH,Healthcare,Medical Care Facilities,24.8,11.29,2309723,113.6,4.36,81,90.4
-FBIO,Healthcare,Biotechnology,8.4,2.98,625189,4.2,2.23,79,56.0
-HLIT,Technology,Communication Equipment,9.0,13.08,2139725,89.9,3.21,77,54.4
-OSUR,Healthcare,Medical Instruments & Supplies,7.2,4.02,531619,2.8,1.33,76,93.3
-S,Technology,Software - Infrastructure,6.9,23.84,6817766,173.2,1.07,76,101.9
-FA,Industrials,Specialty Business Services,5.8,22.2,2314202,150.9,2.94,69,151.7
-BILL,Technology,Software - Application,5.4,51.31,2567479,230.5,1.75,67,63.4
-DBX,Technology,Software - Infrastructure,6.8,35.93,4088335,187.8,1.28,66,65.6
-UAMY,Basic Materials,Other Industrial Metals & Mining,7.4,5.34,7172005,58.8,1.53,66,39.8
-RBRK,Technology,Software - Infrastructure,8.6,105.09,3590976,462.5,1.23,62,148.7
-AMPY,Energy,Oil & Gas E&P,10.0,4.83,860415,26.4,6.35,61,32.3
-HPQ,Technology,Computer Hardware,6.9,31.3,15899440,733.5,1.47,60,83.3
+AEHR,Technology,Semiconductor Equipment & Materials,8.7,134.06,2551817,438.1,1.28,99,718.4
+CLYM,Healthcare,Biotechnology,10.9,16.33,1370649,40.6,1.81,99,960.4
+BW,Industrials,Specialty Industrial Machinery,10.1,10.29,4281758,76.9,1.74,98,635.0
+AAOI,Technology,Communication Equipment,15.5,150.28,12321530,2798.0,1.51,98,712.3
+LPTH,Technology,Electronic Components,15.6,15.17,3129365,92.7,1.95,98,351.5
+SIMO,Technology,Semiconductors,7.9,268.9,1040203,299.6,1.07,97,282.1
+QMCO,Technology,Computer Hardware,5.8,26.11,1662741,111.5,2.57,97,523.2
+CIFR,Technology,Information Technology Services,7.4,17.85,28249316,671.1,1.33,97,257.1
+ETON,Healthcare,Drug Manufacturers - Specialty & Generic,44.3,58.86,511182,134.8,4.48,97,312.5
+NBIS,Communication Services,Internet Content & Information,8.9,277.68,21616786,8005.4,1.33,97,347.8
+UMAC,Technology,Computer Hardware,25.0,34.06,4651971,532.9,3.36,97,370.1
+IOVA,Healthcare,Biotechnology,7.1,6.98,16671234,121.3,1.04,95,296.6
+KOPN,Technology,Electronic Components,13.9,5.5,5568723,32.4,1.06,95,227.4
+ONFO,Communication Services,Internet Content & Information,12.1,2.59,29446118,216.1,2.83,94,6217.1
+LTRX,Technology,Communication Equipment,6.2,6.47,1089857,8.2,1.16,92,126.2
+ALOY,Basic Materials,Other Industrial Metals & Mining,13.7,14.72,3123975,75.2,1.64,91,161.0
+OSCR,Healthcare,Healthcare Plans,6.4,32.76,6237557,215.8,1.06,91,206.5
+LUNR,Industrials,Aerospace & Defense,8.3,19.01,11606155,356.9,1.62,91,144.3
+DIOD,Technology,Semiconductors,6.5,103.48,614312,229.3,3.61,89,144.7
+SGML,Basic Materials,Other Industrial Metals & Mining,5.8,11.99,1946853,51.0,2.18,88,159.8
+NBIL,その他,,17.8,39.64,3256815,170.6,1.32,87,522.3
+AVAH,Healthcare,Medical Care Facilities,9.1,12.32,2396034,89.7,3.04,86,107.8
+MYO,Healthcare,Medical Devices,17.8,1.72,904644,2.5,1.58,86,184.3
+NNBR,Industrials,Conglomerates,8.0,3.9,4174856,26.7,1.64,85,254.5
+CDNL,その他,,13.7,39.42,814792,53.0,1.65,84,79.3
+VUZI,Technology,Consumer Electronics,17.4,3.1,1275979,8.8,2.22,80,69.4
+HLIT,Technology,Communication Equipment,6.4,13.92,2102186,37.4,1.28,80,64.3
+LUNG,Healthcare,Medical Devices,12.0,2.42,618560,2.1,1.38,80,114.2
+ABX,Financial Services,Insurance - Life,8.8,9.27,648643,8.6,1.44,78,91.1
+KURA,Healthcare,Biotechnology,7.6,10.86,1607094,20.1,1.15,77,56.3
+VERA,Healthcare,Biotechnology,9.5,31.63,2146154,185.0,2.73,76,49.6
+CEVA,Technology,Semiconductors,9.6,33.28,844994,54.0,1.92,74,95.5
+SGMT,Healthcare,Biotechnology,13.7,10.55,1258093,28.0,2.11,71,134.4
+HTFL,その他,,35.7,42.08,1705845,416.5,5.8,70,109.0
+EYPT,Healthcare,Biotechnology,9.4,14.75,1587455,36.9,1.58,68,52.8
+RCAT,Industrials,Aerospace & Defense,8.8,11.13,10612574,202.6,1.72,68,92.9
