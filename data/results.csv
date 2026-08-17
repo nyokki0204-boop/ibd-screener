@@ -1,37 +1,20 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AEHR,Technology,Semiconductor Equipment & Materials,8.7,134.06,2551817,438.1,1.28,99,718.4
-CLYM,Healthcare,Biotechnology,10.9,16.33,1370649,40.6,1.81,99,960.4
-BW,Industrials,Specialty Industrial Machinery,10.1,10.29,4281758,76.9,1.74,98,635.0
-AAOI,Technology,Communication Equipment,15.5,150.28,12321530,2798.0,1.51,98,712.3
-LPTH,Technology,Electronic Components,15.6,15.17,3129365,92.7,1.95,98,351.5
-SIMO,Technology,Semiconductors,7.9,268.9,1040203,299.6,1.07,97,282.1
-QMCO,Technology,Computer Hardware,5.8,26.11,1662741,111.5,2.57,97,523.2
-CIFR,Technology,Information Technology Services,7.4,17.85,28249316,671.1,1.33,97,257.1
-ETON,Healthcare,Drug Manufacturers - Specialty & Generic,44.3,58.86,511182,134.8,4.48,97,312.5
-NBIS,Communication Services,Internet Content & Information,8.9,277.68,21616786,8005.4,1.33,97,347.8
-UMAC,Technology,Computer Hardware,25.0,34.06,4651971,532.9,3.36,97,370.1
-IOVA,Healthcare,Biotechnology,7.1,6.98,16671234,121.3,1.04,95,296.6
-KOPN,Technology,Electronic Components,13.9,5.5,5568723,32.4,1.06,95,227.4
-ONFO,Communication Services,Internet Content & Information,12.1,2.59,29446118,216.1,2.83,94,6217.1
-LTRX,Technology,Communication Equipment,6.2,6.47,1089857,8.2,1.16,92,126.2
-ALOY,Basic Materials,Other Industrial Metals & Mining,13.7,14.72,3123975,75.2,1.64,91,161.0
-OSCR,Healthcare,Healthcare Plans,6.4,32.76,6237557,215.8,1.06,91,206.5
-LUNR,Industrials,Aerospace & Defense,8.3,19.01,11606155,356.9,1.62,91,144.3
-DIOD,Technology,Semiconductors,6.5,103.48,614312,229.3,3.61,89,144.7
-SGML,Basic Materials,Other Industrial Metals & Mining,5.8,11.99,1946853,51.0,2.18,88,159.8
-NBIL,その他,,17.8,39.64,3256815,170.6,1.32,87,522.3
-AVAH,Healthcare,Medical Care Facilities,9.1,12.32,2396034,89.7,3.04,86,107.8
-MYO,Healthcare,Medical Devices,17.8,1.72,904644,2.5,1.58,86,184.3
-NNBR,Industrials,Conglomerates,8.0,3.9,4174856,26.7,1.64,85,254.5
-CDNL,その他,,13.7,39.42,814792,53.0,1.65,84,79.3
-VUZI,Technology,Consumer Electronics,17.4,3.1,1275979,8.8,2.22,80,69.4
-HLIT,Technology,Communication Equipment,6.4,13.92,2102186,37.4,1.28,80,64.3
-LUNG,Healthcare,Medical Devices,12.0,2.42,618560,2.1,1.38,80,114.2
-ABX,Financial Services,Insurance - Life,8.8,9.27,648643,8.6,1.44,78,91.1
-KURA,Healthcare,Biotechnology,7.6,10.86,1607094,20.1,1.15,77,56.3
-VERA,Healthcare,Biotechnology,9.5,31.63,2146154,185.0,2.73,76,49.6
-CEVA,Technology,Semiconductors,9.6,33.28,844994,54.0,1.92,74,95.5
-SGMT,Healthcare,Biotechnology,13.7,10.55,1258093,28.0,2.11,71,134.4
-HTFL,その他,,35.7,42.08,1705845,416.5,5.8,70,109.0
-EYPT,Healthcare,Biotechnology,9.4,14.75,1587455,36.9,1.58,68,52.8
-RCAT,Industrials,Aerospace & Defense,8.8,11.13,10612574,202.6,1.72,68,92.9
+AXTI,Technology,Semiconductor Equipment & Materials,17.6,95.97,10752207,1462.4,1.42,99,4558.7
+CLYM,Healthcare,Biotechnology,6.8,17.44,1371313,31.8,1.33,99,1032.5
+MRAM,Technology,Semiconductors,5.1,19.85,1586339,37.9,1.2,96,238.7
+SMTC,Technology,Semiconductors,9.9,154.22,3226288,575.8,1.16,96,235.1
+KYTX,Healthcare,Biotechnology,9.5,8.95,1054032,10.1,1.07,94,173.7
+PTEN,Energy,Oil & Gas Drilling,7.4,12.22,9406176,119.2,1.04,93,148.0
+PGEN,Healthcare,Biotechnology,7.4,6.55,5319040,41.1,1.18,92,150.0
+LUNR,Industrials,Aerospace & Defense,7.2,20.38,11754308,406.0,1.69,92,162.0
+FDMT,Healthcare,Biotechnology,19.3,14.55,882554,49.9,3.89,90,143.6
+OBE,Energy,Oil & Gas E&P,8.4,11.57,796156,11.1,1.2,90,112.7
+OABI,Healthcare,Biotechnology,13.0,3.82,950393,69.8,19.23,88,193.8
+CECO,Industrials,Pollution & Treatment Controls,5.7,84.15,935772,93.6,1.19,87,96.7
+VIST,Energy,Oil & Gas E&P,5.6,72.16,884775,116.9,1.83,86,128.1
+DSX,Industrials,Marine Shipping,7.3,2.66,671536,5.0,2.79,83,74.2
+CABA,Healthcare,Biotechnology,5.1,2.89,4687737,22.8,1.68,83,106.4
+DUOT,Technology,Software - Application,12.8,10.28,856443,61.8,7.01,83,78.0
+YPF,Energy,Oil & Gas Integrated,5.3,52.7,1420376,83.7,1.12,81,130.9
+HTHT,Consumer Cyclical,Lodging,11.3,46.61,1731148,210.1,2.6,78,48.1
+AUTL,Healthcare,Biotechnology,6.0,2.28,1806025,6.9,1.68,60,94.0
