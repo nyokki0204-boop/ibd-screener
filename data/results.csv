@@ -1,20 +1,16 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AXTI,Technology,Semiconductor Equipment & Materials,17.6,95.97,10752207,1462.4,1.42,99,4558.7
-CLYM,Healthcare,Biotechnology,6.8,17.44,1371313,31.8,1.33,99,1032.5
-MRAM,Technology,Semiconductors,5.1,19.85,1586339,37.9,1.2,96,238.7
-SMTC,Technology,Semiconductors,9.9,154.22,3226288,575.8,1.16,96,235.1
-KYTX,Healthcare,Biotechnology,9.5,8.95,1054032,10.1,1.07,94,173.7
-PTEN,Energy,Oil & Gas Drilling,7.4,12.22,9406176,119.2,1.04,93,148.0
-PGEN,Healthcare,Biotechnology,7.4,6.55,5319040,41.1,1.18,92,150.0
-LUNR,Industrials,Aerospace & Defense,7.2,20.38,11754308,406.0,1.69,92,162.0
-FDMT,Healthcare,Biotechnology,19.3,14.55,882554,49.9,3.89,90,143.6
-OBE,Energy,Oil & Gas E&P,8.4,11.57,796156,11.1,1.2,90,112.7
-OABI,Healthcare,Biotechnology,13.0,3.82,950393,69.8,19.23,88,193.8
-CECO,Industrials,Pollution & Treatment Controls,5.7,84.15,935772,93.6,1.19,87,96.7
-VIST,Energy,Oil & Gas E&P,5.6,72.16,884775,116.9,1.83,86,128.1
-DSX,Industrials,Marine Shipping,7.3,2.66,671536,5.0,2.79,83,74.2
-CABA,Healthcare,Biotechnology,5.1,2.89,4687737,22.8,1.68,83,106.4
-DUOT,Technology,Software - Application,12.8,10.28,856443,61.8,7.01,83,78.0
-YPF,Energy,Oil & Gas Integrated,5.3,52.7,1420376,83.7,1.12,81,130.9
-HTHT,Consumer Cyclical,Lodging,11.3,46.61,1731148,210.1,2.6,78,48.1
-AUTL,Healthcare,Biotechnology,6.0,2.28,1806025,6.9,1.68,60,94.0
+AMLX,Healthcare,Drug Manufacturers - Specialty & Generic,63.8,35.11,2232657,828.6,10.57,98,360.2
+ACRS,Healthcare,Biotechnology,6.5,6.3,1935599,12.6,1.03,97,262.4
+CLMT,Basic Materials,Specialty Chemicals,5.1,50.81,1132396,69.1,1.2,97,292.7
+XNCR,Healthcare,Biotechnology,9.9,25.41,1044259,40.2,1.52,96,256.4
+CYPH,Financial Services,Asset Management,14.2,0.81,2926143,3.2,1.35,95,209.8
+TNDM,Healthcare,Medical Devices,6.6,23.73,2169534,60.8,1.18,92,131.5
+CDNL,その他,,15.1,45.14,846905,65.3,1.71,89,105.4
+HAE,Healthcare,Medical Devices,15.9,104.65,883144,241.2,2.61,89,121.2
+DUOT,Technology,Software - Application,12.7,11.59,935290,65.7,6.06,89,100.7
+TRGP,Energy,Oil & Gas Midstream,7.1,297.77,1221045,647.3,1.78,88,111.0
+KURA,Healthcare,Biotechnology,9.3,12.33,1697851,50.0,2.39,85,77.4
+IVVD,Healthcare,Biotechnology,17.2,0.87,4787498,6.7,1.6,79,79.7
+HTFL,その他,,7.8,45.23,1809147,188.5,2.3,77,124.7
+XOS,Industrials,Farm & Heavy Construction Machinery,112.4,4.44,3513148,478.5,30.68,76,177.5
+AURA,Healthcare,Biotechnology,6.3,8.16,670091,5.5,1.01,66,72.5
