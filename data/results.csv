@@ -1,16 +1,93 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AMLX,Healthcare,Drug Manufacturers - Specialty & Generic,63.8,35.11,2232657,828.6,10.57,98,360.2
-ACRS,Healthcare,Biotechnology,6.5,6.3,1935599,12.6,1.03,97,262.4
-CLMT,Basic Materials,Specialty Chemicals,5.1,50.81,1132396,69.1,1.2,97,292.7
-XNCR,Healthcare,Biotechnology,9.9,25.41,1044259,40.2,1.52,96,256.4
-CYPH,Financial Services,Asset Management,14.2,0.81,2926143,3.2,1.35,95,209.8
-TNDM,Healthcare,Medical Devices,6.6,23.73,2169534,60.8,1.18,92,131.5
-CDNL,その他,,15.1,45.14,846905,65.3,1.71,89,105.4
-HAE,Healthcare,Medical Devices,15.9,104.65,883144,241.2,2.61,89,121.2
-DUOT,Technology,Software - Application,12.7,11.59,935290,65.7,6.06,89,100.7
-TRGP,Energy,Oil & Gas Midstream,7.1,297.77,1221045,647.3,1.78,88,111.0
-KURA,Healthcare,Biotechnology,9.3,12.33,1697851,50.0,2.39,85,77.4
-IVVD,Healthcare,Biotechnology,17.2,0.87,4787498,6.7,1.6,79,79.7
-HTFL,その他,,7.8,45.23,1809147,188.5,2.3,77,124.7
-XOS,Industrials,Farm & Heavy Construction Machinery,112.4,4.44,3513148,478.5,30.68,76,177.5
-AURA,Healthcare,Biotechnology,6.3,8.16,670091,5.5,1.01,66,72.5
+SLS,Healthcare,Biotechnology,5.7,13.85,8337177,123.4,1.07,99,896.4
+TNON,Healthcare,Medical Devices,109.4,11.41,10377511,552.7,4.67,99,9028.0
+HYMC,Basic Materials,Gold,15.3,27.9,2015368,84.0,1.49,99,675.0
+AMLX,Healthcare,Drug Manufacturers - Specialty & Generic,9.9,38.6,2383698,316.5,3.44,98,393.6
+IMMX,Healthcare,Biotechnology,11.7,13.19,1888745,25.7,1.03,98,579.9
+MRNA,Healthcare,Biotechnology,177.0,174.38,10874393,32273.8,17.02,98,682.7
+OMER,Healthcare,Biotechnology,7.0,18.39,2207416,58.8,1.45,98,366.8
+TXG,Healthcare,Health Information Services,11.8,62.19,3249306,242.7,1.2,98,457.3
+MVLL,その他,,19.4,30.95,4913256,350.6,2.31,98,616.3
+TWST,Healthcare,Diagnostics & Research,22.6,142.39,1865210,497.7,1.87,98,511.1
+IBRX,Healthcare,Biotechnology,5.3,8.13,10639497,105.3,1.22,97,316.9
+CYPH,Financial Services,Asset Management,32.9,1.07,2373462,10.8,4.27,97,311.5
+XNCR,Healthcare,Biotechnology,8.3,27.52,1083485,63.8,2.14,97,286.0
+IMNM,Healthcare,Biotechnology,8.2,29.83,1452900,89.0,2.05,96,244.2
+EWTX,Healthcare,Biotechnology,5.3,46.44,1441428,96.7,1.44,96,243.4
+IOVA,Healthcare,Biotechnology,13.7,7.99,16586046,190.8,1.44,96,354.0
+PSNL,Healthcare,Diagnostics & Research,13.7,15.81,4061206,129.9,2.02,96,256.1
+MRVL,Technology,Semiconductors,9.8,237.27,36141145,10336.1,1.21,96,287.0
+AUGO,その他,,11.5,85.0,1026569,155.6,1.78,96,227.2
+ACHV,Healthcare,Biotechnology,13.4,8.53,1972686,33.3,1.98,96,234.5
+CGAU,Basic Materials,Gold,6.2,22.6,1683773,49.2,1.29,96,218.8
+ABCL,Healthcare,Biotechnology,8.0,12.01,8086974,128.6,1.32,95,337.5
+MRVI,Healthcare,Biotechnology,25.8,7.22,3008657,104.9,4.83,95,216.7
+HL,Basic Materials,Other Precious Metals & Mining,14.4,20.54,38298347,1343.9,1.71,95,176.0
+YJ,Consumer Cyclical,Internet Retail,144.3,4.25,3724715,547.1,34.56,94,282.9
+USAS,Basic Materials,Other Industrial Metals & Mining,8.9,5.39,4259092,32.9,1.43,94,147.8
+AG,Basic Materials,Silver,12.8,20.85,11171935,327.7,1.41,93,149.0
+CADL,Healthcare,Biotechnology,12.0,13.5,1656177,32.0,1.43,93,210.3
+IAG,Basic Materials,Gold,8.4,19.72,5793795,179.0,1.57,93,145.3
+FDMT,Healthcare,Biotechnology,13.9,16.76,941058,30.0,1.9,93,180.7
+PURR,その他,,30.4,9.39,11776343,533.8,4.83,93,212.0
+ABOS,Healthcare,Biotechnology,15.0,3.15,507219,1.9,1.21,92,160.3
+OABI,Healthcare,Biotechnology,6.9,4.19,1071376,12.0,2.67,92,222.3
+PGEN,Healthcare,Biotechnology,6.1,7.16,5400498,57.8,1.5,92,143.5
+AU,Basic Materials,Gold,10.8,108.54,3196190,383.3,1.11,91,120.0
+IMAX,Communication Services,Entertainment,6.3,53.71,1310314,74.9,1.06,91,110.1
+SSRM,Basic Materials,Gold,11.6,35.38,3320947,124.9,1.06,91,118.3
+ASM,Basic Materials,Other Precious Metals & Mining,10.8,7.57,3921977,36.0,1.21,90,106.8
+SA,Basic Materials,Gold,8.1,33.55,740879,42.7,1.72,90,109.9
+NUGT,その他,,18.4,186.39,699216,204.2,1.57,90,112.6
+PCVX,Healthcare,Biotechnology,5.9,63.3,1393330,90.6,1.03,90,111.9
+OLMA,Healthcare,Biotechnology,6.2,11.31,1495884,19.3,1.14,90,111.8
+ILMN,Healthcare,Diagnostics & Research,8.9,205.0,1905705,428.2,1.1,90,133.0
+EXK,Basic Materials,Silver,13.8,10.99,7088711,102.9,1.32,90,107.4
+CABA,Healthcare,Biotechnology,6.5,3.1,4885409,32.3,2.13,89,121.4
+MGTX,Healthcare,Biotechnology,7.8,14.97,870609,16.2,1.25,89,126.1
+EGO,Basic Materials,Gold,7.9,41.76,2692070,144.6,1.29,88,89.3
+PZG,Basic Materials,Gold,9.0,1.57,534548,1.0,1.22,88,112.7
+MRK,Healthcare,Drug Manufacturers - General,12.6,152.2,10475669,4953.5,3.11,88,100.8
+MUX,Basic Materials,Other Precious Metals & Mining,10.1,20.22,1222698,27.8,1.13,88,103.6
+B,Basic Materials,Gold,7.2,45.13,10437524,727.5,1.54,88,90.8
+CYRX,Industrials,Integrated Freight & Logistics,8.1,16.31,676816,11.3,1.02,88,114.3
+CTMX,Healthcare,Biotechnology,5.3,3.57,4073196,15.6,1.07,87,89.4
+CDE,Basic Materials,Gold,13.1,20.93,39641485,1100.8,1.33,87,86.6
+NEM,Basic Materials,Gold,7.8,125.08,8173017,1129.5,1.1,87,86.7
+SIL,その他,,9.5,95.87,1233325,187.3,1.58,87,85.9
+GDXJ,その他,,9.6,126.55,5655582,1122.4,1.57,86,79.6
+BEAM,Healthcare,Biotechnology,9.4,29.07,2217748,86.5,1.34,86,86.3
+RANI,Healthcare,Biotechnology,11.1,0.92,852503,1.2,1.59,85,108.3
+BTU,Energy,Thermal Coal,6.6,26.85,2675560,98.7,1.37,84,73.2
+GDX,その他,,9.4,97.33,23096276,4236.1,1.88,84,71.4
+MYO,Healthcare,Medical Devices,10.7,1.86,923674,2.0,1.15,84,207.4
+FSM,Basic Materials,Gold,11.3,11.63,5388040,81.2,1.3,83,67.8
+DC,Basic Materials,Gold,7.9,6.3,1623015,11.9,1.17,83,68.4
+EQX,Basic Materials,Gold,10.6,12.66,14358005,191.7,1.05,83,67.6
+PAAS,Basic Materials,Gold,7.9,50.3,4511882,278.8,1.23,82,64.9
+IBB,その他,,6.6,216.96,1598562,518.4,1.49,81,58.9
+KGC,Basic Materials,Gold,10.3,29.9,8687643,347.3,1.34,81,60.2
+AEM,Basic Materials,Gold,11.1,207.72,2994162,1040.5,1.67,81,59.9
+WPM,Basic Materials,Gold,11.1,147.43,2181265,968.5,3.01,81,61.4
+NVCR,Healthcare,Medical Devices,5.6,18.2,1728676,73.5,2.34,80,85.3
+GFI,Basic Materials,Gold,7.2,43.85,3905355,174.3,1.02,79,54.3
+IVVD,Healthcare,Biotechnology,10.5,0.96,4831845,6.8,1.47,79,98.7
+SBSW,Basic Materials,Other Precious Metals & Mining,9.8,11.59,5365103,70.9,1.14,78,68.0
+AUTL,Healthcare,Biotechnology,10.9,2.54,1983104,19.7,3.91,77,116.2
+RGEN,Healthcare,Medical Instruments & Supplies,6.1,176.36,1108526,332.7,1.7,76,74.6
+HTHT,Consumer Cyclical,Lodging,5.8,48.59,1754893,115.6,1.36,76,52.9
+FNV,Basic Materials,Gold,7.8,251.07,875042,236.4,1.08,75,45.0
+NG,Basic Materials,Gold,14.2,8.46,5026682,52.8,1.24,75,66.5
+VKTX,Healthcare,Biotechnology,7.8,35.98,2377720,93.6,1.09,74,56.7
+BTG,Basic Materials,Gold,5.8,5.27,23546745,134.6,1.09,74,47.6
+HMY,Basic Materials,Gold,9.4,21.09,3544052,81.1,1.09,73,70.9
+HNST,Consumer Defensive,Household & Personal Products,5.7,5.02,1986743,10.2,1.03,72,142.5
+AGI,Basic Materials,Gold,8.6,35.74,5061070,220.7,1.22,71,39.0
+AUPH,Healthcare,Biotechnology,5.7,16.17,1495151,25.4,1.05,71,56.4
+BBNX,Healthcare,Medical Devices,5.2,20.01,1210280,25.8,1.07,68,127.4
+RVTY,Healthcare,Diagnostics & Research,5.0,119.45,1419087,172.1,1.02,67,47.2
+NTLA,Healthcare,Biotechnology,14.5,13.28,4967346,79.7,1.21,67,67.0
+UAMY,Basic Materials,Other Industrial Metals & Mining,10.2,5.73,6934510,51.7,1.3,67,45.8
+AGRO,Consumer Defensive,Farm Products,7.7,10.57,869641,20.1,2.19,64,54.8
+EDIT,Healthcare,Biotechnology,12.8,3.25,2334498,31.3,4.12,60,95.8
+BRZE,Technology,Software - Application,5.3,30.65,2308094,73.3,1.04,60,100.9
