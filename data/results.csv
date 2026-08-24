@@ -1,48 +1,12 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-SLS,Healthcare,Biotechnology,15.4,15.46,8526770,232.8,1.77,99,1012.2
-MRNA,Healthcare,Biotechnology,8.9,145.13,14696802,12589.0,5.9,98,551.4
-CYPH,Financial Services,Asset Management,19.3,1.42,2660209,18.3,4.84,98,425.9
-ETON,Healthcare,Drug Manufacturers - Specialty & Generic,5.9,63.47,557333,39.3,1.11,97,344.8
-JUNS,Healthcare,Biotechnology,19.9,6.2,3503228,323.7,14.9,97,8632.4
-PSNL,Healthcare,Diagnostics & Research,8.9,18.38,4385591,146.7,1.82,97,295.1
-DK,Energy,Oil & Gas Refining & Marketing,11.6,71.47,1288068,134.3,1.46,96,246.5
-NEXA,Basic Materials,Other Industrial Metals & Mining,9.5,15.4,664073,17.3,1.69,96,231.0
-AXGN,Healthcare,Medical Devices,8.5,50.4,1329650,85.2,1.27,96,269.5
-ERO,Basic Materials,Copper,9.4,39.42,1265491,143.9,2.88,95,185.7
-HBM,Basic Materials,Copper,6.8,30.06,5035912,158.4,1.05,95,168.3
-AU,Basic Materials,Gold,5.3,121.22,3217928,533.7,1.37,93,141.2
-VPG,Technology,Scientific & Technical Instruments,7.0,66.61,631264,60.3,1.43,93,143.7
-SCCO,Basic Materials,Copper,8.7,216.0,1240665,361.2,1.35,93,142.4
-LAR,Basic Materials,Other Industrial Metals & Mining,14.2,6.83,1917456,17.1,1.31,92,130.0
-NUGT,その他,,6.0,207.88,702413,195.0,1.34,92,127.8
-HQ,その他,,14.5,19.93,820197,25.3,1.55,91,140.4
-COPX,その他,,5.2,94.59,3041047,524.6,1.82,91,109.3
-EZPW,Financial Services,Credit Services,12.0,32.22,1099172,76.4,2.16,91,104.1
-EGO,Basic Materials,Gold,7.2,45.72,2716527,196.0,1.58,90,102.6
-ZYME,Healthcare,Biotechnology,7.9,28.67,566243,23.9,1.47,89,110.8
-TGTX,Healthcare,Biotechnology,7.3,54.27,2532749,292.2,2.13,88,102.8
-FCX,Basic Materials,Copper,7.6,76.66,14671501,2183.6,1.94,88,120.4
-CAKE,Consumer Cyclical,Restaurants,6.4,113.33,1707431,206.1,1.07,88,166.4
-ALB,Basic Materials,Specialty Chemicals,6.8,143.25,2369146,461.3,1.36,87,103.8
-HTFL,その他,,6.3,49.75,1900333,121.8,1.29,86,147.1
-EQX,Basic Materials,Gold,5.0,13.53,14387816,215.8,1.11,86,74.9
-DNN,Energy,Uranium,11.5,3.5,25177493,174.5,1.98,86,78.6
-VIRT,Financial Services,Capital Markets,11.0,67.93,1390324,175.7,1.86,85,117.6
-WPM,Basic Materials,Gold,5.0,157.78,2141319,456.4,1.35,85,71.2
-GFI,Basic Materials,Gold,5.2,47.81,3857282,231.9,1.26,83,66.4
-SBSW,Basic Materials,Other Precious Metals & Mining,6.4,12.58,5347887,101.3,1.51,82,82.3
-NXE,Energy,Uranium,6.3,10.86,5280201,66.6,1.16,81,62.8
-HMY,Basic Materials,Gold,6.9,23.54,3371508,120.3,1.52,80,90.7
-CVI,Energy,Oil & Gas Refining & Marketing,10.3,39.51,1028277,70.0,1.72,79,102.6
-ABUS,Healthcare,Biotechnology,9.2,5.21,2445490,94.1,7.38,78,49.3
-UUUU,Energy,Uranium,8.9,15.14,8126579,168.2,1.37,77,59.9
-REMX,その他,,6.7,80.75,751827,111.8,1.84,76,43.8
-CCJ,Energy,Uranium,7.2,102.51,3306174,370.9,1.09,75,41.2
-ALGT,Industrials,Airlines,7.1,81.85,583475,64.3,1.35,74,44.5
-RIVN,Consumer Cyclical,Auto Manufacturers,6.0,16.97,32039368,593.5,1.09,70,39.6
-FIGR,その他,,8.4,39.1,4109446,197.1,1.23,67,62.2
-IE,Basic Materials,Copper,9.5,11.27,2240088,34.1,1.35,64,43.5
-USAR,Basic Materials,Other Industrial Metals & Mining,12.6,19.26,12302901,406.7,1.72,63,68.2
-UEC,Energy,Uranium,14.4,12.76,8910989,211.7,1.86,63,43.2
-ACDC,Energy,Oil & Gas Equipment & Services,8.8,4.83,1676602,11.6,1.43,62,56.8
-BGC,Financial Services,Capital Markets,8.9,11.85,3248585,54.1,1.4,60,44.5
+ANRO,Healthcare,Biotechnology,5.7,36.25,576972,31.5,1.5,99,963.0
+CYPH,Financial Services,Asset Management,18.3,1.68,3432906,63.6,11.02,98,522.2
+OABI,Healthcare,Biotechnology,8.8,4.71,1167195,9.1,1.66,96,262.3
+LIFE,その他,,7.5,36.72,967639,96.0,2.7,93,288.6
+FNKO,Consumer Cyclical,Leisure,5.7,6.87,947171,7.6,1.17,93,152.6
+EZPW,Financial Services,Credit Services,8.8,35.05,1120072,94.4,2.4,92,119.6
+SA,Basic Materials,Gold,9.5,33.03,713976,42.8,1.82,91,102.4
+ETSY,Consumer Cyclical,Internet Retail,7.4,87.03,2990219,391.7,1.51,81,97.8
+NG,Basic Materials,Gold,7.2,9.35,5171677,86.8,1.8,79,84.1
+TJGC,Communication Services,Advertising Agencies,30.9,6.1,759644,30.0,6.48,71,317.5
+SGHC,Consumer Cyclical,Gambling,5.1,13.99,2754712,60.1,1.56,60,66.7
