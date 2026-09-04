@@ -1,29 +1,18 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-DLLL,その他,,8.9,30.86,1793998,153.2,2.77,99,1323.8
-CYPH,Financial Services,Asset Management,35.1,2.27,4312371,41.3,4.22,99,740.7
-PURR,その他,,12.8,12.77,15480291,462.3,2.34,97,324.3
-HUT,Financial Services,Capital Markets,9.2,88.09,4733624,481.8,1.16,97,264.0
-KEEL,Technology,Information Technology Services,7.7,3.35,37151300,124.5,1.0,96,172.4
-SLNH,Financial Services,Capital Markets,11.1,1.2,12548851,16.2,1.08,95,179.1
-ALMS,Healthcare,Biotechnology,9.8,11.36,2102715,85.7,3.59,95,202.1
-HPE,Technology,Communication Equipment,5.0,54.44,19435609,3920.9,3.71,94,177.4
-ZNTL,Healthcare,Biotechnology,9.0,4.11,1297175,5.6,1.05,94,239.1
-CIFR,Technology,Information Technology Services,14.4,17.37,31056803,645.0,1.2,94,145.2
-MRX,Financial Services,Capital Markets,5.6,75.65,781070,135.4,2.29,93,174.8
-CRWD,Technology,Software - Infrastructure,5.7,214.97,9743124,2592.0,1.24,92,150.9
-TLYS,Consumer Cyclical,Apparel Retail,15.5,4.4,506396,59.0,26.48,92,286.0
-WULF,Financial Services,Capital Markets,9.5,16.23,34317998,602.8,1.08,89,88.7
-NUGT,その他,,8.0,200.56,684215,159.3,1.16,89,103.0
-ZETA,Technology,Software - Infrastructure,7.4,32.68,8770258,347.7,1.21,88,127.5
-CAMT,Technology,Semiconductor Equipment & Materials,5.3,138.9,503474,85.2,1.22,88,81.9
-RIOT,Financial Services,Capital Markets,13.4,21.14,19649004,494.2,1.19,85,83.8
-HMY,Basic Materials,Gold,6.7,20.76,3445843,87.9,1.23,82,62.4
-GFI,Basic Materials,Gold,7.2,48.16,3788616,260.8,1.43,81,54.8
-DNN,Energy,Uranium,5.9,3.41,25055877,104.7,1.23,81,55.0
-PFG,Financial Services,Asset Management,6.5,118.51,1413582,439.4,2.62,81,56.2
-BTG,Basic Materials,Gold,5.2,5.69,25901466,302.0,2.05,78,59.4
-CLSK,Financial Services,Capital Markets,11.0,12.58,21388257,295.3,1.1,76,57.2
-CORZ,Technology,Software - Infrastructure,6.5,17.9,12515504,245.0,1.09,71,36.3
-FTAI,Industrials,Aerospace & Defense,7.4,199.39,1465352,354.5,1.21,70,34.1
-KYIV,Communication Services,Telecom Services,5.0,14.27,528643,11.1,1.47,68,53.6
-HOOD,Financial Services,Capital Markets,16.6,124.72,21603736,6407.1,2.38,64,96.4
+AXTI,Technology,Semiconductor Equipment & Materials,9.7,61.64,10267411,652.6,1.03,99,1968.5
+CYPH,Financial Services,Asset Management,6.6,2.42,4622722,40.7,3.64,99,796.3
+CLYM,Healthcare,Biotechnology,6.4,15.52,1454052,23.2,1.03,99,907.8
+MVLL,その他,,14.0,26.49,3923854,110.6,1.06,98,494.8
+HUT,Financial Services,Capital Markets,6.2,93.54,4784003,534.1,1.19,98,286.5
+AEHR,Technology,Semiconductor Equipment & Materials,13.1,86.26,2837288,387.5,1.58,97,361.3
+UCTT,Technology,Semiconductor Equipment & Materials,8.8,72.43,1356665,106.1,1.08,96,237.0
+TYRA,Healthcare,Biotechnology,15.2,28.65,673417,53.4,2.77,93,144.8
+TH,Industrials,Specialty Business Services,5.3,19.52,1229003,27.9,1.16,93,227.0
+PYXS,Healthcare,Biotechnology,9.1,3.89,1419340,8.7,1.57,92,277.7
+TJGC,Communication Services,Advertising Agencies,5.6,10.41,990047,27.5,2.66,92,612.5
+KLAC,Technology,Semiconductor Equipment & Materials,7.3,185.6,11828077,2355.2,1.07,92,112.4
+FIVE,Consumer Cyclical,Specialty Retail,5.1,252.2,1137076,467.4,1.63,85,83.1
+TARS,Healthcare,Biotechnology,9.1,90.78,1076940,144.8,1.48,84,88.3
+SWBI,Industrials,Aerospace & Defense,5.1,12.89,551599,22.0,3.1,83,67.4
+KMT,Industrials,Tools & Accessories,5.4,31.02,1356058,86.7,2.06,79,56.2
+AGCO,Industrials,Farm & Heavy Construction Machinery,6.0,133.4,971266,268.6,2.07,64,35.8
