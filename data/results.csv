@@ -1,12 +1,22 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-IRD,Healthcare,Biotechnology,5.9,6.07,2243819,39.4,2.89,98,359.8
-BAND,Technology,Software - Infrastructure,5.7,51.62,1047177,67.2,1.24,97,313.0
-TLYS,Consumer Cyclical,Apparel Retail,5.7,4.29,598821,3.2,1.23,94,276.3
-VIST,Energy,Oil & Gas E&P,5.9,78.95,1047734,180.5,2.18,94,136.6
-TYRA,Healthcare,Biotechnology,7.0,23.54,753712,58.3,3.29,91,101.1
-AAPU,その他,,7.0,42.95,1918917,219.3,2.66,89,79.3
-CLOV,Healthcare,Healthcare Plans,8.5,4.71,4480160,31.6,1.5,83,198.1
-DBI,Consumer Cyclical,Footwear & Accessories,14.8,5.99,517676,9.7,3.13,78,98.1
-QRVO,Technology,Semiconductors,6.8,112.36,1123841,253.3,2.01,73,50.0
-SWKS,Technology,Semiconductors,9.8,84.03,5764328,951.4,1.96,63,63.2
-ASO,Consumer Cyclical,Specialty Retail,6.0,54.22,1624757,178.0,2.02,61,32.4
+DLLL,その他,,23.5,36.79,1814530,114.9,1.72,99,1597.3
+BAND,Technology,Software - Infrastructure,10.2,56.87,1056629,74.0,1.23,98,355.0
+BW,Industrials,Specialty Industrial Machinery,10.7,7.94,4523412,44.1,1.23,97,225.4
+HUT,Financial Services,Capital Markets,8.8,98.6,4628627,559.6,1.23,97,211.3
+PURR,その他,,5.4,11.61,16226423,255.0,1.35,97,285.7
+RLMD,Healthcare,Biotechnology,11.1,4.52,1397897,11.9,1.88,97,211.3
+HPE,Technology,Communication Equipment,12.4,62.09,19945894,2418.8,1.95,96,216.4
+TLYS,Consumer Cyclical,Apparel Retail,7.2,4.6,604182,2.8,1.0,95,303.5
+AVT,Technology,Electronics & Computer Distribution,7.2,99.63,1142905,188.6,1.66,91,129.8
+BFRI,Healthcare,Drug Manufacturers - Specialty & Generic,6.2,1.55,545310,2.2,2.56,91,179.3
+ARW,Technology,Electronics & Computer Distribution,6.9,228.2,572046,181.3,1.39,90,124.2
+GOLD,Financial Services,Capital Markets,5.1,48.22,511376,35.7,1.45,90,113.1
+NTAP,Technology,Software - Infrastructure,8.5,199.28,2582204,518.9,1.01,86,114.4
+ON,Technology,Semiconductors,8.5,76.14,9226606,858.8,1.22,85,70.9
+CIFR,Technology,Information Technology Services,5.7,16.85,32224468,576.3,1.06,84,71.1
+HTFL,その他,,9.7,49.88,1695453,107.4,1.27,82,147.8
+M,Consumer Cyclical,Department Stores,7.7,22.08,5345089,226.8,1.92,76,38.2
+HPQ,Technology,Computer Hardware,8.4,35.48,15170439,940.5,1.75,75,109.8
+CLSK,Financial Services,Capital Markets,6.8,13.67,21132623,295.4,1.02,74,70.9
+SWKS,Technology,Semiconductors,5.1,88.35,5857313,982.8,1.9,68,71.6
+POWI,Technology,Semiconductors,5.2,52.28,743623,52.8,1.36,66,72.4
