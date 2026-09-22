@@ -1781,3 +1781,46 @@
 2026-09-18,IREN,Financial Services,Capital Markets,7.4,46.68,44329186,2113.8,1.02,68,61.4
 2026-09-18,SLNH,Financial Services,Capital Markets,5.9,1.26,10005713,19.8,1.57,64,113.6
 2026-09-18,WOLF,その他,,7.8,25.59,3704145,94.9,1.0,63,217.9
+2026-09-22,AMDL,その他,,19.9,80.37,2794277,373.5,1.66,99,750.5
+2026-09-22,AXTI,Technology,Semiconductor Equipment & Materials,14.1,79.93,10516473,999.7,1.19,99,1898.3
+2026-09-22,MRNA,Healthcare,Biotechnology,12.3,172.94,18086889,3623.6,1.16,99,676.2
+2026-09-22,NUAI,Technology,Software - Infrastructure,30.5,7.65,6834150,194.7,3.72,99,1242.1
+2026-09-22,TWST,Healthcare,Diagnostics & Research,7.3,166.99,1622962,512.9,1.89,99,616.7
+2026-09-22,INTW,その他,,24.4,32.58,4790744,315.8,2.02,99,794.7
+2026-09-22,DOCN,Technology,Software - Infrastructure,12.3,146.16,3050843,651.7,1.46,98,333.9
+2026-09-22,MXL,Technology,Semiconductors,6.0,85.98,3081861,344.2,1.3,98,573.3
+2026-09-22,INTC,Technology,Semiconductors,12.1,121.78,109730414,22981.9,1.72,98,323.9
+2026-09-22,FSLY,Technology,Software - Application,14.9,27.42,5888012,268.2,1.66,97,254.5
+2026-09-22,TJGC,Communication Services,Advertising Agencies,53.0,16.84,1386260,43.0,1.84,97,1052.6
+2026-09-22,PALI,Healthcare,Biotechnology,6.3,1.69,2333922,6.0,1.53,96,191.4
+2026-09-22,GRAL,Healthcare,Diagnostics & Research,33.7,107.97,799535,380.1,4.4,96,160.2
+2026-09-22,AIP,Technology,Semiconductors,8.3,24.16,687328,17.6,1.06,95,155.4
+2026-09-22,APPS,Technology,Software - Application,13.0,12.05,3237696,41.8,1.07,95,339.8
+2026-09-22,AMBQ,その他,,8.6,71.09,520587,53.6,1.45,95,221.4
+2026-09-22,AMRX,Healthcare,Drug Manufacturers - Specialty & Generic,7.7,20.16,2035160,113.8,2.77,93,112.4
+2026-09-22,ACMR,Technology,Semiconductor Equipment & Materials,6.2,72.77,958942,103.2,1.48,93,155.7
+2026-09-22,TYRA,Healthcare,Biotechnology,5.3,25.73,845448,53.3,2.45,93,107.8
+2026-09-22,MRAM,Technology,Semiconductors,12.4,17.17,1134277,22.5,1.15,93,133.6
+2026-09-22,BB,Technology,Software - Infrastructure,6.8,8.53,12688880,120.3,1.11,92,173.4
+2026-09-22,LION,その他,,6.9,11.48,2646303,55.2,1.82,89,95.4
+2026-09-22,SGML,Basic Materials,Other Industrial Metals & Mining,12.3,9.97,1833016,33.5,1.83,87,116.0
+2026-09-22,LSCC,Technology,Semiconductors,5.7,117.24,1741025,274.2,1.34,86,93.8
+2026-09-22,LUNR,Industrials,Aerospace & Defense,12.9,15.72,9026862,180.6,1.27,86,102.1
+2026-09-22,AKAM,Technology,Software - Infrastructure,12.3,117.41,3367727,552.0,1.4,85,65.8
+2026-09-22,GPCR,Healthcare,Biotechnology,5.2,36.81,810474,37.6,1.26,84,56.0
+2026-09-22,NAK,Basic Materials,Other Industrial Metals & Mining,6.1,1.39,3952849,7.2,1.31,84,61.6
+2026-09-22,ALOY,Basic Materials,Other Industrial Metals & Mining,13.0,9.33,2631433,27.2,1.11,83,57.6
+2026-09-22,QLD,その他,,5.8,96.27,4044692,415.2,1.07,80,70.2
+2026-09-22,RKLB,Industrials,Aerospace & Defense,8.2,69.89,18752845,1777.6,1.36,80,86.0
+2026-09-22,RBRK,Technology,Software - Infrastructure,5.9,112.96,3303468,376.4,1.01,80,167.4
+2026-09-22,CRML,Basic Materials,Other Industrial Metals & Mining,38.6,9.33,7770372,540.8,7.46,78,82.4
+2026-09-22,FIVN,Technology,Software - Infrastructure,14.0,37.01,2632947,141.3,1.45,78,178.5
+2026-09-22,P,Technology,Computer Hardware,9.1,113.66,4445580,805.9,1.6,74,100.2
+2026-09-22,LTRX,Technology,Communication Equipment,5.6,6.18,1027789,7.3,1.15,72,41.4
+2026-09-22,GCTS,Technology,Semiconductors,5.8,2.19,1995054,5.0,1.15,71,129.3
+2026-09-22,LWLG,Basic Materials,Specialty Chemicals,7.5,5.48,2866496,17.1,1.09,68,93.0
+2026-09-22,NXDR,Communication Services,Internet Content & Information,6.0,2.64,2338471,6.5,1.06,67,98.5
+2026-09-22,NBIL,その他,,8.5,26.04,4211407,117.7,1.07,65,308.8
+2026-09-22,QCOM,Technology,Semiconductors,9.3,194.23,12687595,3543.6,1.44,64,60.7
+2026-09-22,WOLF,その他,,7.8,25.59,3704206,94.9,1.0,63,217.9
+2026-09-22,CRDO,Technology,Semiconductors,6.5,187.27,6644459,2074.1,1.67,61,116.5
