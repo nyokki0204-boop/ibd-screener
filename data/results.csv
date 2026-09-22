@@ -1,44 +1,45 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AMDL,その他,,19.9,80.37,2794277,373.5,1.66,99,750.5
-AXTI,Technology,Semiconductor Equipment & Materials,14.1,79.93,10516473,999.7,1.19,99,1898.3
-MRNA,Healthcare,Biotechnology,12.3,172.94,18086889,3623.6,1.16,99,676.2
-NUAI,Technology,Software - Infrastructure,30.5,7.65,6834150,194.7,3.72,99,1242.1
-TWST,Healthcare,Diagnostics & Research,7.3,166.99,1622962,512.9,1.89,99,616.7
-INTW,その他,,24.4,32.58,4790744,315.8,2.02,99,794.7
-DOCN,Technology,Software - Infrastructure,12.3,146.16,3050843,651.7,1.46,98,333.9
-MXL,Technology,Semiconductors,6.0,85.98,3081861,344.2,1.3,98,573.3
-INTC,Technology,Semiconductors,12.1,121.78,109730414,22981.9,1.72,98,323.9
-FSLY,Technology,Software - Application,14.9,27.42,5888012,268.2,1.66,97,254.5
-TJGC,Communication Services,Advertising Agencies,53.0,16.84,1386260,43.0,1.84,97,1052.6
-PALI,Healthcare,Biotechnology,6.3,1.69,2333922,6.0,1.53,96,191.4
-GRAL,Healthcare,Diagnostics & Research,33.7,107.97,799535,380.1,4.4,96,160.2
-AIP,Technology,Semiconductors,8.3,24.16,687328,17.6,1.06,95,155.4
-APPS,Technology,Software - Application,13.0,12.05,3237696,41.8,1.07,95,339.8
-AMBQ,その他,,8.6,71.09,520587,53.6,1.45,95,221.4
-AMRX,Healthcare,Drug Manufacturers - Specialty & Generic,7.7,20.16,2035160,113.8,2.77,93,112.4
-ACMR,Technology,Semiconductor Equipment & Materials,6.2,72.77,958942,103.2,1.48,93,155.7
-TYRA,Healthcare,Biotechnology,5.3,25.73,845448,53.3,2.45,93,107.8
-MRAM,Technology,Semiconductors,12.4,17.17,1134277,22.5,1.15,93,133.6
-BB,Technology,Software - Infrastructure,6.8,8.53,12688880,120.3,1.11,92,173.4
-LION,その他,,6.9,11.48,2646303,55.2,1.82,89,95.4
-SGML,Basic Materials,Other Industrial Metals & Mining,12.3,9.97,1833016,33.5,1.83,87,116.0
-LSCC,Technology,Semiconductors,5.7,117.24,1741025,274.2,1.34,86,93.8
-LUNR,Industrials,Aerospace & Defense,12.9,15.72,9026862,180.6,1.27,86,102.1
-AKAM,Technology,Software - Infrastructure,12.3,117.41,3367727,552.0,1.4,85,65.8
-GPCR,Healthcare,Biotechnology,5.2,36.81,810474,37.6,1.26,84,56.0
-NAK,Basic Materials,Other Industrial Metals & Mining,6.1,1.39,3952849,7.2,1.31,84,61.6
-ALOY,Basic Materials,Other Industrial Metals & Mining,13.0,9.33,2631433,27.2,1.11,83,57.6
-QLD,その他,,5.8,96.27,4044692,415.2,1.07,80,70.2
-RKLB,Industrials,Aerospace & Defense,8.2,69.89,18752845,1777.6,1.36,80,86.0
-RBRK,Technology,Software - Infrastructure,5.9,112.96,3303468,376.4,1.01,80,167.4
-CRML,Basic Materials,Other Industrial Metals & Mining,38.6,9.33,7770372,540.8,7.46,78,82.4
-FIVN,Technology,Software - Infrastructure,14.0,37.01,2632947,141.3,1.45,78,178.5
-P,Technology,Computer Hardware,9.1,113.66,4445580,805.9,1.6,74,100.2
-LTRX,Technology,Communication Equipment,5.6,6.18,1027789,7.3,1.15,72,41.4
-GCTS,Technology,Semiconductors,5.8,2.19,1995054,5.0,1.15,71,129.3
-LWLG,Basic Materials,Specialty Chemicals,7.5,5.48,2866496,17.1,1.09,68,93.0
-NXDR,Communication Services,Internet Content & Information,6.0,2.64,2338471,6.5,1.06,67,98.5
-NBIL,その他,,8.5,26.04,4211407,117.7,1.07,65,308.8
-QCOM,Technology,Semiconductors,9.3,194.23,12687595,3543.6,1.44,64,60.7
-WOLF,その他,,7.8,25.59,3704206,94.9,1.0,63,217.9
-CRDO,Technology,Semiconductors,6.5,187.27,6644459,2074.1,1.67,61,116.5
+CYPH,Financial Services,Asset Management,9.7,3.73,8737729,88.6,2.72,99,1186.2
+MRNA,Healthcare,Biotechnology,5.6,182.56,18393397,4341.7,1.29,99,719.4
+BFLY,Healthcare,Medical Devices,22.0,9.93,6289462,195.6,3.13,98,432.4
+ABSI,Healthcare,Biotechnology,9.1,10.71,3219786,89.5,2.6,98,378.1
+OMER,Healthcare,Biotechnology,13.8,21.05,1932605,83.2,2.05,98,418.5
+IBRX,Healthcare,Biotechnology,9.9,9.29,9209614,195.4,2.28,98,376.4
+RLAY,Healthcare,Biotechnology,6.4,19.35,2676058,70.3,1.36,98,347.9
+VICR,Technology,Electronic Components,19.8,268.34,878595,528.4,2.24,98,464.2
+HYMC,Basic Materials,Gold,10.5,22.69,1895061,57.5,1.34,98,283.3
+SIMO,Technology,Semiconductors,5.3,283.26,1034618,347.9,1.19,97,258.0
+COHU,Technology,Semiconductor Equipment & Materials,6.5,64.54,1027365,69.3,1.04,97,245.7
+BAND,Technology,Software - Infrastructure,7.5,58.4,1017316,107.1,1.8,97,367.2
+TNGX,Healthcare,Biotechnology,14.3,25.53,2424906,177.9,2.87,97,281.6
+TWLO,Technology,Software - Infrastructure,6.9,284.53,2178075,1175.7,1.9,96,189.0
+STTK,Healthcare,Biotechnology,6.4,6.5,1136174,9.5,1.28,96,282.4
+KLIC,Technology,Semiconductor Equipment & Materials,6.5,89.54,862386,140.9,1.82,94,158.8
+FOSL,Consumer Cyclical,Footwear & Accessories,9.4,6.41,871043,7.6,1.36,94,277.1
+ERO,Basic Materials,Copper,7.5,37.29,1367600,70.5,1.38,94,118.1
+TLYS,Consumer Cyclical,Apparel Retail,10.7,4.35,658605,3.1,1.08,94,281.6
+XMTR,Industrials,Industrial Distribution,5.6,105.13,729847,128.8,1.68,92,193.2
+LXRX,Healthcare,Biotechnology,6.9,2.18,2816934,10.6,1.72,91,98.2
+DIOD,Technology,Semiconductors,5.7,95.94,597629,90.1,1.57,90,126.9
+IBIO,Healthcare,Biotechnology,5.6,1.33,718118,2.8,2.91,88,72.7
+VKTX,Healthcare,Biotechnology,35.7,40.85,2756340,1672.8,14.86,88,64.9
+DNLI,Healthcare,Biotechnology,5.5,21.6,1522864,50.5,1.53,88,69.0
+PUSA,Consumer Cyclical,Leisure,7.0,3.82,600922,3.8,1.65,88,112.2
+POWW,Industrials,Aerospace & Defense,6.3,2.37,585552,1.6,1.17,87,70.5
+ARQT,Healthcare,Biotechnology,7.0,27.78,2237277,79.4,1.28,86,67.7
+EGO,Basic Materials,Gold,5.9,44.85,2815807,163.8,1.3,86,84.5
+CTKB,Healthcare,Medical Devices,8.1,5.71,956528,21.6,3.95,85,74.1
+SRRK,Healthcare,Biotechnology,6.3,51.19,1449292,186.3,2.51,84,89.1
+RSKD,Technology,Software - Application,10.4,7.01,1475319,36.6,3.54,83,89.5
+DC,Basic Materials,Gold,8.8,6.9,1388434,23.7,2.47,83,82.1
+CTMX,Healthcare,Biotechnology,6.5,2.94,3450396,23.3,2.29,79,47.0
+ESI,Basic Materials,Specialty Chemicals,5.3,35.19,4841056,204.0,1.2,78,55.4
+BLZE,Technology,Software - Infrastructure,5.1,14.3,2637739,57.9,1.53,77,338.5
+RYAM,Basic Materials,Chemicals,8.0,9.16,885956,9.7,1.2,75,70.3
+CLPT,Healthcare,Medical Devices,13.0,15.79,596020,18.0,1.92,74,90.9
+INDP,Healthcare,Biotechnology,29.1,3.99,941591,5.0,1.32,73,333.7
+OUST,Technology,Electronic Components,5.6,40.25,2752234,120.9,1.09,68,145.4
+KYTX,Healthcare,Biotechnology,5.5,7.51,800472,6.3,1.05,66,41.7
+PACB,Healthcare,Medical Devices,8.1,1.47,6520835,11.5,1.2,61,37.4
+BTU,Energy,Thermal Coal,6.9,26.79,2480950,87.6,1.32,60,34.0
+ELDN,Healthcare,Biotechnology,7.4,2.89,957396,6.0,2.18,60,114.1
