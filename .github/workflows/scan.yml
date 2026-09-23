@@ -3,7 +3,12 @@ name: scan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 21 * * 1-5'
+    # 米国冬時間でも引けから1時間以上後（日本時間 7:00）
+    - cron: '0 22 * * 1-5'
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -21,13 +26,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Check calculations and empty-result screen
+        run: python -m unittest discover -s tests
+
       - name: Run screener
         run: python screener.py
 
       - name: Commit results
+        if: always()
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add -A
+          git add data/
           git commit -m "Update results" || echo "No changes"
           git push

@@ -1,5 +1,4 @@
 yfinance
 pandas
 numpy
-matplotlib
-japanize-matplotlib
+streamlit
