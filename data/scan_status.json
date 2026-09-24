@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-09-24T00:21:11.406999+00:00",
+  "ok": false,
+  "reason": "取得データが保存済みの取引日より古いです",
+  "market_date": "2026-09-21",
+  "previous_date": "2026-09-22",
+  "universe": 5029,
+  "fetched": 4424,
+  "coverage": 0.8797
+}
