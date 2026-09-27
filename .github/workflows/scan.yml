@@ -5,6 +5,8 @@ on:
   schedule:
     # 米国冬時間でも引けから1時間以上後（日本時間 7:00）
     - cron: '0 22 * * 1-5'
+    # データ提供元の更新遅延に備えた再試行（日本時間 11:00）
+    - cron: '0 2 * * 2-6'
 
 concurrency:
   group: daily-scan
@@ -23,11 +25,17 @@ jobs:
         with:
           python-version: '3.11'
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Check calculations and empty-result screen
-        run: python -m unittest discover -s tests
+        run: |
+          python -m unittest discover -s tests
+          node --test tests/web.test.cjs
 
       - name: Run screener
         run: python screener.py

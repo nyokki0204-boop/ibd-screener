@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <title>急伸スクリーナー</title>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">↗</span><div><h1>急伸スクリーナー</h1><small>米国株・日足</small></div></div>
+      <button id="settingsButton" class="icon-button" type="button" aria-label="設定を開く">⚙</button>
+    </header>
+
+    <main>
+      <div id="quality" class="quality" role="status">データを読み込み中…</div>
+      <div class="date-line"><span>米国市場の取引日</span><strong id="marketDate">—</strong><button id="refreshButton" type="button">更新を確認</button></div>
+
+      <section class="summary" aria-label="今日の概要">
+        <div class="summary-card"><span>条件通過</span><strong id="totalCount">—</strong><small>銘柄</small></div>
+        <div class="summary-card"><span>初登場</span><strong id="newCount">—</strong><small>記録内</small></div>
+        <div class="summary-card"><span>最多セクター</span><strong id="topSector">—</strong><small id="topSectorCount">通過銘柄数</small></div>
+      </section>
+
+      <section class="panel" id="movementPanel">
+        <div class="section-title"><div><h2>市場の動き</h2><p>条件を通過した銘柄数・直近60取引日</p></div><span class="legend"><i></i>通過銘柄</span></div>
+        <div id="totalChart" class="chart" aria-label="条件通過銘柄数の推移"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-title"><div><h2>セクターの広がり</h2><p>通過率＝条件通過数 ÷ 取得できた同セクターの銘柄数</p></div></div>
+        <div id="sectorView" class="sector-view"><p class="empty">新しい集計を待っています。</p></div>
+        <p class="footnote">比較は利用可能な過去最大5取引日の分母と通過数を合算。少数銘柄のセクターと分類不明はランキングから除外します。</p>
+      </section>
+
+      <section class="panel" id="stocksPanel">
+        <div class="section-title"><div><h2>候補銘柄</h2><p>複数回の登場と相対強度を優先</p></div><span id="visibleCount" class="count-pill">—</span></div>
+        <div class="filters"><input id="searchInput" type="search" placeholder="ティッカー・業種で検索" aria-label="銘柄を検索"><select id="sectorSelect" aria-label="セクターで絞り込み"><option value="">全セクター</option></select><select id="sortSelect" aria-label="並び順"><option value="repeat">再登場順</option><option value="rs">RS順</option><option value="change">前日比順</option><option value="volume">RelVol順</option></select></div>
+        <div id="stockList" class="stock-list"></div>
+      </section>
+
+      <section class="panel history-panel">
+        <div class="section-title"><div><h2>過去の抽出</h2><p>記録された米国取引日を確認</p></div><select id="historyDate" aria-label="履歴の日付"></select></div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+
+      <details class="method"><summary>条件・データについて</summary><p>前日比+5%以上、株価$0.75〜$300、平均出来高50万株以上、当日売買代金$1M以上、RelVol 1以上、RS 60以上、52週安値比+30%以上。RSは取得できた銘柄内の約1年騰落率順位で、IBD社のRS Ratingではありません。RelVolの平均は当日を除く直近50取引日です。情報は売買推奨ではありません。</p><p>出典：yfinanceによる価格・出来高、マネックス取扱銘柄リスト。取得・判定率とスキャン状況は上部に表示します。</p></details>
+    </main>
+    <footer>急伸スクリーナー · 保存済みデータを表示</footer>
+  </div>
+
+  <dialog id="settingsDialog"><form method="dialog"><div class="dialog-head"><h2>設定</h2><button aria-label="閉じる" value="cancel">×</button></div><label for="chartUrl">マイチャートの公開URL</label><input id="chartUrl" type="url" placeholder="https://…/mychart.html" inputmode="url"><p>保存すると銘柄カードから直接開けます。未設定ならTradingViewを開きます。URLはこの端末のみに保存されます。</p><button class="primary-button" id="saveSettings" value="save">保存</button></form></dialog>
+  <script src="./web.js" defer></script>
+</body>
+</html>
