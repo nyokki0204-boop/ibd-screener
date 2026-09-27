@@ -1,5 +1,6 @@
 import os
 import json
+import datetime
 import tempfile
 import unittest
 from pathlib import Path
@@ -43,6 +44,7 @@ class ScanQualityTests(unittest.TestCase):
                                         'sector': ['Tech'] * 101}).set_index('ticker')
                 with patch.object(screener, 'get_tickers', return_value=[f'T{i}' for i in range(101)]), \
                      patch.object(screener, 'get_sector_map', return_value=mapping), \
+                     patch.object(screener, 'expected_session_date', return_value='2026-09-01'), \
                      patch.object(screener.yf, 'download', return_value=bars.copy()):
                     screener.run_scan()
                 status = json.loads(Path('data/scan_status.json').read_text())
@@ -58,6 +60,38 @@ class ScanQualityTests(unittest.TestCase):
         bars = pd.DataFrame({'Close': [10, 11]}, index=pd.DatetimeIndex([
             '2026-09-22 19:00:00+00:00', '2026-09-23 00:00:00+00:00']))
         self.assertEqual(screener.session_date(bars), '2026-09-22')
+
+    def test_expected_session_accounts_for_weekend_and_settlement(self):
+        utc = datetime.timezone.utc
+        self.assertEqual(screener.expected_session_date(datetime.datetime(2026, 9, 25, 22, 0, tzinfo=utc)),
+                         '2026-09-25')
+        self.assertEqual(screener.expected_session_date(datetime.datetime(2026, 9, 27, 0, 0, tzinfo=utc)),
+                         '2026-09-25')
+        self.assertEqual(screener.expected_session_date(datetime.datetime(2026, 9, 25, 20, 30, tzinfo=utc)),
+                         '2026-09-24')
+
+    def test_stale_market_date_does_not_replace_results(self):
+        with tempfile.TemporaryDirectory() as temp:
+            old_cwd = Path.cwd()
+            try:
+                os.chdir(temp)
+                Path('data').mkdir()
+                Path('data/results.csv').write_text('ticker,RS\nOLD,80\n')
+                dates = pd.bdate_range(end='2026-09-24', periods=60)
+                bars = pd.DataFrame({'Close': [10.0] * 60, 'High': [10.0] * 60,
+                                     'Low': [10.0] * 60, 'Volume': [600_000] * 60}, index=dates)
+                with patch.object(screener, 'get_tickers', return_value=[f'T{i}' for i in range(101)]), \
+                     patch.object(screener, 'get_sector_map', return_value=None), \
+                     patch.object(screener, 'expected_session_date', return_value='2026-09-25'), \
+                     patch.object(screener.yf, 'download', return_value=bars.copy()):
+                    with self.assertRaisesRegex(RuntimeError, '期待 2026-09-25'):
+                        screener.run_scan()
+                self.assertIn('OLD,80', Path('data/results.csv').read_text())
+                status = json.loads(Path('data/scan_status.json').read_text())
+                self.assertEqual(status['expected_date'], '2026-09-25')
+                self.assertFalse(status['ok'])
+            finally:
+                os.chdir(old_cwd)
 
     def test_sector_pass_rate_includes_zero_pass_and_overwrites_same_session(self):
         with tempfile.TemporaryDirectory() as temp:

@@ -1,9 +1,11 @@
 import json
 import os
+import datetime
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import pandas as pd
 import streamlit as st
+from screener import expected_session_date
 
 st.set_page_config(page_title='急伸・相対強度スクリーナー', page_icon='📈', layout='wide')
 
@@ -80,6 +82,13 @@ if status and not status.get('ok', False):
     st.error(f"最新のスキャンは未完了です：{status.get('reason', '原因不明')}。下は前回の正常な結果です。")
 elif status.get('unchanged'):
     st.info('米国市場の新しい取引日はありません。前回の結果を表示しています。')
+try:
+    expected_date = expected_session_date(datetime.datetime.now(datetime.timezone.utc))
+    if last_updated != '不明' and last_updated < expected_date:
+        st.warning(f'保存済みデータは{last_updated}の取引日です。確定済みの最新取引日'
+                   f'（{expected_date}）より遅れています。新しいデータが反映されるまで注意してください。')
+except Exception:
+    st.warning('市場カレンダーを確認できませんでした。取引日を確認してください。')
 st.caption(f'米国市場の取引日：{last_updated}　｜　データ：yfinance / マネックス取扱銘柄')
 if status.get('ok') and status.get('market_date') == last_updated:
     st.caption(f"取得 {status.get('fetched', 0):,}・判定 {status.get('evaluated', 0):,} "

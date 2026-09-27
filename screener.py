@@ -5,6 +5,7 @@ import warnings
 import datetime
 import os
 import json
+import pandas_market_calendars as mcal
 from collections import Counter
 from zoneinfo import ZoneInfo
 warnings.filterwarnings('ignore')
@@ -70,6 +71,20 @@ def session_date(df):
     """米国の日足の日付。取得日や日本時間の実行日とは分けて扱う。"""
     last = pd.Timestamp(df.index[-1])
     return last.tz_convert(ZoneInfo('America/New_York')).date().isoformat() if last.tzinfo else last.date().isoformat()
+
+def expected_session_date(now_utc):
+    """NYSEの引けから90分経過した最新の確定取引日を返す。休場・短縮取引にも対応。"""
+    cutoff = pd.Timestamp(now_utc)
+    if cutoff.tzinfo is None:
+        raise ValueError('now_utc must have a timezone')
+    cutoff = cutoff.tz_convert('UTC') - pd.Timedelta(minutes=90)
+    schedule = mcal.get_calendar('NYSE').schedule(
+        start_date=(cutoff - pd.Timedelta(days=10)).date(),
+        end_date=cutoff.date())
+    completed = schedule[schedule['market_close'] <= cutoff]
+    if completed.empty:
+        raise RuntimeError('NYSEの確定取引日が見つかりません')
+    return completed.index[-1].date().isoformat()
 
 def save_scan_status(**kwargs):
     os.makedirs('data', exist_ok=True)
@@ -201,12 +216,16 @@ def run_scan():
                          coverage=round(coverage, 4), errors=dict(failures))
         raise RuntimeError(f'スキャン未完了: {len(data_store)}/{len(tickers)}銘柄 ({coverage:.1%})')
 
-    # 米国の引けから1時間以内の足は未確定の可能性があるため公開しない。
-    now_et = datetime.datetime.now(ZoneInfo('America/New_York'))
-    if market_date == now_et.date().isoformat() and now_et.time() < datetime.time(17, 0):
-        save_scan_status(ok=False, reason='米国市場の日足が未確定です', market_date=market_date,
-                         universe=len(tickers), fetched=len(data_store), coverage=round(coverage, 4))
-        raise RuntimeError('米国市場の日足が未確定です')
+    # 取得率が高くても全銘柄が前日の足なら「正常」と見なさない。
+    expected_date = expected_session_date(datetime.datetime.now(datetime.timezone.utc))
+    if market_date != expected_date:
+        reason = ('価格データが最新の取引日より遅れています' if market_date < expected_date
+                  else '米国市場の日足がまだ確定していません')
+        save_scan_status(ok=False, reason=reason, market_date=market_date,
+                         expected_date=expected_date, universe=len(tickers),
+                         fetched=len(data_store), stale=len(stale),
+                         coverage=round(coverage, 4), errors=dict(failures))
+        raise RuntimeError(f'{reason}: 取得 {market_date} / 期待 {expected_date}')
 
     previous_path = 'data/last_updated.txt'
     previous_date = ''
@@ -310,6 +329,7 @@ def run_scan():
     save_ticker_history(out, today)
 
     save_scan_status(ok=True, market_date=today, universe=len(tickers),
+                     expected_date=expected_date,
                      fetched=len(data_store), evaluated=evaluated, stale=len(stale),
                      coverage=round(evaluated / len(tickers), 4), matched=len(out), unchanged=unchanged,
                      errors=dict(failures), rs_method='約1年騰落率の取得可能銘柄内順位')
