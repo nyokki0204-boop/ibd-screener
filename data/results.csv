@@ -1,30 +1,18 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-CYPH,Financial Services,Asset Management,13.0,4.08,9120616,102.7,2.76,99,1136.4
-TXG,Healthcare,Health Information Services,11.2,84.11,2994314,343.9,1.37,99,653.7
-TWST,Healthcare,Diagnostics & Research,16.1,184.03,1686188,649.5,2.09,99,689.8
-INTW,その他,,7.6,35.5,4839022,241.5,1.41,99,694.2
-CDNA,Healthcare,Diagnostics & Research,13.0,61.37,1226674,153.4,2.04,98,339.9
-ABSI,Healthcare,Biotechnology,6.2,10.35,3248408,35.0,1.04,98,361.8
-QMCO,Technology,Computer Hardware,13.6,29.49,1638800,153.7,3.18,97,603.8
-ETON,Healthcare,Drug Manufacturers - Specialty & Generic,7.0,59.49,591288,43.2,1.23,97,316.9
-ILMN,Healthcare,Diagnostics & Research,7.3,273.9,2630350,953.0,1.32,97,211.2
-GRAL,Healthcare,Diagnostics & Research,15.4,125.21,849688,431.1,4.05,96,201.7
-NEO,Healthcare,Diagnostics & Research,6.5,19.56,2372160,57.7,1.24,96,176.7
-PUBM,Technology,Software - Application,6.3,18.55,675186,28.4,2.26,95,201.6
-ADPT,Healthcare,Diagnostics & Research,6.0,29.57,2361916,106.7,1.53,95,146.4
-NBIS,Communication Services,Internet Content & Information,7.4,243.48,21501014,5925.1,1.13,95,231.2
-KOD,Healthcare,Biotechnology,5.4,33.22,623530,42.9,2.07,94,203.7
-CRL,Healthcare,Diagnostics & Research,6.2,294.44,934910,468.4,1.7,93,102.6
-DGXX,Utilities,Utilities - Independent Power Producers,7.3,4.53,3145814,17.6,1.24,92,143.5
-RVTY,Healthcare,Diagnostics & Research,6.0,150.68,1752636,382.7,1.45,91,85.6
-SATL,Industrials,Aerospace & Defense,7.8,5.94,5235956,37.2,1.19,90,373.3
-RSKD,Technology,Software - Application,10.8,7.91,1590546,56.6,4.5,89,113.8
-P,Technology,Computer Hardware,11.2,121.88,4555700,1421.7,2.56,84,114.7
-VCYT,Healthcare,Diagnostics & Research,10.8,48.54,1343594,139.8,2.14,83,64.8
-ABX,Financial Services,Insurance - Life,5.8,8.27,577246,7.9,1.66,83,70.5
-PL,Industrials,Aerospace & Defense,7.6,17.62,8575660,276.9,1.83,82,67.5
-PACB,Healthcare,Medical Devices,12.1,1.58,6571230,17.5,1.69,75,47.7
-NBIL,その他,,14.8,28.22,4262390,151.1,1.26,73,343.0
-CRML,Basic Materials,Other Industrial Metals & Mining,5.8,8.17,8339254,117.6,1.73,72,59.7
-CBRL,Consumer Cyclical,Restaurants,9.1,51.84,911126,104.0,2.2,65,112.9
-BLLN,その他,,9.2,124.9,705386,124.7,1.41,63,101.6
+KOD,Healthcare,Biotechnology,178.0,89.92,671822,3458.6,57.25,99,721.9
+QTTB,Healthcare,Biotechnology,5.2,9.23,571830,9.1,1.72,98,404.4
+ABCL,Healthcare,Biotechnology,9.6,13.92,6836784,108.5,1.14,97,407.1
+ACRS,Healthcare,Biotechnology,5.4,5.43,2155968,13.2,1.13,97,212.1
+AGEN,Healthcare,Biotechnology,10.4,9.43,1319892,26.1,2.09,96,248.0
+XNCR,Healthcare,Biotechnology,7.6,25.6,1361720,39.2,1.13,95,146.7
+MGNX,Healthcare,Biotechnology,8.6,4.06,558210,7.8,3.43,95,214.7
+BB,Technology,Software - Infrastructure,7.2,8.8,13324576,268.4,2.29,90,182.1
+TSHA,Healthcare,Biotechnology,6.9,4.99,2919426,24.3,1.67,87,61.0
+SGMT,Healthcare,Biotechnology,7.6,9.94,1164750,13.4,1.16,82,120.9
+NAUT,Healthcare,Biotechnology,15.3,1.11,885136,4.5,4.6,80,40.5
+LXRX,Healthcare,Biotechnology,5.6,1.9,2856486,20.7,3.81,79,72.7
+PACB,Healthcare,Medical Devices,5.6,1.71,6863542,36.3,3.1,79,59.8
+ANNX,Healthcare,Biotechnology,10.2,4.01,2730182,20.3,1.86,74,57.9
+XERS,Healthcare,Drug Manufacturers - Specialty & Generic,8.0,9.83,1744940,34.1,1.99,69,87.2
+MX,Technology,Semiconductors,14.8,3.79,777862,25.4,8.6,68,73.9
+VOYG,その他,,5.8,33.18,1845858,92.0,1.5,62,90.6
