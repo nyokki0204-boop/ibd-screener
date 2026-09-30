@@ -1,18 +1,10 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-KOD,Healthcare,Biotechnology,178.0,89.92,671822,3458.6,57.25,99,721.9
-QTTB,Healthcare,Biotechnology,5.2,9.23,571830,9.1,1.72,98,404.4
-ABCL,Healthcare,Biotechnology,9.6,13.92,6836784,108.5,1.14,97,407.1
-ACRS,Healthcare,Biotechnology,5.4,5.43,2155968,13.2,1.13,97,212.1
-AGEN,Healthcare,Biotechnology,10.4,9.43,1319892,26.1,2.09,96,248.0
-XNCR,Healthcare,Biotechnology,7.6,25.6,1361720,39.2,1.13,95,146.7
-MGNX,Healthcare,Biotechnology,8.6,4.06,558210,7.8,3.43,95,214.7
-BB,Technology,Software - Infrastructure,7.2,8.8,13324576,268.4,2.29,90,182.1
-TSHA,Healthcare,Biotechnology,6.9,4.99,2919426,24.3,1.67,87,61.0
-SGMT,Healthcare,Biotechnology,7.6,9.94,1164750,13.4,1.16,82,120.9
-NAUT,Healthcare,Biotechnology,15.3,1.11,885136,4.5,4.6,80,40.5
-LXRX,Healthcare,Biotechnology,5.6,1.9,2856486,20.7,3.81,79,72.7
-PACB,Healthcare,Medical Devices,5.6,1.71,6863542,36.3,3.1,79,59.8
-ANNX,Healthcare,Biotechnology,10.2,4.01,2730182,20.3,1.86,74,57.9
-XERS,Healthcare,Drug Manufacturers - Specialty & Generic,8.0,9.83,1744940,34.1,1.99,69,87.2
-MX,Technology,Semiconductors,14.8,3.79,777862,25.4,8.6,68,73.9
-VOYG,その他,,5.8,33.18,1845858,92.0,1.5,62,90.6
+IOVA,Healthcare,Biotechnology,31.5,14.45,16258196,1128.6,4.8,99,721.0
+BE,Industrials,Electrical Equipment & Parts,10.8,291.25,16138332,6889.5,1.47,98,310.8
+ABSI,Healthcare,Biotechnology,6.8,10.14,3153488,34.6,1.08,98,352.7
+ABCL,Healthcare,Biotechnology,6.5,14.82,6908836,134.5,1.31,97,439.9
+LIND,Consumer Cyclical,Travel Services,5.5,31.27,842888,34.1,1.29,96,175.0
+HAFN,Industrials,Marine Shipping,5.9,9.67,1827744,48.2,2.72,92,115.1
+NAUT,Healthcare,Biotechnology,23.0,1.37,949768,30.3,23.37,88,70.6
+PACB,Healthcare,Medical Devices,7.0,1.83,7147602,31.9,2.44,82,71.0
+MGNI,Communication Services,Advertising Agencies,9.7,25.67,2507396,106.2,1.65,67,137.2
