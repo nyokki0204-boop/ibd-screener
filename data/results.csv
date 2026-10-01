@@ -1,10 +1,22 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-IOVA,Healthcare,Biotechnology,31.5,14.45,16258196,1128.6,4.8,99,721.0
-BE,Industrials,Electrical Equipment & Parts,10.8,291.25,16138332,6889.5,1.47,98,310.8
-ABSI,Healthcare,Biotechnology,6.8,10.14,3153488,34.6,1.08,98,352.7
-ABCL,Healthcare,Biotechnology,6.5,14.82,6908836,134.5,1.31,97,439.9
-LIND,Consumer Cyclical,Travel Services,5.5,31.27,842888,34.1,1.29,96,175.0
-HAFN,Industrials,Marine Shipping,5.9,9.67,1827744,48.2,2.72,92,115.1
-NAUT,Healthcare,Biotechnology,23.0,1.37,949768,30.3,23.37,88,70.6
-PACB,Healthcare,Medical Devices,7.0,1.83,7147602,31.9,2.44,82,71.0
-MGNI,Communication Services,Advertising Agencies,9.7,25.67,2507396,106.2,1.65,67,137.2
+SLS,Healthcare,Biotechnology,7.0,12.31,6611566,105.9,1.3,99,785.6
+FORM,Technology,Semiconductor Equipment & Materials,9.6,149.31,1222904,341.7,1.87,98,314.2
+SYRE,Healthcare,Biotechnology,5.1,89.03,1072396,186.6,1.95,98,461.3
+IBRX,Healthcare,Biotechnology,6.9,9.44,9399558,256.9,2.89,98,384.1
+ABSI,Healthcare,Biotechnology,6.2,10.77,3160496,58.5,1.72,98,380.8
+FOSL,Consumer Cyclical,Footwear & Accessories,6.7,6.57,868544,9.3,1.63,96,286.5
+PGEN,Healthcare,Biotechnology,6.3,8.56,5083532,100.0,2.3,96,186.3
+ACHV,Healthcare,Biotechnology,5.2,8.09,1406890,19.2,1.69,96,208.8
+AMBQ,その他,,5.2,68.17,518144,39.7,1.12,95,208.2
+TRMD,Energy,Oil & Gas Midstream,5.3,38.05,1144124,73.0,1.68,94,127.6
+ACMR,Technology,Semiconductor Equipment & Materials,7.0,80.92,1004494,144.2,1.77,92,184.3
+PACB,Healthcare,Medical Devices,29.5,2.37,7278598,190.3,11.03,90,121.5
+ZETA,Technology,Software - Infrastructure,9.0,31.57,7547488,352.5,1.48,87,119.8
+CCCC,Healthcare,Biotechnology,6.4,3.33,2283120,8.7,1.14,87,97.0
+ATEN,Technology,Software - Infrastructure,5.0,27.11,1306532,48.5,1.37,85,65.3
+SGMT,Healthcare,Biotechnology,5.9,9.88,1162312,53.9,4.69,82,119.6
+CDNL,その他,,11.8,30.6,664326,37.2,1.83,76,39.2
+PMVP,Healthcare,Biotechnology,16.8,1.67,555756,5.2,5.62,71,63.7
+CTNM,Healthcare,Biotechnology,16.7,13.42,504732,21.4,3.17,71,56.0
+CAPR,Healthcare,Biotechnology,10.5,9.47,7756758,194.2,2.64,70,219.9
+PUSA,Consumer Cyclical,Leisure,7.5,3.88,622150,3.7,1.53,61,49.2
