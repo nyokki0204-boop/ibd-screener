@@ -1,22 +1,21 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-SLS,Healthcare,Biotechnology,7.0,12.31,6611566,105.9,1.3,99,785.6
-FORM,Technology,Semiconductor Equipment & Materials,9.6,149.31,1222904,341.7,1.87,98,314.2
-SYRE,Healthcare,Biotechnology,5.1,89.03,1072396,186.6,1.95,98,461.3
-IBRX,Healthcare,Biotechnology,6.9,9.44,9399558,256.9,2.89,98,384.1
-ABSI,Healthcare,Biotechnology,6.2,10.77,3160496,58.5,1.72,98,380.8
-FOSL,Consumer Cyclical,Footwear & Accessories,6.7,6.57,868544,9.3,1.63,96,286.5
-PGEN,Healthcare,Biotechnology,6.3,8.56,5083532,100.0,2.3,96,186.3
-ACHV,Healthcare,Biotechnology,5.2,8.09,1406890,19.2,1.69,96,208.8
-AMBQ,その他,,5.2,68.17,518144,39.7,1.12,95,208.2
-TRMD,Energy,Oil & Gas Midstream,5.3,38.05,1144124,73.0,1.68,94,127.6
-ACMR,Technology,Semiconductor Equipment & Materials,7.0,80.92,1004494,144.2,1.77,92,184.3
-PACB,Healthcare,Medical Devices,29.5,2.37,7278598,190.3,11.03,90,121.5
-ZETA,Technology,Software - Infrastructure,9.0,31.57,7547488,352.5,1.48,87,119.8
-CCCC,Healthcare,Biotechnology,6.4,3.33,2283120,8.7,1.14,87,97.0
-ATEN,Technology,Software - Infrastructure,5.0,27.11,1306532,48.5,1.37,85,65.3
-SGMT,Healthcare,Biotechnology,5.9,9.88,1162312,53.9,4.69,82,119.6
-CDNL,その他,,11.8,30.6,664326,37.2,1.83,76,39.2
-PMVP,Healthcare,Biotechnology,16.8,1.67,555756,5.2,5.62,71,63.7
-CTNM,Healthcare,Biotechnology,16.7,13.42,504732,21.4,3.17,71,56.0
-CAPR,Healthcare,Biotechnology,10.5,9.47,7756758,194.2,2.64,70,219.9
-PUSA,Consumer Cyclical,Leisure,7.5,3.88,622150,3.7,1.53,61,49.2
+MULL,その他,,5.5,27.05,6044454,301.7,1.85,99,1561.4
+MUU,その他,,5.4,38.8,32501546,2283.4,1.81,99,1656.0
+AAOI,Technology,Communication Equipment,8.1,107.32,9454784,1209.0,1.19,98,480.1
+VIAV,Technology,Communication Equipment,6.8,44.78,5030218,324.9,1.44,98,266.1
+PBF,Energy,Oil & Gas Refining & Marketing,7.0,82.34,3442184,335.7,1.18,97,227.3
+TSEM,Technology,Semiconductors,6.1,241.3,1843488,499.4,1.12,97,240.3
+LIND,Consumer Cyclical,Travel Services,7.0,33.63,854236,60.6,2.11,97,195.8
+ANDG,その他,,5.4,57.36,507926,72.9,2.5,96,216.6
+PAYS,Technology,Software - Infrastructure,6.5,14.36,756762,36.4,3.35,95,366.2
+VSH,Technology,Semiconductors,5.3,34.27,4040964,155.3,1.12,95,196.4
+MITK,Technology,Software - Application,5.3,17.95,698524,12.8,1.02,91,110.4
+NAUT,Healthcare,Biotechnology,10.6,1.57,1639014,13.3,5.17,91,91.5
+PACB,Healthcare,Medical Devices,5.9,2.51,8737550,90.0,4.1,90,134.6
+TDAY,Communication Services,Publishing,12.2,7.06,2432870,49.0,2.86,90,106.4
+SNX,Technology,Electronics & Computer Distribution,5.8,271.76,809048,323.0,1.47,89,92.5
+SLDE,その他,,5.9,23.63,1148534,56.8,2.09,88,66.9
+FIVN,Technology,Software - Infrastructure,5.1,35.75,2759756,106.9,1.08,87,169.0
+CRDO,Technology,Semiconductors,7.9,210.17,6908038,1974.8,1.36,81,143.0
+LWLG,Basic Materials,Specialty Chemicals,8.8,5.44,2867686,22.8,1.46,73,91.5
+BLMN,Consumer Cyclical,Restaurants,8.1,8.38,2160418,55.0,3.04,66,61.5
