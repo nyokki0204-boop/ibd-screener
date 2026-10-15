@@ -1,8 +1,5 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-PBF,Energy,Oil & Gas Refining & Marketing,7.2,91.17,3341046,309.9,1.02,98,262.4
-VRA,Consumer Cyclical,Footwear & Accessories,5.9,5.78,519766,4.3,1.42,97,315.8
-PARR,Energy,Oil & Gas Refining & Marketing,8.1,89.88,971706,103.5,1.18,96,165.7
-PFAI,Consumer Defensive,Farm Products,80.1,4.7,647280,180.1,59.19,96,147.4
-TTMI,Technology,Electronic Components,5.2,116.1,2399792,433.6,1.56,95,117.6
-BLMN,Consumer Cyclical,Restaurants,5.0,9.21,2372670,23.9,1.09,69,77.5
-BMBL,Communication Services,Internet Content & Information,56.6,5.95,3299946,703.2,35.82,61,143.9
+NRIX,Healthcare,Biotechnology,7.0,23.67,1434874,90.4,2.66,96,157.8
+NAUT,Healthcare,Biotechnology,5.4,2.16,3913624,17.6,2.08,94,156.8
+HALO,Healthcare,Biotechnology,6.6,116.82,2331348,440.3,1.62,92,90.8
+LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,26.6,33.94,2990272,716.2,7.06,85,54.7
