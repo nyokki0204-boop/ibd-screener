@@ -1,5 +1,46 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-NRIX,Healthcare,Biotechnology,7.0,23.67,1434874,90.4,2.66,96,157.8
-NAUT,Healthcare,Biotechnology,5.4,2.16,3913624,17.6,2.08,94,156.8
-HALO,Healthcare,Biotechnology,6.6,116.82,2331348,440.3,1.62,92,90.8
-LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,26.6,33.94,2990272,716.2,7.06,85,54.7
+CYPH,Financial Services,Asset Management,15.3,3.02,13123356,49.4,1.25,99,668.4
+RNG,Technology,Software - Application,6.3,79.94,1534860,133.4,1.09,98,232.9
+PACS,Healthcare,Medical Care Facilities,6.2,47.75,752600,81.1,2.26,98,363.1
+NRIX,Healthcare,Biotechnology,5.4,24.95,1487460,93.6,2.52,97,157.0
+IPSC,Healthcare,Biotechnology,8.7,1.5,586852,1.4,1.58,97,244.8
+VRA,Consumer Cyclical,Footwear & Accessories,6.4,5.99,539972,3.3,1.01,97,330.9
+FNKO,Consumer Cyclical,Leisure,7.5,6.82,1176278,8.2,1.02,96,150.9
+FTRE,Healthcare,Biotechnology,6.6,22.75,1432614,66.2,2.03,96,166.0
+HYMC,Basic Materials,Gold,6.6,17.42,2026892,49.5,1.4,94,168.8
+BB,Technology,Software - Infrastructure,5.7,8.7,13582814,132.1,1.12,94,178.8
+AMN,Healthcare,Medical Care Facilities,6.2,40.0,666320,48.1,1.81,94,167.2
+DBI,Consumer Cyclical,Footwear & Accessories,7.9,6.42,611666,5.7,1.46,93,102.3
+MITK,Technology,Software - Application,6.9,16.88,676660,15.7,1.38,93,97.9
+RSKD,Technology,Software - Application,6.4,8.61,2280044,36.6,1.86,93,132.7
+CBRL,Consumer Cyclical,Restaurants,7.5,67.41,928580,94.5,1.51,91,176.8
+APPN,Technology,Software - Infrastructure,14.0,43.82,863416,57.8,1.53,88,135.2
+FLYW,Technology,Software - Infrastructure,7.1,19.35,1559670,32.6,1.08,86,83.4
+CROX,Consumer Cyclical,Footwear & Accessories,6.2,124.77,1028846,185.1,1.44,86,70.4
+KSS,Consumer Cyclical,Department Stores,6.0,22.41,4253138,101.4,1.06,84,99.8
+M,Consumer Cyclical,Department Stores,6.8,24.22,6115518,228.4,1.54,81,47.5
+ARQT,Healthcare,Biotechnology,10.2,29.1,2525994,115.1,1.57,81,50.8
+EXPE,Consumer Cyclical,Travel Services,6.3,291.87,1880774,688.4,1.25,80,58.4
+EBAY,Consumer Cyclical,Internet Retail,5.2,122.91,4555374,892.9,1.59,79,59.0
+W,Consumer Cyclical,Internet Retail,6.8,111.93,2382644,409.8,1.54,78,101.3
+DXCM,Healthcare,Medical Devices,5.1,87.71,4091524,419.8,1.17,76,62.1
+AMBP,Consumer Cyclical,Packaging & Containers,7.9,4.67,1891210,16.5,1.87,76,52.1
+COMP,Real Estate,Real Estate Services,9.8,9.62,13769724,172.3,1.3,76,51.0
+BLMN,Consumer Cyclical,Restaurants,6.2,9.93,2391916,36.1,1.52,75,91.3
+VELO,Technology,Computer Hardware,6.1,7.47,1408582,19.3,1.84,75,99.2
+PAYC,Technology,Software - Application,5.8,252.87,762304,248.3,1.29,74,142.8
+BBY,Consumer Cyclical,Specialty Retail,5.7,94.17,3608780,413.9,1.22,73,75.0
+NAVN,その他,,5.0,25.2,3365796,98.1,1.16,73,210.9
+ETSY,Consumer Cyclical,Internet Retail,7.5,89.18,3228832,545.9,1.9,72,102.7
+KMX,Consumer Cyclical,Auto & Truck Dealerships,5.6,52.62,2547174,199.3,1.49,70,73.9
+ESTC,Technology,Software - Application,5.6,97.24,2411872,406.6,1.73,69,131.2
+INTA,Technology,Software - Application,10.3,43.63,607732,39.1,1.47,68,129.5
+EGO,Basic Materials,Gold,5.2,36.23,3047134,111.3,1.01,66,49.1
+PRCH,Financial Services,Insurance - Property & Casualty,6.9,17.57,1360922,38.0,1.59,65,176.3
+SBH,Consumer Cyclical,Specialty Retail,6.3,17.12,1298764,24.8,1.12,64,48.4
+SIG,Consumer Cyclical,Luxury Goods,9.4,118.16,856432,206.8,2.04,63,65.6
+MH,その他,,7.1,14.2,614076,17.1,1.96,62,58.7
+ZIP,Communication Services,Internet Content & Information,9.7,4.85,882272,4.3,1.01,61,193.9
+EL,Consumer Defensive,Household & Personal Products,5.5,107.19,3244496,389.5,1.12,61,63.0
+CCCC,Healthcare,Biotechnology,6.5,2.78,2263038,9.1,1.45,60,64.5
+RVLV,Consumer Cyclical,Internet Retail,7.5,23.21,807610,27.6,1.47,60,33.8
