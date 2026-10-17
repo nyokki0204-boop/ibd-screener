@@ -1,14 +1,14 @@
 {
-  "checked_at_utc": "2026-10-16T10:28:58.599232+00:00",
+  "checked_at_utc": "2026-10-17T10:02:22.339583+00:00",
   "ok": true,
-  "market_date": "2026-10-15",
+  "market_date": "2026-10-16",
   "universe": 5029,
-  "expected_date": "2026-10-15",
+  "expected_date": "2026-10-16",
   "fetched": 4870,
   "evaluated": 4870,
   "stale": 2,
   "coverage": 0.9684,
-  "matched": 45,
+  "matched": 5,
   "unchanged": false,
   "errors": {
     "履歴不足": 157
