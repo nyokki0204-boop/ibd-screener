@@ -1,22 +1,39 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AXTI,Technology,Semiconductor Equipment & Materials,10.3,56.79,9412112,765.9,1.43,99,1080.7
-MXL,Technology,Semiconductors,8.1,77.11,2732218,312.5,1.48,99,503.8
-SLN,Healthcare,Biotechnology,125.6,19.58,1402292,1408.0,51.28,98,367.3
-MBX,Healthcare,Biotechnology,5.8,52.48,508342,27.4,1.03,98,297.0
-MANE,その他,,12.4,122.28,755812,179.0,1.94,98,282.1
-NAUT,Healthcare,Biotechnology,27.7,2.63,4303584,39.1,3.46,97,212.7
-COHU,Technology,Semiconductor Equipment & Materials,6.0,53.87,1020784,71.4,1.3,97,155.3
-SOXL,その他,,5.3,98.65,62049482,9329.6,1.52,96,251.0
-NNBR,Industrials,Conglomerates,8.5,3.7,2515010,10.7,1.15,95,236.4
-FROG,Technology,Software - Application,7.9,91.0,1939348,198.6,1.13,94,167.3
-TTMI,Technology,Electronic Components,5.6,99.1,2414648,389.7,1.63,92,82.1
-HPK,Energy,Oil & Gas E&P,8.0,11.39,544328,12.8,2.06,91,195.8
-ARQT,Healthcare,Biotechnology,10.7,31.89,2526874,184.8,2.29,88,65.3
-POWW,Industrials,Aerospace & Defense,6.9,2.33,591480,1.5,1.11,87,56.4
-ZNTL,Healthcare,Biotechnology,8.0,2.3,1195368,6.3,2.29,86,89.8
-PHVS,Healthcare,Biotechnology,7.3,29.77,864822,27.3,1.06,75,41.6
-ANNX,Healthcare,Biotechnology,17.6,4.01,3019528,25.5,2.1,75,57.9
-AMZU,その他,,10.1,37.32,1932896,82.7,1.15,69,54.6
-XERS,Healthcare,Drug Manufacturers - Specialty & Generic,6.2,10.95,2401606,47.5,1.81,68,108.6
-WRBY,Healthcare,Medical Instruments & Supplies,7.1,24.99,2903606,110.0,1.52,66,67.0
-SGMT,Healthcare,Biotechnology,10.5,8.86,1330174,14.9,1.27,64,96.9
+SLS,Healthcare,Biotechnology,14.2,11.98,6537934,121.6,1.55,99,761.9
+STTK,Healthcare,Biotechnology,8.8,5.84,1193606,9.1,1.3,98,239.5
+RVMD,Healthcare,Biotechnology,7.9,196.55,2013772,538.0,1.36,98,274.5
+VICR,Technology,Electronic Components,7.1,204.14,945596,403.6,2.09,98,234.9
+IPSC,Healthcare,Biotechnology,11.6,1.64,592566,2.3,2.37,98,277.0
+SYRE,Healthcare,Biotechnology,7.9,91.4,1317254,156.2,1.3,98,332.3
+OABI,Healthcare,Biotechnology,5.8,4.96,1792660,9.6,1.08,98,281.5
+LIFE,その他,,5.7,41.07,1478638,79.1,1.3,97,334.6
+DNTH,Healthcare,Biotechnology,5.6,78.75,801422,146.9,2.33,96,144.4
+ANRO,Healthcare,Biotechnology,7.0,24.41,589580,21.2,1.47,96,150.9
+BB,Technology,Software - Infrastructure,8.7,8.87,13734216,146.5,1.2,94,184.3
+ELVN,Healthcare,Biotechnology,6.6,41.25,1197070,80.0,1.62,94,179.0
+LION,その他,,14.4,12.15,2703334,174.4,5.31,94,104.2
+NESR,Energy,Oil & Gas Equipment & Services,11.1,21.09,2431654,130.2,2.54,93,87.6
+CMPS,Healthcare,Medical Care Facilities,7.1,11.9,2676118,39.6,1.25,93,143.9
+SPHR,Communication Services,Entertainment,9.7,112.84,779264,167.7,1.91,92,81.8
+SOPH,Healthcare,Health Information Services,6.8,6.93,624164,4.4,1.02,90,84.8
+BRZE,Technology,Software - Application,51.7,45.57,2519070,2944.4,25.65,89,198.6
+ACRS,Healthcare,Biotechnology,8.3,3.77,2857452,13.2,1.22,89,85.7
+HTFL,その他,,9.0,55.59,2075378,168.1,1.46,87,176.2
+LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,6.5,36.35,3643282,145.2,1.1,87,65.7
+HAS,Consumer Cyclical,Leisure,11.2,109.52,1654886,877.1,4.84,87,62.7
+APPN,Technology,Software - Infrastructure,5.3,44.51,850976,48.5,1.28,86,138.9
+ABX,Financial Services,Insurance - Life,6.9,8.39,585682,7.5,1.54,86,73.0
+ZYME,Healthcare,Biotechnology,5.4,26.91,916720,84.2,3.41,86,68.2
+OVID,Healthcare,Biotechnology,8.8,2.36,1583674,8.7,2.32,85,100.0
+CRVS,Healthcare,Biotechnology,6.0,10.23,1028296,10.9,1.04,83,60.1
+PAGS,Technology,Software - Infrastructure,5.3,11.72,3587944,46.6,1.11,80,43.4
+FATE,Healthcare,Biotechnology,10.8,2.06,1466514,3.7,1.21,79,116.8
+RCUS,Healthcare,Biotechnology,7.3,23.75,1468630,148.3,4.25,78,44.7
+CCCC,Healthcare,Biotechnology,9.3,3.16,2320258,11.6,1.59,75,87.0
+SGMT,Healthcare,Biotechnology,9.9,9.74,1341592,21.2,1.62,73,116.4
+GLBE,Consumer Cyclical,Internet Retail,5.2,41.78,1452066,65.8,1.08,71,55.6
+VSTM,Healthcare,Biotechnology,8.4,9.34,3339552,37.0,1.19,67,172.3
+NUVB,Healthcare,Biotechnology,6.5,4.77,5335552,32.7,1.28,63,30.2
+ULCC,Industrials,Airlines,6.3,4.9,2571824,15.9,1.26,62,62.3
+NVCR,Healthcare,Medical Devices,5.5,15.71,1292336,27.3,1.34,61,60.0
+MAZE,Healthcare,Biotechnology,9.3,32.45,690992,50.9,2.27,60,47.8
