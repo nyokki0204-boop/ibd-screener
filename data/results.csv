@@ -1,39 +1,28 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-SLS,Healthcare,Biotechnology,14.2,11.98,6537934,121.6,1.55,99,761.9
-STTK,Healthcare,Biotechnology,8.8,5.84,1193606,9.1,1.3,98,239.5
-RVMD,Healthcare,Biotechnology,7.9,196.55,2013772,538.0,1.36,98,274.5
-VICR,Technology,Electronic Components,7.1,204.14,945596,403.6,2.09,98,234.9
-IPSC,Healthcare,Biotechnology,11.6,1.64,592566,2.3,2.37,98,277.0
-SYRE,Healthcare,Biotechnology,7.9,91.4,1317254,156.2,1.3,98,332.3
-OABI,Healthcare,Biotechnology,5.8,4.96,1792660,9.6,1.08,98,281.5
-LIFE,その他,,5.7,41.07,1478638,79.1,1.3,97,334.6
-DNTH,Healthcare,Biotechnology,5.6,78.75,801422,146.9,2.33,96,144.4
-ANRO,Healthcare,Biotechnology,7.0,24.41,589580,21.2,1.47,96,150.9
-BB,Technology,Software - Infrastructure,8.7,8.87,13734216,146.5,1.2,94,184.3
-ELVN,Healthcare,Biotechnology,6.6,41.25,1197070,80.0,1.62,94,179.0
-LION,その他,,14.4,12.15,2703334,174.4,5.31,94,104.2
-NESR,Energy,Oil & Gas Equipment & Services,11.1,21.09,2431654,130.2,2.54,93,87.6
-CMPS,Healthcare,Medical Care Facilities,7.1,11.9,2676118,39.6,1.25,93,143.9
-SPHR,Communication Services,Entertainment,9.7,112.84,779264,167.7,1.91,92,81.8
-SOPH,Healthcare,Health Information Services,6.8,6.93,624164,4.4,1.02,90,84.8
-BRZE,Technology,Software - Application,51.7,45.57,2519070,2944.4,25.65,89,198.6
-ACRS,Healthcare,Biotechnology,8.3,3.77,2857452,13.2,1.22,89,85.7
-HTFL,その他,,9.0,55.59,2075378,168.1,1.46,87,176.2
-LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,6.5,36.35,3643282,145.2,1.1,87,65.7
-HAS,Consumer Cyclical,Leisure,11.2,109.52,1654886,877.1,4.84,87,62.7
-APPN,Technology,Software - Infrastructure,5.3,44.51,850976,48.5,1.28,86,138.9
-ABX,Financial Services,Insurance - Life,6.9,8.39,585682,7.5,1.54,86,73.0
-ZYME,Healthcare,Biotechnology,5.4,26.91,916720,84.2,3.41,86,68.2
-OVID,Healthcare,Biotechnology,8.8,2.36,1583674,8.7,2.32,85,100.0
-CRVS,Healthcare,Biotechnology,6.0,10.23,1028296,10.9,1.04,83,60.1
-PAGS,Technology,Software - Infrastructure,5.3,11.72,3587944,46.6,1.11,80,43.4
-FATE,Healthcare,Biotechnology,10.8,2.06,1466514,3.7,1.21,79,116.8
-RCUS,Healthcare,Biotechnology,7.3,23.75,1468630,148.3,4.25,78,44.7
-CCCC,Healthcare,Biotechnology,9.3,3.16,2320258,11.6,1.59,75,87.0
-SGMT,Healthcare,Biotechnology,9.9,9.74,1341592,21.2,1.62,73,116.4
-GLBE,Consumer Cyclical,Internet Retail,5.2,41.78,1452066,65.8,1.08,71,55.6
-VSTM,Healthcare,Biotechnology,8.4,9.34,3339552,37.0,1.19,67,172.3
-NUVB,Healthcare,Biotechnology,6.5,4.77,5335552,32.7,1.28,63,30.2
-ULCC,Industrials,Airlines,6.3,4.9,2571824,15.9,1.26,62,62.3
-NVCR,Healthcare,Medical Devices,5.5,15.71,1292336,27.3,1.34,61,60.0
-MAZE,Healthcare,Biotechnology,9.3,32.45,690992,50.9,2.27,60,47.8
+CYPH,Financial Services,Asset Management,18.5,3.33,13961446,78.6,1.69,99,747.3
+TNGX,Healthcare,Biotechnology,6.9,26.98,2969368,149.9,1.87,98,303.3
+LIFE,その他,,7.7,44.22,1493318,107.6,1.63,97,367.9
+INSW,Energy,Oil & Gas Midstream,6.1,111.15,716570,135.7,1.7,97,189.0
+SOXL,その他,,5.8,103.24,63734760,7985.0,1.21,97,267.4
+OKTA,Technology,Software - Infrastructure,7.5,208.64,3821636,843.1,1.06,96,233.0
+FTRE,Healthcare,Biotechnology,5.6,24.06,1505626,59.6,1.64,96,181.4
+ABSI,Healthcare,Biotechnology,10.7,10.04,3610672,53.7,1.48,96,348.2
+NAUT,Healthcare,Biotechnology,6.3,2.71,4768526,23.3,1.8,95,222.2
+BB,Technology,Software - Infrastructure,6.1,9.41,13822578,152.6,1.17,95,201.6
+ANAB,Healthcare,Biotechnology,5.5,47.94,510708,31.9,1.3,95,137.6
+ROIV,Healthcare,Biotechnology,5.4,36.8,7577202,619.7,2.22,95,108.6
+CMBT,Energy,Oil & Gas Midstream,5.2,18.34,1210456,31.2,1.4,94,114.4
+TTMI,Technology,Electronic Components,7.0,102.15,2437954,466.2,1.87,92,87.7
+CYRX,Industrials,Integrated Freight & Logistics,6.3,18.53,643194,15.0,1.26,92,143.5
+LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,6.9,38.86,3690156,150.7,1.05,91,77.1
+TECL,その他,,5.0,204.27,505328,105.9,1.03,91,172.3
+AMPL,Technology,Software - Application,5.2,16.52,1772948,38.2,1.31,90,199.8
+FCEL,Industrials,Electrical Equipment & Parts,6.5,13.2,7333114,117.6,1.21,90,131.2
+APPN,Technology,Software - Infrastructure,9.5,48.73,856998,83.1,1.99,89,161.6
+YANG,その他,,5.3,35.06,679094,27.4,1.15,87,79.8
+BRKR,Healthcare,Medical Devices,5.7,59.11,2123652,210.5,1.68,86,83.2
+SEI,Energy,Oil & Gas Equipment & Services,9.5,69.37,2713324,231.8,1.23,86,81.7
+ADEA,Technology,Software - Application,5.9,22.56,1002438,30.0,1.33,79,96.3
+WFRD,Energy,Oil & Gas Equipment & Services,7.8,85.49,931840,203.0,2.55,75,32.8
+DXC,Technology,Information Technology Services,5.3,15.4,3409102,81.1,1.54,65,94.9
+PACB,Healthcare,Medical Devices,9.2,2.14,12009726,28.9,1.12,65,100.0
