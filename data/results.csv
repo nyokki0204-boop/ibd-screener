@@ -1,28 +1,32 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-CYPH,Financial Services,Asset Management,18.5,3.33,13961446,78.6,1.69,99,747.3
-TNGX,Healthcare,Biotechnology,6.9,26.98,2969368,149.9,1.87,98,303.3
-LIFE,その他,,7.7,44.22,1493318,107.6,1.63,97,367.9
-INSW,Energy,Oil & Gas Midstream,6.1,111.15,716570,135.7,1.7,97,189.0
-SOXL,その他,,5.8,103.24,63734760,7985.0,1.21,97,267.4
-OKTA,Technology,Software - Infrastructure,7.5,208.64,3821636,843.1,1.06,96,233.0
-FTRE,Healthcare,Biotechnology,5.6,24.06,1505626,59.6,1.64,96,181.4
-ABSI,Healthcare,Biotechnology,10.7,10.04,3610672,53.7,1.48,96,348.2
-NAUT,Healthcare,Biotechnology,6.3,2.71,4768526,23.3,1.8,95,222.2
-BB,Technology,Software - Infrastructure,6.1,9.41,13822578,152.6,1.17,95,201.6
-ANAB,Healthcare,Biotechnology,5.5,47.94,510708,31.9,1.3,95,137.6
-ROIV,Healthcare,Biotechnology,5.4,36.8,7577202,619.7,2.22,95,108.6
-CMBT,Energy,Oil & Gas Midstream,5.2,18.34,1210456,31.2,1.4,94,114.4
-TTMI,Technology,Electronic Components,7.0,102.15,2437954,466.2,1.87,92,87.7
-CYRX,Industrials,Integrated Freight & Logistics,6.3,18.53,643194,15.0,1.26,92,143.5
-LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,6.9,38.86,3690156,150.7,1.05,91,77.1
-TECL,その他,,5.0,204.27,505328,105.9,1.03,91,172.3
-AMPL,Technology,Software - Application,5.2,16.52,1772948,38.2,1.31,90,199.8
-FCEL,Industrials,Electrical Equipment & Parts,6.5,13.2,7333114,117.6,1.21,90,131.2
-APPN,Technology,Software - Infrastructure,9.5,48.73,856998,83.1,1.99,89,161.6
-YANG,その他,,5.3,35.06,679094,27.4,1.15,87,79.8
-BRKR,Healthcare,Medical Devices,5.7,59.11,2123652,210.5,1.68,86,83.2
-SEI,Energy,Oil & Gas Equipment & Services,9.5,69.37,2713324,231.8,1.23,86,81.7
-ADEA,Technology,Software - Application,5.9,22.56,1002438,30.0,1.33,79,96.3
-WFRD,Energy,Oil & Gas Equipment & Services,7.8,85.49,931840,203.0,2.55,75,32.8
-DXC,Technology,Information Technology Services,5.3,15.4,3409102,81.1,1.54,65,94.9
-PACB,Healthcare,Medical Devices,9.2,2.14,12009726,28.9,1.12,65,100.0
+AMN,Healthcare,Medical Care Facilities,8.9,46.82,677652,67.7,2.13,97,212.8
+SSL,Basic Materials,Specialty Chemicals,7.8,17.46,1661742,49.7,1.71,97,192.5
+BIIB,Healthcare,Drug Manufacturers - General,5.3,253.84,993928,568.0,2.25,92,83.9
+MD,Healthcare,Medical Care Facilities,5.2,29.55,719630,32.1,1.51,92,75.0
+QLYS,Technology,Software - Infrastructure,5.8,208.2,673938,254.2,1.81,90,179.4
+KSS,Consumer Cyclical,Department Stores,11.8,24.78,4350084,222.3,2.06,89,120.9
+CRVS,Healthcare,Biotechnology,6.0,10.65,1031430,11.5,1.05,86,66.7
+CSX,Industrials,Railroads,6.8,51.67,9746570,1478.9,2.94,86,55.6
+EPC,Consumer Defensive,Household & Personal Products,7.1,28.89,529482,17.3,1.13,86,86.0
+DVA,Healthcare,Medical Care Facilities,5.3,186.1,666856,173.2,1.4,85,84.3
+FA,Industrials,Specialty Business Services,7.9,21.22,1721214,47.1,1.29,85,140.6
+RHI,Industrials,Staffing & Employment Services,8.8,37.68,1867216,109.5,1.56,82,78.8
+DG,Consumer Defensive,Discount Stores,5.3,139.11,2362054,379.6,1.16,81,49.1
+VLY,Financial Services,Banks - Regional,6.1,13.81,6676426,188.0,2.04,80,47.2
+LUV,Industrials,Airlines,5.4,42.03,5583598,514.7,2.19,80,46.2
+HCSG,Healthcare,Medical Care Facilities,14.2,24.79,697224,33.2,1.92,79,47.7
+MLTX,Healthcare,Biotechnology,15.9,12.34,1601264,75.5,3.82,77,32.5
+BBT,Financial Services,Banks - Regional,7.0,29.95,960570,87.1,3.03,77,37.3
+VSTM,Healthcare,Biotechnology,9.2,10.06,3392302,59.8,1.75,76,193.3
+HPQ,Technology,Computer Hardware,7.8,33.76,14533606,534.9,1.09,75,99.7
+ULCC,Industrials,Airlines,5.2,5.3,2581644,21.0,1.54,75,75.5
+FTDR,Consumer Cyclical,Personal Services,6.4,86.03,554724,94.6,1.98,73,77.5
+FRPT,Consumer Defensive,Packaged Foods,7.1,67.0,1074296,89.3,1.24,72,44.2
+NDAQ,Financial Services,Financial Data & Stock Exchanges,7.5,103.3,2948554,738.2,2.42,68,35.4
+EVER,Communication Services,Internet Content & Information,6.7,23.59,705996,17.0,1.02,68,70.0
+ARHS,Consumer Cyclical,Specialty Retail,5.4,11.53,1408096,33.3,2.05,66,107.0
+EXPO,Industrials,Engineering & Construction,5.4,77.11,503322,60.5,1.56,63,50.0
+CTSH,Technology,Information Technology Services,6.0,73.72,6422174,732.1,1.55,61,100.0
+HNI,Consumer Cyclical,"Furnishings, Fixtures & Appliances",7.0,48.21,522526,26.3,1.05,61,69.7
+MAX,Communication Services,Internet Content & Information,7.7,12.41,784728,10.5,1.07,60,75.0
+TTEK,Industrials,Engineering & Construction,5.0,36.81,2211334,93.5,1.15,60,42.9
