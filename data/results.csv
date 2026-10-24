@@ -1,32 +1,35 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-AMN,Healthcare,Medical Care Facilities,8.9,46.82,677652,67.7,2.13,97,212.8
-SSL,Basic Materials,Specialty Chemicals,7.8,17.46,1661742,49.7,1.71,97,192.5
-BIIB,Healthcare,Drug Manufacturers - General,5.3,253.84,993928,568.0,2.25,92,83.9
-MD,Healthcare,Medical Care Facilities,5.2,29.55,719630,32.1,1.51,92,75.0
-QLYS,Technology,Software - Infrastructure,5.8,208.2,673938,254.2,1.81,90,179.4
-KSS,Consumer Cyclical,Department Stores,11.8,24.78,4350084,222.3,2.06,89,120.9
-CRVS,Healthcare,Biotechnology,6.0,10.65,1031430,11.5,1.05,86,66.7
-CSX,Industrials,Railroads,6.8,51.67,9746570,1478.9,2.94,86,55.6
-EPC,Consumer Defensive,Household & Personal Products,7.1,28.89,529482,17.3,1.13,86,86.0
-DVA,Healthcare,Medical Care Facilities,5.3,186.1,666856,173.2,1.4,85,84.3
-FA,Industrials,Specialty Business Services,7.9,21.22,1721214,47.1,1.29,85,140.6
-RHI,Industrials,Staffing & Employment Services,8.8,37.68,1867216,109.5,1.56,82,78.8
-DG,Consumer Defensive,Discount Stores,5.3,139.11,2362054,379.6,1.16,81,49.1
-VLY,Financial Services,Banks - Regional,6.1,13.81,6676426,188.0,2.04,80,47.2
-LUV,Industrials,Airlines,5.4,42.03,5583598,514.7,2.19,80,46.2
-HCSG,Healthcare,Medical Care Facilities,14.2,24.79,697224,33.2,1.92,79,47.7
-MLTX,Healthcare,Biotechnology,15.9,12.34,1601264,75.5,3.82,77,32.5
-BBT,Financial Services,Banks - Regional,7.0,29.95,960570,87.1,3.03,77,37.3
-VSTM,Healthcare,Biotechnology,9.2,10.06,3392302,59.8,1.75,76,193.3
-HPQ,Technology,Computer Hardware,7.8,33.76,14533606,534.9,1.09,75,99.7
-ULCC,Industrials,Airlines,5.2,5.3,2581644,21.0,1.54,75,75.5
-FTDR,Consumer Cyclical,Personal Services,6.4,86.03,554724,94.6,1.98,73,77.5
-FRPT,Consumer Defensive,Packaged Foods,7.1,67.0,1074296,89.3,1.24,72,44.2
-NDAQ,Financial Services,Financial Data & Stock Exchanges,7.5,103.3,2948554,738.2,2.42,68,35.4
-EVER,Communication Services,Internet Content & Information,6.7,23.59,705996,17.0,1.02,68,70.0
-ARHS,Consumer Cyclical,Specialty Retail,5.4,11.53,1408096,33.3,2.05,66,107.0
-EXPO,Industrials,Engineering & Construction,5.4,77.11,503322,60.5,1.56,63,50.0
-CTSH,Technology,Information Technology Services,6.0,73.72,6422174,732.1,1.55,61,100.0
-HNI,Consumer Cyclical,"Furnishings, Fixtures & Appliances",7.0,48.21,522526,26.3,1.05,61,69.7
-MAX,Communication Services,Internet Content & Information,7.7,12.41,784728,10.5,1.07,60,75.0
-TTEK,Industrials,Engineering & Construction,5.0,36.81,2211334,93.5,1.15,60,42.9
+BAND,Technology,Software - Infrastructure,9.1,44.18,839864,46.5,1.25,97,253.4
+NAUT,Healthcare,Biotechnology,24.6,3.24,5061148,44.0,2.68,97,285.3
+EQNR,Energy,Oil & Gas Integrated,5.2,48.82,3530500,325.1,1.89,96,126.7
+FROG,Technology,Software - Application,7.2,100.62,1833768,191.1,1.04,95,195.5
+CRWD,Technology,Software - Infrastructure,8.2,257.57,10203310,3443.1,1.31,95,200.6
+LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,7.5,42.65,3721132,162.1,1.02,94,93.4
+VIST,Energy,Oil & Gas E&P,6.0,74.84,1062366,94.6,1.19,94,90.5
+WTI,Energy,Oil & Gas E&P,7.7,4.19,3475020,19.0,1.3,94,181.6
+EGY,Energy,Oil & Gas E&P,5.3,6.56,1288642,9.2,1.08,93,101.6
+CHRD,Energy,Oil & Gas E&P,5.1,158.13,690018,125.5,1.15,93,95.8
+TDW,Energy,Oil & Gas Equipment & Services,8.1,86.07,568624,57.0,1.16,92,80.8
+RHI,Industrials,Staffing & Employment Services,21.7,45.87,1906568,316.2,3.62,92,117.6
+KOS,Energy,Oil & Gas E&P,6.3,2.87,12253508,50.2,1.43,92,241.7
+RBRK,Technology,Software - Infrastructure,6.6,128.74,3316274,518.4,1.21,91,204.7
+NE,Energy,Oil & Gas Drilling,8.5,47.7,1117962,95.6,1.79,91,78.0
+RIG,Energy,Oil & Gas Drilling,5.4,6.41,41599626,294.5,1.1,91,74.2
+OII,Energy,Oil & Gas Equipment & Services,7.2,39.27,905794,96.2,2.7,91,77.5
+SDRL,Energy,Oil & Gas Drilling,6.4,52.35,594362,61.9,1.99,91,86.3
+FIVN,Technology,Software - Infrastructure,7.2,37.61,1971412,92.8,1.25,90,183.0
+MTDR,Energy,Oil & Gas E&P,5.6,59.96,1688418,115.3,1.14,89,66.6
+SLB,Energy,Oil & Gas Equipment & Services,7.1,53.06,12615702,1011.2,1.51,87,56.9
+VG,Energy,Oil & Gas Midstream,9.3,14.0,14061760,316.3,1.61,87,146.1
+TENB,Technology,Software - Infrastructure,6.2,44.59,4270834,232.5,1.22,86,183.5
+GMAB,Healthcare,Biotechnology,9.5,43.79,3243102,569.2,4.01,86,85.4
+NOV,Energy,Oil & Gas Equipment & Services,5.3,19.76,3237732,91.8,1.43,86,46.0
+CART,Consumer Cyclical,Internet Retail,9.2,56.44,3672196,908.0,4.38,85,72.4
+OSUR,Healthcare,Medical Instruments & Supplies,8.7,4.13,522856,4.8,2.22,83,98.6
+REI,Energy,Oil & Gas E&P,8.3,1.43,3415836,8.6,1.77,83,72.3
+TTMI,Technology,Electronic Components,8.4,80.11,2795138,685.9,3.06,81,44.5
+S,Technology,Software - Infrastructure,6.7,24.0,9889590,442.2,1.86,81,103.2
+HAL,Energy,Oil & Gas Equipment & Services,5.2,34.92,10576246,443.8,1.2,80,43.0
+OIS,Energy,Oil & Gas Equipment & Services,7.0,8.6,686820,9.0,1.53,77,56.4
+CGNT,Technology,Software - Infrastructure,5.2,9.76,585930,7.4,1.3,68,55.2
+AVBP,Healthcare,Biotechnology,9.4,21.0,1195988,68.8,2.74,64,84.9
