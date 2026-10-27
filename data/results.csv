@@ -1,35 +1,20 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-BAND,Technology,Software - Infrastructure,9.1,44.18,839864,46.5,1.25,97,253.4
-NAUT,Healthcare,Biotechnology,24.6,3.24,5061148,44.0,2.68,97,285.3
-EQNR,Energy,Oil & Gas Integrated,5.2,48.82,3530500,325.1,1.89,96,126.7
-FROG,Technology,Software - Application,7.2,100.62,1833768,191.1,1.04,95,195.5
-CRWD,Technology,Software - Infrastructure,8.2,257.57,10203310,3443.1,1.31,95,200.6
-LQDA,Healthcare,Drug Manufacturers - Specialty & Generic,7.5,42.65,3721132,162.1,1.02,94,93.4
-VIST,Energy,Oil & Gas E&P,6.0,74.84,1062366,94.6,1.19,94,90.5
-WTI,Energy,Oil & Gas E&P,7.7,4.19,3475020,19.0,1.3,94,181.6
-EGY,Energy,Oil & Gas E&P,5.3,6.56,1288642,9.2,1.08,93,101.6
-CHRD,Energy,Oil & Gas E&P,5.1,158.13,690018,125.5,1.15,93,95.8
-TDW,Energy,Oil & Gas Equipment & Services,8.1,86.07,568624,57.0,1.16,92,80.8
-RHI,Industrials,Staffing & Employment Services,21.7,45.87,1906568,316.2,3.62,92,117.6
-KOS,Energy,Oil & Gas E&P,6.3,2.87,12253508,50.2,1.43,92,241.7
-RBRK,Technology,Software - Infrastructure,6.6,128.74,3316274,518.4,1.21,91,204.7
-NE,Energy,Oil & Gas Drilling,8.5,47.7,1117962,95.6,1.79,91,78.0
-RIG,Energy,Oil & Gas Drilling,5.4,6.41,41599626,294.5,1.1,91,74.2
-OII,Energy,Oil & Gas Equipment & Services,7.2,39.27,905794,96.2,2.7,91,77.5
-SDRL,Energy,Oil & Gas Drilling,6.4,52.35,594362,61.9,1.99,91,86.3
-FIVN,Technology,Software - Infrastructure,7.2,37.61,1971412,92.8,1.25,90,183.0
-MTDR,Energy,Oil & Gas E&P,5.6,59.96,1688418,115.3,1.14,89,66.6
-SLB,Energy,Oil & Gas Equipment & Services,7.1,53.06,12615702,1011.2,1.51,87,56.9
-VG,Energy,Oil & Gas Midstream,9.3,14.0,14061760,316.3,1.61,87,146.1
-TENB,Technology,Software - Infrastructure,6.2,44.59,4270834,232.5,1.22,86,183.5
-GMAB,Healthcare,Biotechnology,9.5,43.79,3243102,569.2,4.01,86,85.4
-NOV,Energy,Oil & Gas Equipment & Services,5.3,19.76,3237732,91.8,1.43,86,46.0
-CART,Consumer Cyclical,Internet Retail,9.2,56.44,3672196,908.0,4.38,85,72.4
-OSUR,Healthcare,Medical Instruments & Supplies,8.7,4.13,522856,4.8,2.22,83,98.6
-REI,Energy,Oil & Gas E&P,8.3,1.43,3415836,8.6,1.77,83,72.3
-TTMI,Technology,Electronic Components,8.4,80.11,2795138,685.9,3.06,81,44.5
-S,Technology,Software - Infrastructure,6.7,24.0,9889590,442.2,1.86,81,103.2
-HAL,Energy,Oil & Gas Equipment & Services,5.2,34.92,10576246,443.8,1.2,80,43.0
-OIS,Energy,Oil & Gas Equipment & Services,7.0,8.6,686820,9.0,1.53,77,56.4
-CGNT,Technology,Software - Infrastructure,5.2,9.76,585930,7.4,1.3,68,55.2
-AVBP,Healthcare,Biotechnology,9.4,21.0,1195988,68.8,2.74,64,84.9
+BAND,Technology,Software - Infrastructure,6.1,46.89,848260,41.9,1.05,98,275.1
+ORKA,Healthcare,Biotechnology,12.7,90.33,908754,175.5,2.14,98,258.0
+CLMT,Basic Materials,Specialty Chemicals,5.8,52.17,1387850,88.3,1.22,97,192.3
+TSEM,Technology,Semiconductors,6.7,178.75,1913156,505.6,1.48,96,132.0
+XNCR,Healthcare,Biotechnology,15.9,29.18,1420098,259.6,6.26,95,181.3
+BE,Industrials,Electrical Equipment & Parts,5.5,203.92,15185404,4287.5,1.38,94,169.4
+AAOI,Technology,Communication Equipment,6.6,71.94,9474714,806.4,1.18,94,288.9
+SOXL,その他,,8.3,90.5,67817264,9025.3,1.47,94,222.0
+VSAT,Technology,Communication Equipment,8.0,66.39,1828118,127.5,1.05,92,127.9
+COHR,Technology,Scientific & Technical Instruments,5.8,221.5,6797678,1699.1,1.13,91,79.0
+TENB,Technology,Software - Infrastructure,8.1,48.21,4316142,301.1,1.45,89,206.5
+CART,Consumer Cyclical,Internet Retail,7.9,60.88,3927208,1960.6,8.2,89,86.0
+TTMI,Technology,Electronic Components,6.7,85.5,2907322,705.1,2.84,85,54.2
+RRC,Energy,Oil & Gas E&P,17.7,53.56,2583682,1417.8,10.25,85,65.1
+S,Technology,Software - Infrastructure,6.2,25.5,10095758,318.6,1.24,85,115.9
+CTKB,Healthcare,Medical Devices,5.4,5.89,1206470,7.3,1.03,84,77.9
+USD,その他,,5.1,76.93,583268,48.7,1.09,81,81.3
+AKAM,Technology,Software - Infrastructure,5.3,98.5,4711496,568.0,1.22,77,39.1
+TNDM,Healthcare,Medical Devices,8.4,18.9,1933186,84.8,2.32,75,54.2
