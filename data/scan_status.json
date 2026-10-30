@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-10-29T12:06:58.598526+00:00",
+  "checked_at_utc": "2026-10-30T12:04:22.146258+00:00",
   "ok": true,
-  "market_date": "2026-10-28",
+  "market_date": "2026-10-29",
   "universe": 5029,
-  "expected_date": "2026-10-28",
-  "fetched": 4854,
-  "evaluated": 4854,
-  "stale": 9,
-  "coverage": 0.9652,
-  "matched": 52,
+  "expected_date": "2026-10-29",
+  "fetched": 4853,
+  "evaluated": 4853,
+  "stale": 13,
+  "coverage": 0.965,
+  "matched": 47,
   "unchanged": false,
   "errors": {
-    "履歴不足": 166
+    "履歴不足": 163
   },
   "rs_method": "約1年騰落率の取得可能銘柄内順位"
 }
