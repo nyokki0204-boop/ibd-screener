@@ -1,48 +1,17 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-BAND,Technology,Software - Infrastructure,9.6,53.11,863534,118.5,2.58,98,324.9
-PURR,その他,,23.3,12.29,21826052,733.6,2.73,98,308.3
-GKOS,Healthcare,Medical Devices,33.6,242.48,886052,1313.2,6.11,97,199.7
-OMER,Healthcare,Biotechnology,6.0,18.95,1372146,68.7,2.64,97,203.7
-SN,Consumer Cyclical,"Furnishings, Fixtures & Appliances",5.5,209.12,1578218,488.0,1.48,96,151.6
-CAKE,Consumer Cyclical,Restaurants,7.0,113.12,1457664,279.3,1.69,96,165.9
-STGW,Communication Services,Advertising Agencies,12.7,9.95,1349248,44.1,3.28,95,131.9
-LION,その他,,5.3,12.85,2931458,82.7,2.2,94,109.3
-DBI,Consumer Cyclical,Footwear & Accessories,7.1,6.8,635024,7.0,1.63,94,114.3
-LTH,Consumer Cyclical,Leisure,5.1,45.35,3055936,193.3,1.39,93,87.9
-TENB,Technology,Software - Infrastructure,6.3,51.78,4485386,371.2,1.6,92,229.2
-CROX,Consumer Cyclical,Footwear & Accessories,25.5,150.26,1065056,735.8,4.6,92,105.2
-ATI,Industrials,Metal Fabrication,5.9,175.0,1726416,601.5,1.99,91,87.9
-APPS,Technology,Software - Application,6.7,10.57,2628650,27.9,1.0,91,285.8
-ULCC,Industrials,Airlines,5.0,6.48,2776994,33.8,1.88,91,114.6
-REPL,Healthcare,Biotechnology,8.3,17.39,2263910,89.4,2.27,90,1059.3
-DVA,Healthcare,Medical Care Facilities,5.1,193.31,662106,401.4,3.14,89,91.4
-PGEN,Healthcare,Biotechnology,9.2,6.64,4792018,51.3,1.61,89,118.4
-STNG,Energy,Oil & Gas Midstream,7.2,95.07,1036880,206.7,2.1,87,97.7
-BLMN,Consumer Cyclical,Restaurants,7.0,10.69,2444608,29.1,1.11,86,106.0
-AVR,Healthcare,Medical Instruments & Supplies,5.2,6.42,1063702,18.1,2.65,84,94.5
-MO,Consumer Defensive,Tobacco,5.2,76.75,7869628,959.5,1.59,82,47.1
-GGB,Basic Materials,Steel,5.1,4.74,13934052,98.4,1.49,81,53.7
-KLAC,Technology,Semiconductor Equipment & Materials,5.5,167.43,9744298,2529.4,1.55,80,56.8
-ARHS,Consumer Cyclical,Specialty Retail,10.3,12.71,1454662,46.1,2.5,78,128.2
-PRCH,Financial Services,Insurance - Property & Casualty,28.2,20.89,1474492,157.1,5.1,78,228.5
-LXU,Basic Materials,Chemicals,8.1,11.12,788552,17.8,2.03,77,36.9
-BHC,Healthcare,Drug Manufacturers - Specialty & Generic,28.8,8.91,2317012,300.8,14.57,77,105.8
-SHOO,Consumer Cyclical,Footwear & Accessories,5.3,44.93,1049844,53.8,1.14,77,44.8
-VFC,Consumer Cyclical,Apparel Manufacturing,6.4,18.33,8765898,219.9,1.37,76,47.1
-H,Consumer Cyclical,Lodging,6.3,184.3,766992,307.8,2.18,75,37.8
-NXPI,Technology,Semiconductors,5.7,266.0,3494280,1591.5,1.71,75,47.9
-OSW,Consumer Cyclical,Leisure,7.2,30.1,867228,59.0,2.26,74,58.9
-APG,Industrials,Engineering & Construction,8.9,45.02,3130312,213.4,1.51,73,32.3
-CAL,Consumer Cyclical,Apparel Retail,5.0,13.61,502386,7.7,1.13,72,57.4
-MAS,Industrials,Building Products & Equipment,5.4,80.18,2190268,237.3,1.35,71,39.4
-NEXT,Energy,Oil & Gas Equipment & Services,11.5,7.26,2592658,62.3,3.31,71,52.8
-GDYN,Technology,Information Technology Services,8.5,9.49,944632,41.4,4.62,71,85.7
-TEX,Industrials,Farm & Heavy Construction Machinery,6.0,56.55,1408284,167.4,2.1,68,36.7
-SW,Consumer Cyclical,Packaging & Containers,5.5,42.53,4554158,235.2,1.21,68,33.8
-ADT,Industrials,Security & Protection Services,33.2,9.87,7437584,1617.2,22.03,64,63.7
-W,Consumer Cyclical,Internet Retail,5.3,120.12,2159170,399.3,1.54,64,116.0
-EMBJ,Industrials,Aerospace & Defense,5.3,75.91,1380772,120.7,1.15,64,42.5
-PRG,Industrials,Rental & Leasing Services,8.4,33.48,645184,34.7,1.61,63,33.0
-MAX,Communication Services,Internet Content & Information,20.6,14.13,822090,41.9,3.61,63,99.3
-EHC,Healthcare,Medical Care Facilities,7.7,131.49,937544,288.9,2.34,60,42.5
-UPBD,Technology,Software - Application,18.2,19.98,969104,63.0,3.25,60,38.2
+CDNA,Healthcare,Diagnostics & Research,22.2,87.41,1296764,310.6,2.74,99,512.5
+OSPN,Technology,Software - Infrastructure,27.3,25.66,552992,96.5,6.8,97,160.5
+STGW,Communication Services,Advertising Agencies,5.2,10.47,1415212,43.6,2.94,96,144.1
+BTSG,Healthcare,Health Information Services,11.1,66.89,2295282,397.0,2.59,95,118.3
+KOS,Energy,Oil & Gas E&P,6.3,2.85,12769012,74.6,2.05,93,239.3
+TGTX,Healthcare,Biotechnology,5.3,61.18,1770676,174.5,1.61,92,128.6
+OIS,Energy,Oil & Gas Equipment & Services,5.7,9.6,740214,14.8,2.08,89,74.5
+ACCO,Industrials,Business Equipment & Supplies,26.1,5.5,680522,30.0,8.02,89,103.2
+LYB,Basic Materials,Specialty Chemicals,5.0,68.64,3425778,319.4,1.36,88,75.5
+GDYN,Technology,Information Technology Services,40.8,13.36,988898,114.5,8.67,83,161.4
+COLM,Consumer Cyclical,Apparel Manufacturing,6.0,67.54,684652,101.4,2.19,81,45.3
+MICC,その他,,5.3,19.87,805288,23.2,1.45,78,53.6
+GPN,Industrials,Specialty Business Services,13.0,96.84,2286122,1619.8,7.32,74,59.4
+MHK,Consumer Cyclical,"Furnishings, Fixtures & Appliances",7.2,139.41,1117102,420.6,2.7,71,49.9
+HUN,Basic Materials,Chemicals,7.5,9.64,2646402,35.8,1.4,69,36.1
+VLTO,Industrials,Pollution & Treatment Controls,6.8,111.1,1717040,489.1,2.56,62,39.2
