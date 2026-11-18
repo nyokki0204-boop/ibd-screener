@@ -159,6 +159,7 @@ def save_ticker_history(df, today):
 
 # ===== メイン処理 =====
 def run_scan():
+    expected_date = expected_session_date(datetime.datetime.now(datetime.timezone.utc))
     tickers = get_tickers()
     if len(tickers) == 0:
         save_scan_status(ok=False, reason='銘柄リストを取得できませんでした')
@@ -184,6 +185,9 @@ def run_scan():
             if isinstance(raw.columns, pd.MultiIndex):
                 raw.columns = raw.columns.get_level_values(0)
             df = raw[['Close','High','Low','Volume']].dropna()
+            # 取引中の日足が混ざっても、確定済みの取引日までで判定する。
+            while len(df) and session_date(df) > expected_date:
+                df = df.iloc[:-1]
             if len(df) < 60:
                 failures['履歴不足'] += 1
                 continue
@@ -217,10 +221,8 @@ def run_scan():
         raise RuntimeError(f'スキャン未完了: {len(data_store)}/{len(tickers)}銘柄 ({coverage:.1%})')
 
     # 取得率が高くても全銘柄が前日の足なら「正常」と見なさない。
-    expected_date = expected_session_date(datetime.datetime.now(datetime.timezone.utc))
     if market_date != expected_date:
-        reason = ('価格データが最新の取引日より遅れています' if market_date < expected_date
-                  else '米国市場の日足がまだ確定していません')
+        reason = '価格データが最新の取引日より遅れています'
         save_scan_status(ok=False, reason=reason, market_date=market_date,
                          expected_date=expected_date, universe=len(tickers),
                          fetched=len(data_store), stale=len(stale),
