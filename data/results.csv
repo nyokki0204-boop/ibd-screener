@@ -1,11 +1,11 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-PUBM,Technology,Software - Application,8.4,20.61,653944,40.3,2.99,96,235.1
-CGON,Healthcare,Biotechnology,6.1,74.4,1023566,246.5,3.24,93,101.0
-SENS,Healthcare,Medical Devices,5.4,10.58,778120,11.8,1.44,91,120.9
-WWW,Consumer Cyclical,Footwear & Accessories,8.8,24.89,876720,64.0,2.93,90,79.8
-UPBD,Technology,Software - Application,5.1,25.09,1205656,44.1,1.46,89,73.5
-U,Technology,Software - Application,5.2,52.81,11276760,646.1,1.08,83,214.7
-PRME,Healthcare,Biotechnology,9.8,4.27,4917998,25.5,1.21,73,59.9
-NRGV,Utilities,Utilities - Renewable,6.6,3.85,4328810,17.0,1.02,71,56.5
-AGRO,Consumer Defensive,Farm Products,7.6,9.11,665744,15.9,2.63,69,35.2
-NMAX,Communication Services,Broadcasting,31.4,9.58,924400,48.6,5.49,68,87.5
+SLS,Healthcare,Biotechnology,156.4,19.15,6718172,2296.6,17.85,99,1277.7
+NFE,Energy,Oil & Gas Midstream,23.6,3.77,510919,3.0,1.56,98,269.6
+ENR,Industrials,Electrical Equipment & Parts,12.6,27.4,951358,91.9,3.52,86,76.9
+UNFI,Consumer Defensive,Food Distribution,7.4,51.99,600124,45.4,1.46,85,68.2
+POWW,Industrials,Aerospace & Defense,5.5,2.5,552280,4.1,2.95,79,56.2
+BILL,Technology,Software - Application,12.6,64.88,1575820,657.7,6.43,78,106.6
+URGN,Healthcare,Biotechnology,6.3,29.87,1118162,83.0,2.48,74,81.0
+TTEC,Technology,Information Technology Services,5.5,3.24,996828,4.4,1.36,68,174.6
+RYTM,Healthcare,Biotechnology,8.5,116.61,1174024,302.7,2.21,64,56.5
+HOWL,Healthcare,Biotechnology,6.0,1.05,500682,1.1,2.16,63,288.9

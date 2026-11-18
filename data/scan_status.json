@@ -1,14 +1,17 @@
 {
-  "checked_at_utc": "2026-11-17T15:15:03.155136+00:00",
-  "ok": false,
-  "reason": "米国市場の日足がまだ確定していません",
+  "checked_at_utc": "2026-11-18T12:10:42.661160+00:00",
+  "ok": true,
   "market_date": "2026-11-17",
-  "expected_date": "2026-11-16",
   "universe": 5029,
-  "fetched": 4629,
-  "stale": 218,
-  "coverage": 0.9205,
+  "expected_date": "2026-11-17",
+  "fetched": 4832,
+  "evaluated": 4832,
+  "stale": 12,
+  "coverage": 0.9608,
+  "matched": 10,
+  "unchanged": false,
   "errors": {
-    "履歴不足": 182
-  }
+    "履歴不足": 185
+  },
+  "rs_method": "約1年騰落率の取得可能銘柄内順位"
 }
