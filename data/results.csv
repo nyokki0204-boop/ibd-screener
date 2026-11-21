@@ -1,12 +1,4 @@
 ﻿ticker,sector,industry,前日比%,株価,平均出来高,売買代金M$,RelVol,RS,52W安値比%
-EVC,Communication Services,Advertising Agencies,5.1,9.07,1396696,22.8,1.8,98,270.3
-OKTA,Technology,Software - Infrastructure,5.7,206.85,4235674,1272.4,1.45,98,230.1
-PURR,その他,,5.7,8.4,17624652,164.8,1.11,96,179.1
-YANG,その他,,5.5,38.62,679058,56.8,2.17,88,98.1
-BHVN,Healthcare,Biotechnology,5.8,13.65,3087146,44.5,1.06,83,70.0
-NTSK,その他,,5.5,24.8,6729328,226.1,1.36,82,223.5
-UMAC,Technology,Computer Hardware,5.6,10.15,2811842,42.9,1.5,77,40.1
-NUAI,Technology,Software - Infrastructure,7.3,4.28,10919918,108.0,2.31,76,172.6
-URGN,Healthcare,Biotechnology,6.5,31.73,1161652,60.4,1.64,75,92.3
-VVV,Consumer Cyclical,Auto & Truck Dealerships,10.4,36.84,2901482,328.8,3.08,71,40.6
-CTKB,Healthcare,Medical Devices,6.8,6.32,1440796,13.8,1.51,70,90.9
+OPTX,Technology,Electronic Components,9.8,6.29,569420,5.7,1.6,99,433.1
+YANG,その他,,5.5,40.76,691764,59.8,2.12,93,109.0
+GPN,Industrials,Specialty Business Services,9.9,91.83,2929624,875.7,3.25,79,51.1
